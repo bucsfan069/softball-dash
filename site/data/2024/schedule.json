@@ -1,0 +1,1226 @@
+[
+  {
+    "date": "2024-04-17",
+    "home_team_key": "nokomis",
+    "away_team_key": "oceanside",
+    "home_score": 7,
+    "away_score": 2,
+    "opponent_class": "B",
+    "played": true
+  },
+  {
+    "date": "2024-04-19",
+    "home_team_key": "gardiner area",
+    "away_team_key": "nokomis",
+    "home_score": 7,
+    "away_score": 6,
+    "opponent_class": "B",
+    "played": true
+  },
+  {
+    "date": "2024-04-24",
+    "home_team_key": "lawrence",
+    "away_team_key": "nokomis",
+    "home_score": 1,
+    "away_score": 12,
+    "opponent_class": "B",
+    "played": true
+  },
+  {
+    "date": "2024-04-26",
+    "home_team_key": "nokomis",
+    "away_team_key": "winslow",
+    "home_score": 10,
+    "away_score": 0,
+    "opponent_class": "B",
+    "played": true
+  },
+  {
+    "date": "2024-04-29",
+    "home_team_key": "skowhegan area",
+    "away_team_key": "nokomis",
+    "home_score": 5,
+    "away_score": 0,
+    "opponent_class": "B",
+    "played": true
+  },
+  {
+    "date": "2024-04-30",
+    "home_team_key": "erskine academy",
+    "away_team_key": "nokomis",
+    "home_score": 0,
+    "away_score": 3,
+    "opponent_class": "B",
+    "played": true
+  },
+  {
+    "date": "2024-05-03",
+    "home_team_key": "nokomis",
+    "away_team_key": "messalonskee",
+    "home_score": 7,
+    "away_score": 2,
+    "opponent_class": "B",
+    "played": true
+  },
+  {
+    "date": "2024-05-06",
+    "home_team_key": "oceanside",
+    "away_team_key": "nokomis",
+    "home_score": 2,
+    "away_score": 13,
+    "opponent_class": "B",
+    "played": true
+  },
+  {
+    "date": "2024-05-08",
+    "home_team_key": "cony",
+    "away_team_key": "nokomis",
+    "home_score": 0,
+    "away_score": 13,
+    "opponent_class": "B",
+    "played": true
+  },
+  {
+    "date": "2024-05-11",
+    "home_team_key": "hall-dale",
+    "away_team_key": "nokomis",
+    "home_score": 0,
+    "away_score": 6,
+    "opponent_class": "B",
+    "played": true
+  },
+  {
+    "date": "2024-05-15",
+    "home_team_key": "nokomis",
+    "away_team_key": "belfast",
+    "home_score": 3,
+    "away_score": 0,
+    "opponent_class": "B",
+    "played": true
+  },
+  {
+    "date": "2024-05-17",
+    "home_team_key": "hermon",
+    "away_team_key": "nokomis",
+    "home_score": 3,
+    "away_score": 4,
+    "opponent_class": "B",
+    "played": true
+  },
+  {
+    "date": "2024-05-20",
+    "home_team_key": "winslow",
+    "away_team_key": "nokomis",
+    "home_score": 0,
+    "away_score": 11,
+    "opponent_class": "B",
+    "played": true
+  },
+  {
+    "date": "2024-05-22",
+    "home_team_key": "nokomis",
+    "away_team_key": "lawrence",
+    "home_score": 3,
+    "away_score": 2,
+    "opponent_class": "B",
+    "played": true
+  },
+  {
+    "date": "2024-05-24",
+    "home_team_key": "nokomis",
+    "away_team_key": "cony",
+    "home_score": 7,
+    "away_score": 1,
+    "opponent_class": "B",
+    "played": true
+  },
+  {
+    "date": "2024-05-28",
+    "home_team_key": "nokomis",
+    "away_team_key": "leavitt area",
+    "home_score": 3,
+    "away_score": 2,
+    "opponent_class": "B",
+    "played": true
+  },
+  {
+    "date": "2024-06-06",
+    "home_team_key": "nokomis",
+    "away_team_key": "oceanside",
+    "home_score": 12,
+    "away_score": 2,
+    "opponent_class": "B",
+    "played": true
+  },
+  {
+    "date": "2024-06-10",
+    "home_team_key": "nokomis",
+    "away_team_key": "hermon",
+    "home_score": 2,
+    "away_score": 0,
+    "opponent_class": "B",
+    "played": true
+  },
+  {
+    "date": "2024-04-23",
+    "home_team_key": "hermon",
+    "away_team_key": "oldtown",
+    "home_score": 8,
+    "away_score": 1,
+    "opponent_class": "B",
+    "played": true
+  },
+  {
+    "date": "2024-04-26",
+    "home_team_key": "oldtown",
+    "away_team_key": "ellsworth",
+    "home_score": 5,
+    "away_score": 3,
+    "opponent_class": "B",
+    "played": true
+  },
+  {
+    "date": "2024-05-01",
+    "home_team_key": "orono",
+    "away_team_key": "oldtown",
+    "home_score": 6,
+    "away_score": 3,
+    "opponent_class": "B",
+    "played": true
+  },
+  {
+    "date": "2024-05-03",
+    "home_team_key": "oldtown",
+    "away_team_key": "john_bapst",
+    "home_score": 14,
+    "away_score": 3,
+    "opponent_class": "B",
+    "played": true
+  },
+  {
+    "date": "2024-05-04",
+    "home_team_key": "oldtown",
+    "away_team_key": "caribou",
+    "home_score": 15,
+    "away_score": 0,
+    "opponent_class": "B",
+    "played": true
+  },
+  {
+    "date": "2024-05-06",
+    "home_team_key": "oldtown",
+    "away_team_key": "hermon",
+    "home_score": 0,
+    "away_score": 5,
+    "opponent_class": "B",
+    "played": true
+  },
+  {
+    "date": "2024-05-10",
+    "home_team_key": "oldtown",
+    "away_team_key": "bangor",
+    "home_score": 12,
+    "away_score": 1,
+    "opponent_class": "B",
+    "played": true
+  },
+  {
+    "date": "2024-05-14",
+    "home_team_key": "oldtown",
+    "away_team_key": "mdi",
+    "home_score": 5,
+    "away_score": 4,
+    "opponent_class": "B",
+    "played": true
+  },
+  {
+    "date": "2024-05-16",
+    "home_team_key": "ellsworth",
+    "away_team_key": "oldtown",
+    "home_score": 3,
+    "away_score": 4,
+    "opponent_class": "B",
+    "played": true
+  },
+  {
+    "date": "2024-05-18",
+    "home_team_key": "presque_isle",
+    "away_team_key": "oldtown",
+    "home_score": 2,
+    "away_score": 5,
+    "opponent_class": "B",
+    "played": true
+  },
+  {
+    "date": "2024-05-22",
+    "home_team_key": "hampden academy",
+    "away_team_key": "oldtown",
+    "home_score": 10,
+    "away_score": 8,
+    "opponent_class": "B",
+    "played": true
+  },
+  {
+    "date": "2024-05-24",
+    "home_team_key": "mdi",
+    "away_team_key": "oldtown",
+    "home_score": 2,
+    "away_score": 6,
+    "opponent_class": "B",
+    "played": true
+  },
+  {
+    "date": "2024-05-28",
+    "home_team_key": "oldtown",
+    "away_team_key": "orono",
+    "home_score": 2,
+    "away_score": 1,
+    "opponent_class": "B",
+    "played": true
+  },
+  {
+    "date": "2024-05-29",
+    "home_team_key": "john_bapst",
+    "away_team_key": "oldtown",
+    "home_score": 2,
+    "away_score": 8,
+    "opponent_class": "B",
+    "played": true
+  },
+  {
+    "date": "2024-06-08",
+    "home_team_key": "oldtown",
+    "away_team_key": "ellsworth",
+    "home_score": 11,
+    "away_score": 1,
+    "opponent_class": "B",
+    "played": true
+  },
+  {
+    "date": "2024-04-17",
+    "home_team_key": "bucksport high school",
+    "away_team_key": "ellsworth",
+    "home_score": 8,
+    "away_score": 9,
+    "opponent_class": "B",
+    "played": true
+  },
+  {
+    "date": "2024-04-23",
+    "home_team_key": "ellsworth",
+    "away_team_key": "brewer",
+    "home_score": 3,
+    "away_score": 7,
+    "opponent_class": "B",
+    "played": true
+  },
+  {
+    "date": "2024-04-29",
+    "home_team_key": "ellsworth",
+    "away_team_key": "john_bapst",
+    "home_score": 8,
+    "away_score": 0,
+    "opponent_class": "B",
+    "played": true
+  },
+  {
+    "date": "2024-04-30",
+    "home_team_key": "ellsworth",
+    "away_team_key": "hermon",
+    "home_score": 5,
+    "away_score": 4,
+    "opponent_class": "B",
+    "played": true
+  },
+  {
+    "date": "2024-05-03",
+    "home_team_key": "bangor",
+    "away_team_key": "ellsworth",
+    "home_score": 5,
+    "away_score": 8,
+    "opponent_class": "B",
+    "played": true
+  },
+  {
+    "date": "2024-05-06",
+    "home_team_key": "ellsworth",
+    "away_team_key": "mdi",
+    "home_score": 7,
+    "away_score": 0,
+    "opponent_class": "B",
+    "played": true
+  },
+  {
+    "date": "2024-05-11",
+    "home_team_key": "presque_isle",
+    "away_team_key": "ellsworth",
+    "home_score": 3,
+    "away_score": 8,
+    "opponent_class": "B",
+    "played": true
+  },
+  {
+    "date": "2024-05-14",
+    "home_team_key": "ellsworth",
+    "away_team_key": "_sb -foxcroft/penquis",
+    "home_score": 11,
+    "away_score": 3,
+    "opponent_class": "B",
+    "played": true
+  },
+  {
+    "date": "2024-05-22",
+    "home_team_key": "hermon",
+    "away_team_key": "ellsworth",
+    "home_score": 2,
+    "away_score": 5,
+    "opponent_class": "B",
+    "played": true
+  },
+  {
+    "date": "2024-05-24",
+    "home_team_key": "ellsworth",
+    "away_team_key": "caribou",
+    "home_score": 16,
+    "away_score": 0,
+    "opponent_class": "B",
+    "played": true
+  },
+  {
+    "date": "2024-05-28",
+    "home_team_key": "john_bapst",
+    "away_team_key": "ellsworth",
+    "home_score": 2,
+    "away_score": 19,
+    "opponent_class": "B",
+    "played": true
+  },
+  {
+    "date": "2024-05-29",
+    "home_team_key": "mdi",
+    "away_team_key": "ellsworth",
+    "home_score": 2,
+    "away_score": 5,
+    "opponent_class": "B",
+    "played": true
+  },
+  {
+    "date": "2024-06-05",
+    "home_team_key": "ellsworth",
+    "away_team_key": "mdi",
+    "home_score": 9,
+    "away_score": 7,
+    "opponent_class": "B",
+    "played": true
+  },
+  {
+    "date": "2024-04-19",
+    "home_team_key": "lawrence",
+    "away_team_key": "hermon",
+    "home_score": 2,
+    "away_score": 14,
+    "opponent_class": "B",
+    "played": true
+  },
+  {
+    "date": "2024-04-25",
+    "home_team_key": "hermon",
+    "away_team_key": "mdi",
+    "home_score": 8,
+    "away_score": 3,
+    "opponent_class": "B",
+    "played": true
+  },
+  {
+    "date": "2024-04-27",
+    "home_team_key": "hermon",
+    "away_team_key": "oceanside",
+    "home_score": 12,
+    "away_score": 2,
+    "opponent_class": "B",
+    "played": true
+  },
+  {
+    "date": "2024-05-01",
+    "home_team_key": "hermon",
+    "away_team_key": "john_bapst",
+    "home_score": 10,
+    "away_score": 0,
+    "opponent_class": "B",
+    "played": true
+  },
+  {
+    "date": "2024-05-03",
+    "home_team_key": "mdi",
+    "away_team_key": "hermon",
+    "home_score": 2,
+    "away_score": 0,
+    "opponent_class": "B",
+    "played": true
+  },
+  {
+    "date": "2024-05-10",
+    "home_team_key": "john_bapst",
+    "away_team_key": "hermon",
+    "home_score": 9,
+    "away_score": 15,
+    "opponent_class": "B",
+    "played": true
+  },
+  {
+    "date": "2024-05-13",
+    "home_team_key": "brewer",
+    "away_team_key": "hermon",
+    "home_score": 6,
+    "away_score": 1,
+    "opponent_class": "B",
+    "played": true
+  },
+  {
+    "date": "2024-05-20",
+    "home_team_key": "bangor",
+    "away_team_key": "hermon",
+    "home_score": 0,
+    "away_score": 7,
+    "opponent_class": "B",
+    "played": true
+  },
+  {
+    "date": "2024-05-25",
+    "home_team_key": "presque_isle",
+    "away_team_key": "hermon",
+    "home_score": 4,
+    "away_score": 12,
+    "opponent_class": "B",
+    "played": true
+  },
+  {
+    "date": "2024-05-28",
+    "home_team_key": "hermon",
+    "away_team_key": "hampden academy",
+    "home_score": 0,
+    "away_score": 3,
+    "opponent_class": "B",
+    "played": true
+  },
+  {
+    "date": "2024-06-06",
+    "home_team_key": "hermon",
+    "away_team_key": "belfast",
+    "home_score": null,
+    "away_score": null,
+    "opponent_class": "B",
+    "played": false
+  },
+  {
+    "date": "2024-04-17",
+    "home_team_key": "lawrence",
+    "away_team_key": "belfast",
+    "home_score": 1,
+    "away_score": 11,
+    "opponent_class": "B",
+    "played": true
+  },
+  {
+    "date": "2024-04-19",
+    "home_team_key": "belfast",
+    "away_team_key": "winslow",
+    "home_score": 17,
+    "away_score": 2,
+    "opponent_class": "B",
+    "played": true
+  },
+  {
+    "date": "2024-04-22",
+    "home_team_key": "belfast",
+    "away_team_key": "john_bapst",
+    "home_score": 9,
+    "away_score": 0,
+    "opponent_class": "B",
+    "played": true
+  },
+  {
+    "date": "2024-04-25",
+    "home_team_key": "belfast",
+    "away_team_key": "mount view",
+    "home_score": 15,
+    "away_score": 4,
+    "opponent_class": "B",
+    "played": true
+  },
+  {
+    "date": "2024-04-27",
+    "home_team_key": "belfast",
+    "away_team_key": "lawrence",
+    "home_score": 11,
+    "away_score": 4,
+    "opponent_class": "B",
+    "played": true
+  },
+  {
+    "date": "2024-04-29",
+    "home_team_key": "oceanside",
+    "away_team_key": "belfast",
+    "home_score": 1,
+    "away_score": 6,
+    "opponent_class": "B",
+    "played": true
+  },
+  {
+    "date": "2024-05-01",
+    "home_team_key": "belfast",
+    "away_team_key": "camden hills regional",
+    "home_score": 2,
+    "away_score": 3,
+    "opponent_class": "B",
+    "played": true
+  },
+  {
+    "date": "2024-05-03",
+    "home_team_key": "belfast",
+    "away_team_key": "waterville",
+    "home_score": 20,
+    "away_score": 0,
+    "opponent_class": "B",
+    "played": true
+  },
+  {
+    "date": "2024-05-06",
+    "home_team_key": "winslow",
+    "away_team_key": "belfast",
+    "home_score": 5,
+    "away_score": 14,
+    "opponent_class": "B",
+    "played": true
+  },
+  {
+    "date": "2024-05-08",
+    "home_team_key": "belfast",
+    "away_team_key": "lincoln academy",
+    "home_score": 11,
+    "away_score": 12,
+    "opponent_class": "B",
+    "played": true
+  },
+  {
+    "date": "2024-05-13",
+    "home_team_key": "belfast",
+    "away_team_key": "oceanside",
+    "home_score": 7,
+    "away_score": 1,
+    "opponent_class": "B",
+    "played": true
+  },
+  {
+    "date": "2024-05-17",
+    "home_team_key": "cony",
+    "away_team_key": "belfast",
+    "home_score": 13,
+    "away_score": 9,
+    "opponent_class": "B",
+    "played": true
+  },
+  {
+    "date": "2024-05-20",
+    "home_team_key": "belfast",
+    "away_team_key": "erskine academy",
+    "home_score": 5,
+    "away_score": 0,
+    "opponent_class": "B",
+    "played": true
+  },
+  {
+    "date": "2024-05-24",
+    "home_team_key": "john_bapst",
+    "away_team_key": "belfast",
+    "home_score": 0,
+    "away_score": 14,
+    "opponent_class": "B",
+    "played": true
+  },
+  {
+    "date": "2024-05-29",
+    "home_team_key": "mount view",
+    "away_team_key": "belfast",
+    "home_score": 4,
+    "away_score": 8,
+    "opponent_class": "B",
+    "played": true
+  },
+  {
+    "date": "2024-04-22",
+    "home_team_key": "mdi",
+    "away_team_key": "presque_isle",
+    "home_score": 10,
+    "away_score": 1,
+    "opponent_class": "B",
+    "played": true
+  },
+  {
+    "date": "2024-04-24",
+    "home_team_key": "washington academy",
+    "away_team_key": "mdi",
+    "home_score": 15,
+    "away_score": 3,
+    "opponent_class": "B",
+    "played": true
+  },
+  {
+    "date": "2024-05-01",
+    "home_team_key": "mdi",
+    "away_team_key": "hampden academy",
+    "home_score": 9,
+    "away_score": 4,
+    "opponent_class": "B",
+    "played": true
+  },
+  {
+    "date": "2024-05-08",
+    "home_team_key": "john_bapst",
+    "away_team_key": "mdi",
+    "home_score": 0,
+    "away_score": 10,
+    "opponent_class": "B",
+    "played": true
+  },
+  {
+    "date": "2024-05-10",
+    "home_team_key": "mdi",
+    "away_team_key": "bucksport high school",
+    "home_score": 4,
+    "away_score": 12,
+    "opponent_class": "B",
+    "played": true
+  },
+  {
+    "date": "2024-05-16",
+    "home_team_key": "mdi",
+    "away_team_key": "john_bapst",
+    "home_score": 2,
+    "away_score": 23,
+    "opponent_class": "B",
+    "played": true
+  },
+  {
+    "date": "2024-05-18",
+    "home_team_key": "caribou",
+    "away_team_key": "mdi",
+    "home_score": 2,
+    "away_score": 9,
+    "opponent_class": "B",
+    "played": true
+  },
+  {
+    "date": "2024-05-21",
+    "home_team_key": "brewer",
+    "away_team_key": "mdi",
+    "home_score": 3,
+    "away_score": 2,
+    "opponent_class": "B",
+    "played": true
+  },
+  {
+    "date": "2024-04-17",
+    "home_team_key": "messalonskee",
+    "away_team_key": "cony",
+    "home_score": 16,
+    "away_score": 1,
+    "opponent_class": "B",
+    "played": true
+  },
+  {
+    "date": "2024-04-19",
+    "home_team_key": "cony",
+    "away_team_key": "erskine academy",
+    "home_score": 4,
+    "away_score": 1,
+    "opponent_class": "B",
+    "played": true
+  },
+  {
+    "date": "2024-04-22",
+    "home_team_key": "cony",
+    "away_team_key": "lawrence",
+    "home_score": 1,
+    "away_score": 5,
+    "opponent_class": "B",
+    "played": true
+  },
+  {
+    "date": "2024-04-24",
+    "home_team_key": "cony",
+    "away_team_key": "oceanside",
+    "home_score": 12,
+    "away_score": 5,
+    "opponent_class": "B",
+    "played": true
+  },
+  {
+    "date": "2024-04-26",
+    "home_team_key": "lincoln academy",
+    "away_team_key": "cony",
+    "home_score": 18,
+    "away_score": 16,
+    "opponent_class": "B",
+    "played": true
+  },
+  {
+    "date": "2024-04-29",
+    "home_team_key": "cony",
+    "away_team_key": "monmouth academy",
+    "home_score": 7,
+    "away_score": 5,
+    "opponent_class": "B",
+    "played": true
+  },
+  {
+    "date": "2024-05-03",
+    "home_team_key": "lawrence",
+    "away_team_key": "cony",
+    "home_score": 6,
+    "away_score": 5,
+    "opponent_class": "B",
+    "played": true
+  },
+  {
+    "date": "2024-05-07",
+    "home_team_key": "gardiner area",
+    "away_team_key": "cony",
+    "home_score": 12,
+    "away_score": 0,
+    "opponent_class": "B",
+    "played": true
+  },
+  {
+    "date": "2024-05-13",
+    "home_team_key": "winslow",
+    "away_team_key": "cony",
+    "home_score": 5,
+    "away_score": 19,
+    "opponent_class": "B",
+    "played": true
+  },
+  {
+    "date": "2024-05-15",
+    "home_team_key": "waterville",
+    "away_team_key": "cony",
+    "home_score": 6,
+    "away_score": 21,
+    "opponent_class": "B",
+    "played": true
+  },
+  {
+    "date": "2024-05-20",
+    "home_team_key": "cony",
+    "away_team_key": "edward little high school",
+    "home_score": 1,
+    "away_score": 11,
+    "opponent_class": "B",
+    "played": true
+  },
+  {
+    "date": "2024-05-22",
+    "home_team_key": "oceanside",
+    "away_team_key": "cony",
+    "home_score": 1,
+    "away_score": 7,
+    "opponent_class": "B",
+    "played": true
+  },
+  {
+    "date": "2024-05-28",
+    "home_team_key": "cony",
+    "away_team_key": "gardiner area",
+    "home_score": 4,
+    "away_score": 5,
+    "opponent_class": "B",
+    "played": true
+  },
+  {
+    "date": "2024-06-04",
+    "home_team_key": "cony",
+    "away_team_key": "lawrence",
+    "home_score": 3,
+    "away_score": 13,
+    "opponent_class": "B",
+    "played": true
+  },
+  {
+    "date": "2024-04-19",
+    "home_team_key": "oceanside",
+    "away_team_key": "lincoln academy",
+    "home_score": 0,
+    "away_score": 8,
+    "opponent_class": "B",
+    "played": true
+  },
+  {
+    "date": "2024-04-22",
+    "home_team_key": "winslow",
+    "away_team_key": "oceanside",
+    "home_score": 0,
+    "away_score": 17,
+    "opponent_class": "B",
+    "played": true
+  },
+  {
+    "date": "2024-05-01",
+    "home_team_key": "oceanside",
+    "away_team_key": "medomak valley",
+    "home_score": 9,
+    "away_score": 5,
+    "opponent_class": "B",
+    "played": true
+  },
+  {
+    "date": "2024-05-03",
+    "home_team_key": "camden hills regional",
+    "away_team_key": "oceanside",
+    "home_score": 1,
+    "away_score": 2,
+    "opponent_class": "B",
+    "played": true
+  },
+  {
+    "date": "2024-05-08",
+    "home_team_key": "oceanside",
+    "away_team_key": "winslow",
+    "home_score": 8,
+    "away_score": 5,
+    "opponent_class": "B",
+    "played": true
+  },
+  {
+    "date": "2024-05-15",
+    "home_team_key": "oceanside",
+    "away_team_key": "lawrence",
+    "home_score": 7,
+    "away_score": 0,
+    "opponent_class": "B",
+    "played": true
+  },
+  {
+    "date": "2024-05-20",
+    "home_team_key": "lawrence",
+    "away_team_key": "oceanside",
+    "home_score": 5,
+    "away_score": 3,
+    "opponent_class": "B",
+    "played": true
+  },
+  {
+    "date": "2024-05-24",
+    "home_team_key": "oceanside",
+    "away_team_key": "morse",
+    "home_score": 5,
+    "away_score": 3,
+    "opponent_class": "B",
+    "played": true
+  },
+  {
+    "date": "2024-05-29",
+    "home_team_key": "medomak valley",
+    "away_team_key": "oceanside",
+    "home_score": 7,
+    "away_score": 1,
+    "opponent_class": "B",
+    "played": true
+  },
+  {
+    "date": "2024-06-03",
+    "home_team_key": "oceanside",
+    "away_team_key": "presque_isle",
+    "home_score": 7,
+    "away_score": 4,
+    "opponent_class": "B",
+    "played": true
+  },
+  {
+    "date": "2024-04-25",
+    "home_team_key": "houlton middle/high school",
+    "away_team_key": "presque_isle",
+    "home_score": 5,
+    "away_score": 4,
+    "opponent_class": "B",
+    "played": true
+  },
+  {
+    "date": "2024-04-27",
+    "home_team_key": "john_bapst",
+    "away_team_key": "presque_isle",
+    "home_score": 8,
+    "away_score": 9,
+    "opponent_class": "B",
+    "played": true
+  },
+  {
+    "date": "2024-05-02",
+    "home_team_key": "presque_isle",
+    "away_team_key": "fort kent community",
+    "home_score": 11,
+    "away_score": 0,
+    "opponent_class": "B",
+    "played": true
+  },
+  {
+    "date": "2024-05-06",
+    "home_team_key": "presque_isle",
+    "away_team_key": "houlton middle/high school",
+    "home_score": 7,
+    "away_score": 6,
+    "opponent_class": "B",
+    "played": true
+  },
+  {
+    "date": "2024-05-16",
+    "home_team_key": "fort kent community",
+    "away_team_key": "presque_isle",
+    "home_score": 6,
+    "away_score": 16,
+    "opponent_class": "B",
+    "played": true
+  },
+  {
+    "date": "2024-05-21",
+    "home_team_key": "presque_isle",
+    "away_team_key": "caribou",
+    "home_score": 15,
+    "away_score": 0,
+    "opponent_class": "B",
+    "played": true
+  },
+  {
+    "date": "2024-05-29",
+    "home_team_key": "caribou",
+    "away_team_key": "presque_isle",
+    "home_score": 3,
+    "away_score": 18,
+    "opponent_class": "B",
+    "played": true
+  },
+  {
+    "date": "2024-04-29",
+    "home_team_key": "erskine academy",
+    "away_team_key": "lawrence",
+    "home_score": 1,
+    "away_score": 3,
+    "opponent_class": "B",
+    "played": true
+  },
+  {
+    "date": "2024-05-01",
+    "home_team_key": "lawrence",
+    "away_team_key": "winslow",
+    "home_score": 10,
+    "away_score": 2,
+    "opponent_class": "B",
+    "played": true
+  },
+  {
+    "date": "2024-05-07",
+    "home_team_key": "waterville",
+    "away_team_key": "lawrence",
+    "home_score": 0,
+    "away_score": 10,
+    "opponent_class": "B",
+    "played": true
+  },
+  {
+    "date": "2024-05-10",
+    "home_team_key": "lawrence",
+    "away_team_key": "skowhegan area",
+    "home_score": 0,
+    "away_score": 10,
+    "opponent_class": "B",
+    "played": true
+  },
+  {
+    "date": "2024-05-13",
+    "home_team_key": "lawrence",
+    "away_team_key": "gardiner area",
+    "home_score": 6,
+    "away_score": 8,
+    "opponent_class": "B",
+    "played": true
+  },
+  {
+    "date": "2024-05-17",
+    "home_team_key": "winslow",
+    "away_team_key": "lawrence",
+    "home_score": 2,
+    "away_score": 14,
+    "opponent_class": "B",
+    "played": true
+  },
+  {
+    "date": "2024-05-28",
+    "home_team_key": "mt. blue high school athletics",
+    "away_team_key": "lawrence",
+    "home_score": 7,
+    "away_score": 3,
+    "opponent_class": "B",
+    "played": true
+  },
+  {
+    "date": "2024-04-23",
+    "home_team_key": "waterville",
+    "away_team_key": "john_bapst",
+    "home_score": 3,
+    "away_score": 23,
+    "opponent_class": "B",
+    "played": true
+  },
+  {
+    "date": "2024-05-11",
+    "home_team_key": "caribou",
+    "away_team_key": "john_bapst",
+    "home_score": 2,
+    "away_score": 5,
+    "opponent_class": "B",
+    "played": true
+  },
+  {
+    "date": "2024-05-20",
+    "home_team_key": "john_bapst",
+    "away_team_key": "waterville",
+    "home_score": 21,
+    "away_score": 0,
+    "opponent_class": "B",
+    "played": true
+  },
+  {
+    "date": "2024-04-23",
+    "home_team_key": "caribou",
+    "away_team_key": "fort kent community",
+    "home_score": 23,
+    "away_score": 22,
+    "opponent_class": "B",
+    "played": true
+  },
+  {
+    "date": "2024-04-27",
+    "home_team_key": "waterville",
+    "away_team_key": "caribou",
+    "home_score": 3,
+    "away_score": 10,
+    "opponent_class": "B",
+    "played": true
+  },
+  {
+    "date": "2024-05-01",
+    "home_team_key": "caribou",
+    "away_team_key": "houlton middle/high school",
+    "home_score": 2,
+    "away_score": 17,
+    "opponent_class": "B",
+    "played": true
+  },
+  {
+    "date": "2024-05-09",
+    "home_team_key": "houlton middle/high school",
+    "away_team_key": "caribou",
+    "home_score": 15,
+    "away_score": 0,
+    "opponent_class": "B",
+    "played": true
+  },
+  {
+    "date": "2024-05-15",
+    "home_team_key": "fort kent community",
+    "away_team_key": "caribou",
+    "home_score": 11,
+    "away_score": 7,
+    "opponent_class": "B",
+    "played": true
+  },
+  {
+    "date": "2024-04-16",
+    "home_team_key": "winslow",
+    "away_team_key": "waterville",
+    "home_score": 14,
+    "away_score": 3,
+    "opponent_class": "B",
+    "played": true
+  },
+  {
+    "date": "2024-04-29",
+    "home_team_key": "spruce mountain phoenix",
+    "away_team_key": "waterville",
+    "home_score": 20,
+    "away_score": 0,
+    "opponent_class": "B",
+    "played": true
+  },
+  {
+    "date": "2024-05-01",
+    "home_team_key": "dirigo",
+    "away_team_key": "waterville",
+    "home_score": 16,
+    "away_score": 0,
+    "opponent_class": "B",
+    "played": true
+  },
+  {
+    "date": "2024-05-24",
+    "home_team_key": "waterville",
+    "away_team_key": "winslow",
+    "home_score": 11,
+    "away_score": 21,
+    "opponent_class": "B",
+    "played": true
+  },
+  {
+    "date": "2024-05-28",
+    "home_team_key": "waterville",
+    "away_team_key": "maine central institute",
+    "home_score": 0,
+    "away_score": 22,
+    "opponent_class": "B",
+    "played": true
+  },
+  {
+    "date": "2024-04-24",
+    "home_team_key": "maine central institute",
+    "away_team_key": "winslow",
+    "home_score": 14,
+    "away_score": 13,
+    "opponent_class": "B",
+    "played": true
+  },
+  {
+    "date": "2024-04-29",
+    "home_team_key": "lisbon",
+    "away_team_key": "winslow",
+    "home_score": 17,
+    "away_score": 9,
+    "opponent_class": "B",
+    "played": true
+  },
+  {
+    "date": "2024-05-03",
+    "home_team_key": "winslow",
+    "away_team_key": "hall-dale",
+    "home_score": 4,
+    "away_score": 7,
+    "opponent_class": "B",
+    "played": true
+  },
+  {
+    "date": "2024-05-22",
+    "home_team_key": "mount view",
+    "away_team_key": "winslow",
+    "home_score": 13,
+    "away_score": 3,
+    "opponent_class": "B",
+    "played": true
+  },
+  {
+    "date": "2024-05-28",
+    "home_team_key": "winslow",
+    "away_team_key": "erskine academy",
+    "home_score": 6,
+    "away_score": 13,
+    "opponent_class": "B",
+    "played": true
+  }
+]

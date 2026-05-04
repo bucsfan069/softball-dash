@@ -1,0 +1,61 @@
+name: Refresh Softball Data
+
+on:
+  schedule:
+    # Three times a day (UTC): 6am, 4pm, 10pm Eastern
+    - cron: "0 10,20 * * *"
+    - cron: "0 2 * * *"
+  workflow_dispatch:   # manual trigger from the Actions tab
+
+permissions:
+  contents: write      # push updated data back to the repo
+  pages: write         # deploy to GitHub Pages
+  id-token: write      # required by actions/deploy-pages
+
+jobs:
+  refresh-and-deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      - name: Install dependencies
+        run: pip install -r scraper/requirements.txt
+
+      - name: Run scraper (current season)
+        working-directory: scraper
+        run: python build_data.py --year 2026
+
+      - name: Commit updated data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add site/data/
+          if git diff --cached --quiet; then
+            echo "No data changes — nothing to commit."
+          else
+            git commit -m "chore(data): refresh $(date -u +'%Y-%m-%dT%H:%MZ')"
+            git push
+          fi
+
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload site artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./site
+
+      - name: Deploy to GitHub Pages
+        id: deploy
+        uses: actions/deploy-pages@v4

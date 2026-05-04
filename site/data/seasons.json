@@ -1,0 +1,13 @@
+{
+  "seasons": [
+    {
+      "year": 2024,
+      "label": "2024 Season"
+    },
+    {
+      "year": 2026,
+      "label": "2026 Season"
+    }
+  ],
+  "current": 2026
+}

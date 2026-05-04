@@ -1,0 +1,92 @@
+[
+  {
+    "key": "nokomis",
+    "name": "Nokomis Regional",
+    "city": "Newport",
+    "maxpreps_slug": "nokomis-regional-warriors"
+  },
+  {
+    "key": "oldtown",
+    "name": "Old Town",
+    "city": "Old Town",
+    "maxpreps_slug": "old-town-coyotes"
+  },
+  {
+    "key": "ellsworth",
+    "name": "Ellsworth/George Stevens",
+    "city": "Ellsworth",
+    "maxpreps_slug": "ellsworth-eagles"
+  },
+  {
+    "key": "hermon",
+    "name": "Hermon",
+    "city": "Hermon",
+    "maxpreps_slug": "hermon-hawks"
+  },
+  {
+    "key": "belfast",
+    "name": "Belfast Area",
+    "city": "Belfast",
+    "maxpreps_slug": "belfast-area-lions"
+  },
+  {
+    "key": "mdi",
+    "name": "MDI High School",
+    "city": "Bar Harbor",
+    "maxpreps_slug": "mount-desert-island-trojans"
+  },
+  {
+    "key": "cony",
+    "name": "Cony",
+    "city": "Augusta",
+    "maxpreps_slug": "cony-rams"
+  },
+  {
+    "key": "oceanside",
+    "name": "Oceanside",
+    "city": "Rockland",
+    "maxpreps_slug": "oceanside-mariners"
+  },
+  {
+    "key": "presque_isle",
+    "name": "Presque Isle",
+    "city": "Presque Isle",
+    "maxpreps_slug": "presque-isle-wildcats"
+  },
+  {
+    "key": "lawrence",
+    "name": "Lawrence",
+    "city": "Fairfield",
+    "maxpreps_slug": "lawrence-bulldogs"
+  },
+  {
+    "key": "john_bapst",
+    "name": "John Bapst",
+    "city": "Bangor",
+    "maxpreps_slug": "john-bapst-memorial-crusaders"
+  },
+  {
+    "key": "caribou",
+    "name": "Caribou",
+    "city": "Caribou",
+    "maxpreps_slug": "caribou-vikings"
+  },
+  {
+    "key": "waterville",
+    "name": "Waterville",
+    "city": "Waterville",
+    "maxpreps_slug": "waterville-purple-panthers"
+  },
+  {
+    "key": "foxcroft",
+    "name": "Foxcroft Academy",
+    "city": "Dover-Foxcroft",
+    "maxpreps_slug": "foxcroft-academy-ponies"
+  },
+  {
+    "key": "gardiner",
+    "name": "Gardiner Area",
+    "city": "Gardiner",
+    "maxpreps_slug": "gardiner-area-tigers"
+  }
+]

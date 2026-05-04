@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Class B North Softball Dashboard</title>
+  <link rel="stylesheet" href="assets/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="brand">
+      <h1>Class B North Softball</h1>
+      <p class="tagline">Standings, Heal Points, and scouting for Lawrence High School &amp; the rest of the conference.</p>
+    </div>
+    <div class="meta">
+      <div class="header-controls">
+        <div class="season-selector">
+          <label for="season-select">Season:</label>
+          <select id="season-select"></select>
+        </div>
+        <button id="refresh-btn" class="refresh-btn" title="Re-run the scraper for the selected season">
+          <span id="refresh-label">Refresh</span>
+        </button>
+      </div>
+      <span id="last-updated">Loading…</span>
+      <nav>
+        <a href="#standings" class="nav-link active">Standings</a>
+        <a href="#schedule" class="nav-link">Schedule</a>
+        <a href="#scouting" class="nav-link">Scouting</a>
+        <a href="#trends" class="nav-link">Trends</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Standings -->
+    <section id="standings" class="panel">
+      <div class="panel-head">
+        <h2>Heal Point Standings</h2>
+        <p class="hint">Sorted by Tournament Index (TI), which determines playoff seeding. Hover any row for details.</p>
+      </div>
+      <div class="table-wrap">
+        <table class="standings-table">
+          <thead>
+            <tr>
+              <th>#</th>
+              <th class="team-col">Team</th>
+              <th>W</th>
+              <th>L</th>
+              <th title="Scheduled games">G</th>
+              <th title="Total runs scored across all played games">RS</th>
+              <th title="Total runs allowed across all played games">RA</th>
+              <th title="Preliminary Index = sum of heal points from wins / scheduled games">PI</th>
+              <th title="Tournament Index = sum of opponents' PI from wins / scheduled games × 10">TI</th>
+            </tr>
+          </thead>
+          <tbody id="standings-body">
+            <tr><td colspan="9" class="loading">Loading standings…</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- Schedule -->
+    <section id="schedule" class="panel">
+      <div class="panel-head">
+        <h2>Schedule &amp; Results</h2>
+        <div class="controls">
+          <label for="team-filter">Team:</label>
+          <select id="team-filter">
+            <option value="all">All teams</option>
+          </select>
+          <label for="when-filter">Show:</label>
+          <select id="when-filter">
+            <option value="all">All games</option>
+            <option value="upcoming" selected>Upcoming</option>
+            <option value="past">Past</option>
+          </select>
+        </div>
+      </div>
+      <div class="table-wrap">
+        <table class="schedule-table">
+          <thead>
+            <tr>
+              <th>Date</th>
+              <th>Matchup</th>
+              <th>Home/Away</th>
+              <th>Result</th>
+            </tr>
+          </thead>
+          <tbody id="schedule-body">
+            <tr><td colspan="4" class="loading">Loading schedule…</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- Scouting -->
+    <section id="scouting" class="panel">
+      <div class="panel-head">
+        <h2>Opponent Scouting</h2>
+        <p class="hint">Quick-reference card for each team in the conference. Click a team for deeper detail.</p>
+      </div>
+      <div id="scouting-grid" class="scouting-grid">
+        <p class="loading">Loading teams…</p>
+      </div>
+    </section>
+
+    <!-- Trends / head-to-head -->
+    <section id="trends" class="panel">
+      <div class="panel-head">
+        <h2>Head-to-Head &amp; Trends</h2>
+        <div class="controls">
+          <label for="h2h-a">Team A:</label>
+          <select id="h2h-a"></select>
+          <label for="h2h-b">Team B:</label>
+          <select id="h2h-b"></select>
+        </div>
+      </div>
+      <div id="h2h-output" class="h2h-output">
+        <p class="hint">Pick two teams above to see head-to-head history, their Heal Point comparison, and common opponents.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>Built for coaching use. Data sourced from the Maine Principals' Association. Heal Points calculated per MPA's published formula.</p>
+  </footer>
+
+  <script src="assets/app.js"></script>
+</body>
+</html>
