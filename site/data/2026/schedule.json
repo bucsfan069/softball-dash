@@ -75,10 +75,10 @@
     "date": "2026-05-07",
     "home_team_key": "erskine academy",
     "away_team_key": "nokomis",
-    "home_score": null,
-    "away_score": null,
+    "home_score": 3,
+    "away_score": 1,
     "opponent_class": "B",
-    "played": false
+    "played": true
   },
   {
     "date": "2026-05-08",
@@ -237,10 +237,10 @@
     "date": "2026-05-07",
     "home_team_key": "oldtown",
     "away_team_key": "foxcroft",
-    "home_score": null,
-    "away_score": null,
+    "home_score": 10,
+    "away_score": 0,
     "opponent_class": "B",
-    "played": false
+    "played": true
   },
   {
     "date": "2026-05-13",
@@ -810,21 +810,21 @@
     "played": false
   },
   {
+    "date": "2026-05-16",
+    "home_team_key": "winthrop/kents hill ramblers",
+    "away_team_key": "cony",
+    "home_score": null,
+    "away_score": null,
+    "opponent_class": "C",
+    "played": false
+  },
+  {
     "date": "2026-05-20",
     "home_team_key": "cony",
     "away_team_key": "erskine academy",
     "home_score": null,
     "away_score": null,
     "opponent_class": "B",
-    "played": false
-  },
-  {
-    "date": "2026-05-21",
-    "home_team_key": "winthrop/kents hill ramblers",
-    "away_team_key": "cony",
-    "home_score": null,
-    "away_score": null,
-    "opponent_class": "C",
     "played": false
   },
   {
