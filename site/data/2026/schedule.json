@@ -84,10 +84,10 @@
     "date": "2026-05-08",
     "home_team_key": "nokomis",
     "away_team_key": "maine central institute",
-    "home_score": null,
-    "away_score": null,
+    "home_score": 10,
+    "away_score": 5,
     "opponent_class": "C",
-    "played": false
+    "played": true
   },
   {
     "date": "2026-05-11",
@@ -756,15 +756,6 @@
     "played": true
   },
   {
-    "date": "2026-05-06",
-    "home_team_key": "cony",
-    "away_team_key": "dirigo",
-    "home_score": null,
-    "away_score": null,
-    "opponent_class": "C",
-    "played": false
-  },
-  {
     "date": "2026-05-08",
     "home_team_key": "oceanside",
     "away_team_key": "cony",
@@ -795,6 +786,15 @@
     "date": "2026-05-13",
     "home_team_key": "monmouth academy",
     "away_team_key": "cony",
+    "home_score": null,
+    "away_score": null,
+    "opponent_class": "C",
+    "played": false
+  },
+  {
+    "date": "2026-05-14",
+    "home_team_key": "cony",
+    "away_team_key": "dirigo",
     "home_score": null,
     "away_score": null,
     "opponent_class": "C",
