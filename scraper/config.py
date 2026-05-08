@@ -245,11 +245,14 @@ MPA_SCHED_SEASON = "1/161/139"  # 1=most-recent flag, 161/139=season internal ID
 
 # Heal point values per opponent class (for softball — same values used for
 # most non-football sports in Maine).
+# Heal point values per opponent class confirmed from mpa.fpsports.org live data
+# (2026 season): Class B wins give 38 pts / scheduled_games in PI formula, not 35.
+# Class C = 36, Class A = 40, Class D = 34.
 HEAL_POINTS_PER_CLASS = {
     "A": 40,
-    "B": 35,
-    "C": 30,
-    "D": 25,
+    "B": 38,
+    "C": 36,
+    "D": 34,
 }
 
 # HTTP request settings
@@ -293,9 +296,11 @@ YEAR_OVERRIDES: dict = {
     2026: {
         # New two-year classification cycle (2025-26 school year).
         # Schedules come from mpa.cc (mpaschedules.org does not carry 2026 data).
-        # MPA standings classification ID is unknown until MPA publishes it mid-season.
+        # Official standings from mpa.fpsports.org (TournamentID=205, DivisionID=13).
         "schedule_source": "mpa_cc",
         "mpa_cc_sport_id": "3_1031_5",  # Girls Softball Varsity, Spring 2026
+        "fpsports_tournament_id": 205,
+        "fpsports_division_id": 13,
         "SEASON_START": "2026-04-17",
         "SEASON_END": "2026-06-10",
         # Teams active in Class B North for Spring 2026 (reclassification changed

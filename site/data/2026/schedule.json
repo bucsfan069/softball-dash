@@ -66,13 +66,13 @@
     "date": "2026-05-05",
     "home_team_key": "belfast",
     "away_team_key": "nokomis",
-    "home_score": null,
-    "away_score": null,
+    "home_score": 0,
+    "away_score": 11,
     "opponent_class": "B",
-    "played": false
+    "played": true
   },
   {
-    "date": "2026-05-06",
+    "date": "2026-05-07",
     "home_team_key": "erskine academy",
     "away_team_key": "nokomis",
     "home_score": null,
@@ -219,19 +219,19 @@
     "date": "2026-05-02",
     "home_team_key": "john_bapst",
     "away_team_key": "oldtown",
-    "home_score": null,
-    "away_score": null,
+    "home_score": 3,
+    "away_score": 6,
     "opponent_class": "B",
-    "played": false
+    "played": true
   },
   {
     "date": "2026-05-05",
     "home_team_key": "ellsworth",
     "away_team_key": "oldtown",
-    "home_score": null,
-    "away_score": null,
+    "home_score": 7,
+    "away_score": 2,
     "opponent_class": "B",
-    "played": false
+    "played": true
   },
   {
     "date": "2026-05-07",
@@ -336,10 +336,10 @@
     "date": "2026-05-06",
     "home_team_key": "bucksport",
     "away_team_key": "ellsworth",
-    "home_score": null,
-    "away_score": null,
+    "home_score": 14,
+    "away_score": 1,
     "opponent_class": "C",
-    "played": false
+    "played": true
   },
   {
     "date": "2026-05-11",
@@ -426,10 +426,10 @@
     "date": "2026-05-04",
     "home_team_key": "mdi",
     "away_team_key": "hermon",
-    "home_score": null,
-    "away_score": null,
+    "home_score": 0,
+    "away_score": 6,
     "opponent_class": "B",
-    "played": false
+    "played": true
   },
   {
     "date": "2026-05-06",
@@ -534,10 +534,10 @@
     "date": "2026-04-24",
     "home_team_key": "belfast",
     "away_team_key": "foxcroft",
-    "home_score": null,
-    "away_score": null,
+    "home_score": 6,
+    "away_score": 5,
     "opponent_class": "B",
-    "played": false
+    "played": true
   },
   {
     "date": "2026-04-27",
@@ -559,6 +559,15 @@
   },
   {
     "date": "2026-05-06",
+    "home_team_key": "belfast",
+    "away_team_key": "hampden academy",
+    "home_score": null,
+    "away_score": null,
+    "opponent_class": "A",
+    "played": false
+  },
+  {
+    "date": "2026-05-07",
     "home_team_key": "belfast",
     "away_team_key": "hampden academy",
     "home_score": null,
@@ -738,22 +747,13 @@
     "played": true
   },
   {
-    "date": "2026-05-01",
-    "home_team_key": "winthrop/kents hill ramblers",
-    "away_team_key": "cony",
-    "home_score": null,
-    "away_score": null,
-    "opponent_class": "C",
-    "played": false
-  },
-  {
     "date": "2026-05-05",
     "home_team_key": "cony",
     "away_team_key": "gardiner",
-    "home_score": null,
-    "away_score": null,
+    "home_score": 5,
+    "away_score": 11,
     "opponent_class": "B",
-    "played": false
+    "played": true
   },
   {
     "date": "2026-05-06",
@@ -816,6 +816,15 @@
     "home_score": null,
     "away_score": null,
     "opponent_class": "B",
+    "played": false
+  },
+  {
+    "date": "2026-05-21",
+    "home_team_key": "winthrop/kents hill ramblers",
+    "away_team_key": "cony",
+    "home_score": null,
+    "away_score": null,
+    "opponent_class": "C",
     "played": false
   },
   {
@@ -885,10 +894,10 @@
     "date": "2026-05-05",
     "home_team_key": "lawrence",
     "away_team_key": "oceanside",
-    "home_score": null,
-    "away_score": null,
+    "home_score": 15,
+    "away_score": 0,
     "opponent_class": "B",
-    "played": false
+    "played": true
   },
   {
     "date": "2026-05-13",
@@ -1065,10 +1074,10 @@
     "date": "2026-05-04",
     "home_team_key": "lawrence",
     "away_team_key": "winslow",
-    "home_score": null,
-    "away_score": null,
+    "home_score": 4,
+    "away_score": 6,
     "opponent_class": "C",
-    "played": false
+    "played": true
   },
   {
     "date": "2026-05-08",
@@ -1281,10 +1290,10 @@
     "date": "2026-05-05",
     "home_team_key": "waterville",
     "away_team_key": "winslow",
-    "home_score": null,
-    "away_score": null,
+    "home_score": 8,
+    "away_score": 16,
     "opponent_class": "C",
-    "played": false
+    "played": true
   },
   {
     "date": "2026-05-08",
@@ -1377,18 +1386,18 @@
     "played": true
   },
   {
-    "date": "2026-05-06",
-    "home_team_key": "gardiner",
-    "away_team_key": "monmouth academy",
+    "date": "2026-05-11",
+    "home_team_key": "winslow",
+    "away_team_key": "gardiner",
     "home_score": null,
     "away_score": null,
     "opponent_class": "C",
     "played": false
   },
   {
-    "date": "2026-05-11",
-    "home_team_key": "winslow",
-    "away_team_key": "gardiner",
+    "date": "2026-05-12",
+    "home_team_key": "gardiner",
+    "away_team_key": "monmouth academy",
     "home_score": null,
     "away_score": null,
     "opponent_class": "C",

@@ -132,6 +132,23 @@ def fetch_team_schedule(
 
 
 MPA_CC_BASE = "https://www.mpa.cc"
+FPSPORTS_BASE = "https://mpa.fpsports.org/SportPages/SportPageRanking.aspx"
+
+
+def fetch_fpsports_standings(tournament_id: int, division_id: int) -> str:
+    """
+    Fetch Class B North softball Heal Point standings from mpa.fpsports.org.
+
+    URL: /SportPages/SportPageRanking.aspx?TournamentID=...&DivisionID=...&LeagueID=-1
+    Returns an HTML page containing the full rankings table with PI, TI, and
+    a per-team Detail column showing each game used in the calculation.
+    """
+    params = {
+        "TournamentID": str(tournament_id),
+        "DivisionID": str(division_id),
+        "LeagueID": "-1",
+    }
+    return _polite_get(FPSPORTS_BASE, params=params)
 
 
 def fetch_mpa_cc_schedule(school_id: int, sport_id: str) -> str:

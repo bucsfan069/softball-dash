@@ -13,6 +13,8 @@
 const DATA = { standings: [], schedule: [], teams: [], lastUpdated: null };
 const FOCUS_TEAM_KEY = "lawrence";  // highlight Lawrence in the standings
 const SEASON_STORAGE_KEY = "softball_selected_season";
+const HEAL_POINTS = { A: 40, B: 38, C: 36, D: 34 };
+const LAWRENCE_CLASS = "B";
 
 const $ = (sel, root = document) => root.querySelector(sel);
 const $$ = (sel, root = document) => Array.from(root.querySelectorAll(sel));
@@ -67,6 +69,47 @@ function computeRunTotals() {
   return totals;
 }
 
+function getNextLawrenceGame() {
+  return DATA.schedule
+    .filter(g => !g.played && (g.home_team_key === FOCUS_TEAM_KEY || g.away_team_key === FOCUS_TEAM_KEY))
+    .sort((a, b) => (a.date || "").localeCompare(b.date || ""))[0] || null;
+}
+
+// Returns a copy of the standings re-sorted after simulating one game result.
+// Each entry gets a simRank and rankDelta (positive = moved up).
+function simulateGame(game, lawrenceWins) {
+  const byKey = {};
+  DATA.standings.forEach(s => { byKey[s.team_key] = { ...s }; });
+
+  const opponentKey = game.home_team_key === FOCUS_TEAM_KEY ? game.away_team_key : game.home_team_key;
+  const opponentClass = game.opponent_class || LAWRENCE_CLASS;
+  const law = byKey[FOCUS_TEAM_KEY];
+  const opp = byKey[opponentKey];
+
+  if (lawrenceWins && law) {
+    const heal = HEAL_POINTS[opponentClass] || 35;
+    const actualHealSum = law.wins === 0 ? 0 : law.preliminary_index * law.scheduled_games;
+    const oppPI = opp ? opp.preliminary_index : 1.0;
+    law.wins = (law.wins || 0) + 1;
+    law.preliminary_index = (actualHealSum + heal) / law.scheduled_games;
+    law.tournament_index = ((law.tournament_index * law.scheduled_games / 10) + oppPI) / law.scheduled_games * 10;
+  } else if (!lawrenceWins && opp) {
+    const heal = HEAL_POINTS[LAWRENCE_CLASS];
+    const actualHealSum = opp.wins === 0 ? 0 : opp.preliminary_index * opp.scheduled_games;
+    const lawPI = law ? law.preliminary_index : 1.0;
+    opp.wins = (opp.wins || 0) + 1;
+    opp.preliminary_index = (actualHealSum + heal) / opp.scheduled_games;
+    opp.tournament_index = ((opp.tournament_index * opp.scheduled_games / 10) + lawPI) / opp.scheduled_games * 10;
+  }
+
+  const currentRanks = {};
+  DATA.standings.forEach((s, i) => { currentRanks[s.team_key] = i + 1; });
+
+  return Object.values(byKey)
+    .sort((a, b) => b.tournament_index - a.tournament_index)
+    .map((s, i) => ({ ...s, simRank: i + 1, rankDelta: (currentRanks[s.team_key] || i + 1) - (i + 1) }));
+}
+
 // ------------------- Rendering -------------------
 
 function renderLastUpdated() {
@@ -82,6 +125,9 @@ function teamByName(name) {
   return DATA.teams.find(t => t.name.toLowerCase() === n || n.includes(t.name.toLowerCase()));
 }
 function teamByKey(key) { return DATA.teams.find(t => t.key === key); }
+function teamDisplayName(key) {
+  return key.replace(/_/g, " ").replace(/\b\w/g, c => c.toUpperCase());
+}
 
 function renderStandings() {
   const body = $("#standings-body");
@@ -94,6 +140,14 @@ function renderStandings() {
     const team = row.team_key ? teamByKey(row.team_key) : teamByName(row.team_name);
     const isFocus = team && team.key === FOCUS_TEAM_KEY;
     const rt = team ? (runTotals[team.key] || { rs: 0, ra: 0 }) : { rs: 0, ra: 0 };
+    const w = row.wins || 0;
+    const l = row.losses || 0;
+    const t = row.ties || 0;
+    const gp = w + l + t;
+    const winPct = gp > 0 ? ((w + 0.5 * t) / gp).toFixed(3) : "—";
+    const rd = rt.rs - rt.ra;
+    const rdStr = gp > 0 ? (rd > 0 ? `+${rd}` : String(rd)) : "—";
+    const rdClass = rd > 0 ? "rd-pos" : rd < 0 ? "rd-neg" : "";
     return `
       <tr class="${isFocus ? "highlight" : ""}">
         <td class="rank">${row.rank || i + 1}</td>
@@ -103,12 +157,14 @@ function renderStandings() {
             ${team ? `<span class="team-city">${team.city}</span>` : ""}
           </div>
         </td>
-        <td>${row.wins ?? "—"}</td>
-        <td>${row.losses ?? "—"}</td>
-        <td>${row.scheduled_games ?? "—"}</td>
-        <td>${rt.rs}</td>
+        <td class="grp-start">${w}</td>
+        <td>${l}</td>
+        <td>${t}</td>
+        <td>${winPct}</td>
+        <td class="grp-start">${rt.rs}</td>
         <td>${rt.ra}</td>
-        <td>${row.preliminary_index != null ? Number(row.preliminary_index).toFixed(3) : "—"}</td>
+        <td class="${rdClass}">${rdStr}</td>
+        <td class="grp-start">${row.preliminary_index != null ? Number(row.preliminary_index).toFixed(3) : "—"}</td>
         <td><strong>${row.tournament_index != null ? Number(row.tournament_index).toFixed(4) : "—"}</strong></td>
       </tr>
     `;
@@ -153,7 +209,7 @@ function renderSchedule() {
     return `
       <tr>
         <td>${g.date || "TBD"}</td>
-        <td>${away ? away.name : g.away_team_key} <span class="team-city">at</span> ${home ? home.name : g.home_team_key}</td>
+        <td>${away ? away.name : teamDisplayName(g.away_team_key)} <span class="team-city">at</span> ${home ? home.name : teamDisplayName(g.home_team_key)}</td>
         <td>${(g.home_team_key === FOCUS_TEAM_KEY || g.away_team_key === FOCUS_TEAM_KEY)
               ? (g.home_team_key === FOCUS_TEAM_KEY ? "Home" : "Away") : "—"}</td>
         <td>${resultCell}</td>
@@ -175,10 +231,20 @@ function renderScouting() {
   });
   const runTotals = computeRunTotals();
 
-  grid.innerHTML = DATA.teams.map(t => {
+  const sortVal = $("#scout-sort")?.value || "rank";
+  const sortedTeams = [...DATA.teams].sort((a, b) => {
+    if (sortVal === "alpha") return a.name.localeCompare(b.name);
+    const ra = standingByKey[a.key]?.rank ?? 999;
+    const rb = standingByKey[b.key]?.rank ?? 999;
+    return ra - rb;
+  });
+
+  grid.innerHTML = sortedTeams.map(t => {
     const s = standingByKey[t.key];
     const rt = runTotals[t.key] || { rs: 0, ra: 0 };
-    const record = s ? `${s.wins}–${s.losses}` : "0–0";
+    const record = s
+      ? (s.ties ? `${s.wins}–${s.losses}–${s.ties}` : `${s.wins}–${s.losses}`)
+      : "0–0";
     const ti = s && s.tournament_index != null ? Number(s.tournament_index).toFixed(3) : "—";
     const diff = rt.rs - rt.ra;
     const diffStr = diff > 0 ? `+${diff}` : String(diff);
@@ -199,13 +265,16 @@ function renderScouting() {
 }
 
 function renderH2H() {
-  const a = teamByKey($("#h2h-a").value);
-  const b = teamByKey($("#h2h-b").value);
+  const aKey = $("#h2h-a").value;
+  const bKey = $("#h2h-b").value;
   const out = $("#h2h-output");
-  if (!a || !b || a.key === b.key) {
+  if (!aKey || !bKey || aKey === bKey) {
     out.innerHTML = `<p class="hint">Pick two different teams above to compare.</p>`;
     return;
   }
+  const a = teamByKey(aKey) || { key: aKey, name: teamDisplayName(aKey), city: "" };
+  const b = teamByKey(bKey) || { key: bKey, name: teamDisplayName(bKey), city: "" };
+
   const games = DATA.schedule.filter(g =>
     (g.home_team_key === a.key && g.away_team_key === b.key) ||
     (g.home_team_key === b.key && g.away_team_key === a.key)
@@ -227,22 +296,25 @@ function renderH2H() {
     .map(g => g.home_team_key === a.key ? g.away_team_key : g.home_team_key));
   const bOpps = new Set(DATA.schedule.filter(g => g.played && (g.home_team_key === b.key || g.away_team_key === b.key))
     .map(g => g.home_team_key === b.key ? g.away_team_key : g.home_team_key));
-  aOpps.forEach(k => { if (bOpps.has(k)) commonOpponents.push(teamByKey(k)?.name || k); });
+  aOpps.forEach(k => { if (bOpps.has(k)) commonOpponents.push(teamByKey(k)?.name || teamDisplayName(k)); });
+
+  const aIsConf = !!standingByKey[a.key];
+  const bIsConf = !!standingByKey[b.key];
 
   out.innerHTML = `
     <div class="h2h-grid">
       <div class="h2h-col">
         <h3>${a.name}</h3>
-        <div class="stat">${aStand.wins ?? 0}–${aStand.losses ?? 0}</div>
-        <div class="substat">TI ${aStand.tournament_index != null ? Number(aStand.tournament_index).toFixed(3) : "—"}</div>
-        <div class="substat">Seed #${aStand.rank ?? "—"}</div>
+        <div class="stat">${aStand.wins ?? "—"}–${aStand.losses ?? "—"}</div>
+        <div class="substat">TI ${aStand.tournament_index != null ? Number(aStand.tournament_index).toFixed(3) : (aIsConf ? "—" : "Non-conf")}</div>
+        <div class="substat">${aIsConf ? `Seed #${aStand.rank ?? "—"}` : "Non-conference"}</div>
       </div>
       <div class="h2h-vs">vs.</div>
       <div class="h2h-col">
         <h3>${b.name}</h3>
-        <div class="stat">${bStand.wins ?? 0}–${bStand.losses ?? 0}</div>
-        <div class="substat">TI ${bStand.tournament_index != null ? Number(bStand.tournament_index).toFixed(3) : "—"}</div>
-        <div class="substat">Seed #${bStand.rank ?? "—"}</div>
+        <div class="stat">${bStand.wins ?? "—"}–${bStand.losses ?? "—"}</div>
+        <div class="substat">TI ${bStand.tournament_index != null ? Number(bStand.tournament_index).toFixed(3) : (bIsConf ? "—" : "Non-conf")}</div>
+        <div class="substat">${bIsConf ? `Seed #${bStand.rank ?? "—"}` : "Non-conference"}</div>
       </div>
     </div>
     <hr style="border-color: var(--border); margin: 16px 0;" />
@@ -253,21 +325,187 @@ function renderH2H() {
   `;
 }
 
+function renderWhatIf() {
+  const container = $("#whatif-content");
+  if (!container) return;
+
+  const game = getNextLawrenceGame();
+  if (!game) {
+    container.innerHTML = `<p class="hint">No upcoming Lawrence games remaining this season.</p>`;
+    return;
+  }
+
+  const opponentKey = game.home_team_key === FOCUS_TEAM_KEY ? game.away_team_key : game.home_team_key;
+  const isHome = game.home_team_key === FOCUS_TEAM_KEY;
+  const opponent = teamByKey(opponentKey);
+  const opponentName = opponent ? opponent.name : opponentKey.replace(/_/g, " ");
+  const opponentClass = game.opponent_class || "B";
+  const inConference = !!DATA.standings.find(s => s.team_key === opponentKey);
+
+  const winSim = simulateGame(game, true);
+  const lossSim = simulateGame(game, false);
+
+  // TI deltas for headings
+  const lawStanding = DATA.standings.find(s => s.team_key === FOCUS_TEAM_KEY);
+  const currentLawTI = lawStanding?.tournament_index ?? 0;
+  const winLawTI = winSim.find(s => s.team_key === FOCUS_TEAM_KEY)?.tournament_index ?? currentLawTI;
+  const tiGain = winLawTI - currentLawTI;
+
+  const oppStanding = DATA.standings.find(s => s.team_key === opponentKey);
+  const currentOppTI = oppStanding?.tournament_index ?? null;
+  const lossOppTI = lossSim.find(s => s.team_key === opponentKey)?.tournament_index ?? null;
+
+  const winSubline = `TI ${currentLawTI.toFixed(3)} → ${winLawTI.toFixed(3)} <span class="rank-up">(+${tiGain.toFixed(3)})</span>`;
+  let lossSubline;
+  if (inConference && currentOppTI !== null && lossOppTI !== null) {
+    const oppGain = lossOppTI - currentOppTI;
+    lossSubline = `${opponentName} TI +${oppGain.toFixed(3)}`;
+  } else {
+    lossSubline = `No conference TI change`;
+  }
+
+  function deltaHtml(d) {
+    if (d > 0) return `<span class="rank-up">▲${d}</span>`;
+    if (d < 0) return `<span class="rank-dn">▼${Math.abs(d)}</span>`;
+    return `<span class="rank-same">—</span>`;
+  }
+
+  const thead = `<thead><tr><th>#</th><th>Team</th><th>TI</th><th>Δ</th></tr></thead>`;
+
+  function buildRows(items) {
+    return items.map(s => {
+      const isLaw = s.team_key === FOCUS_TEAM_KEY;
+      const isOpp = s.team_key === opponentKey;
+      const cutline = s.simRank === 9
+        ? `<tr class="playoff-cutline"><td colspan="4">— playoff cutline —</td></tr>`
+        : "";
+      return `${cutline}<tr class="${isLaw ? "highlight" : isOpp ? "whatif-opp" : ""}">
+        <td class="rank">${s.simRank}</td>
+        <td>${s.team_name}</td>
+        <td>${Number(s.tournament_index).toFixed(3)}</td>
+        <td>${deltaHtml(s.rankDelta)}</td>
+      </tr>`;
+    }).join("");
+  }
+
+  function miniTable(simStandings) {
+    const lawIdx = simStandings.findIndex(s => s.team_key === FOCUS_TEAM_KEY);
+    const start = Math.max(0, lawIdx - 3);
+    const end   = Math.min(simStandings.length - 1, lawIdx + 3);
+    const compact = simStandings.slice(start, end + 1);
+
+    const aboveCount = start;
+    const belowCount = simStandings.length - 1 - end;
+    const ellipsisTop = aboveCount > 0
+      ? `<tr class="whatif-ellipsis"><td colspan="4">↑ ${aboveCount} team${aboveCount > 1 ? "s" : ""} not shown</td></tr>`
+      : "";
+    const ellipsisBottom = belowCount > 0
+      ? `<tr class="whatif-ellipsis"><td colspan="4">↓ ${belowCount} team${belowCount > 1 ? "s" : ""} not shown</td></tr>`
+      : "";
+
+    return `
+      <div class="table-wrap"><table class="whatif-table">
+        ${thead}
+        <tbody>${ellipsisTop}${buildRows(compact)}${ellipsisBottom}</tbody>
+      </table></div>
+      <details class="whatif-expand">
+        <summary>Show all ${simStandings.length} teams</summary>
+        <div class="table-wrap"><table class="whatif-table">
+          ${thead}<tbody>${buildRows(simStandings)}</tbody>
+        </table></div>
+      </details>`;
+  }
+
+  container.innerHTML = `
+    <div class="whatif-game">
+      <span class="whatif-label">Next Lawrence game:</span>
+      <strong>${game.date}</strong> &mdash;
+      Lawrence <strong>${isHome ? "vs." : "at"}</strong> ${opponentName}
+      <span class="chip">Class ${opponentClass}</span>
+      <span class="whatif-label" style="margin-left:8px">Heal pts if win: ${HEAL_POINTS[opponentClass] || 35}</span>
+    </div>
+    <p class="hint">Approximate — assumes no other games are played simultaneously.</p>
+    <div class="whatif-grid">
+      <div class="whatif-col">
+        <div class="whatif-scenario whatif-win">
+          If Lawrence Wins
+          <div class="whatif-ti">${winSubline}</div>
+        </div>
+        ${miniTable(winSim)}
+      </div>
+      <div class="whatif-col">
+        <div class="whatif-scenario whatif-loss">
+          If Lawrence Loses
+          <div class="whatif-ti">${lossSubline}</div>
+        </div>
+        ${miniTable(lossSim)}
+      </div>
+    </div>
+  `;
+}
+
+function autoSelectNextOpponent() {
+  const game = getNextLawrenceGame();
+  const h2hA = $("#h2h-a");
+  const h2hB = $("#h2h-b");
+  if (h2hA) h2hA.value = FOCUS_TEAM_KEY;
+  if (game && h2hB) {
+    const opponentKey = game.home_team_key === FOCUS_TEAM_KEY ? game.away_team_key : game.home_team_key;
+    const inDropdown = Array.from(h2hB.options).some(o => o.value === opponentKey);
+    if (inDropdown) h2hB.value = opponentKey;
+  }
+  renderH2H();
+}
+
 // ------------------- Season & Refresh -------------------
 
 function populateTeamFilters() {
   const teamFilter = $("#team-filter");
   const h2hA = $("#h2h-a");
   const h2hB = $("#h2h-b");
-  // Clear existing team options (keep "All teams" in team-filter)
+
+  // Clear existing options (keep "All teams" in team-filter)
   while (teamFilter.options.length > 1) teamFilter.remove(1);
   h2hA.innerHTML = "";
   h2hB.innerHTML = "";
-  DATA.teams.forEach((t, i) => {
+
+  // Find non-conference teams present in the schedule
+  const confKeys = new Set(DATA.teams.map(t => t.key));
+  const nonConfKeys = [...new Set(
+    DATA.schedule.flatMap(g => [g.home_team_key, g.away_team_key])
+      .filter(k => k && !confKeys.has(k))
+  )].sort((a, b) => teamDisplayName(a).localeCompare(teamDisplayName(b)));
+
+  const confOptHtml = (selectedKey) => DATA.teams.map(t =>
+    `<option value="${t.key}" ${t.key === selectedKey ? "selected" : ""}>${t.name}</option>`
+  ).join("");
+  const nonConfOptHtml = nonConfKeys.map(k =>
+    `<option value="${k}">${teamDisplayName(k)}</option>`
+  ).join("");
+
+  // Schedule team filter
+  DATA.teams.forEach(t => {
     teamFilter.insertAdjacentHTML("beforeend", `<option value="${t.key}">${t.name}</option>`);
-    h2hA.insertAdjacentHTML("beforeend", `<option value="${t.key}" ${t.key === "lawrence" ? "selected" : ""}>${t.name}</option>`);
-    h2hB.insertAdjacentHTML("beforeend", `<option value="${t.key}" ${i === 1 ? "selected" : ""}>${t.name}</option>`);
   });
+  if (nonConfKeys.length) {
+    teamFilter.insertAdjacentHTML("beforeend",
+      `<optgroup label="Non-conference">${nonConfOptHtml}</optgroup>`);
+  }
+
+  // H2H dropdowns — wrap conference in optgroup only when there are non-conf teams
+  if (nonConfKeys.length) {
+    h2hA.innerHTML =
+      `<optgroup label="Class B North">${confOptHtml("lawrence")}</optgroup>` +
+      `<optgroup label="Non-conference">${nonConfOptHtml}</optgroup>`;
+    const secondKey = DATA.teams[1]?.key ?? "";
+    h2hB.innerHTML =
+      `<optgroup label="Class B North">${confOptHtml(secondKey)}</optgroup>` +
+      `<optgroup label="Non-conference">${nonConfOptHtml}</optgroup>`;
+  } else {
+    h2hA.innerHTML = confOptHtml("lawrence");
+    const secondKey = DATA.teams[1]?.key ?? "";
+    h2hB.innerHTML = confOptHtml(secondKey);
+  }
 }
 
 function populateSeasonDropdown(seasons) {
@@ -288,7 +526,8 @@ async function switchSeason(year) {
   renderStandings();
   renderSchedule();
   renderScouting();
-  renderH2H();
+  autoSelectNextOpponent();
+  renderWhatIf();
 }
 
 function showToast(message, type = "info") {
@@ -345,11 +584,15 @@ async function refreshCurrentSeason() {
 function wireEvents() {
   $("#team-filter").addEventListener("change", renderSchedule);
   $("#when-filter").addEventListener("change", renderSchedule);
+  $("#scout-sort").addEventListener("change", renderScouting);
   $("#h2h-a").addEventListener("change", renderH2H);
   $("#h2h-b").addEventListener("change", renderH2H);
   $("#season-select").addEventListener("change", e => switchSeason(parseInt(e.target.value, 10)));
   const refreshBtn = $("#refresh-btn");
   if (refreshBtn) refreshBtn.addEventListener("click", refreshCurrentSeason);
+  $$(".panel-toggle").forEach(btn => {
+    btn.addEventListener("click", () => btn.closest(".panel").classList.toggle("collapsed"));
+  });
   $$(".nav-link").forEach(link => {
     link.addEventListener("click", () => {
       $$(".nav-link").forEach(l => l.classList.remove("active"));
@@ -376,6 +619,7 @@ function wireEvents() {
   renderStandings();
   renderSchedule();
   renderScouting();
-  renderH2H();
+  autoSelectNextOpponent();
+  renderWhatIf();
   wireEvents();
 })();

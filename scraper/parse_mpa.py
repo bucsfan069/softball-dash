@@ -262,3 +262,82 @@ def parse_team_schedule(html: str, team_name: str = "") -> List[ScheduleEntry]:
         )
 
     return entries
+
+
+def parse_fpsports_standings(html: str) -> List[dict]:
+    """
+    Parse the mpa.fpsports.org SportPageRanking standings table.
+
+    Each row yields: rank, team_name, wins, losses, ties, scheduled_games,
+    preliminary_index, tournament_index, wins_detail, losses_detail, source.
+
+    The 'wins_detail' and 'losses_detail' lists each contain dicts with keys:
+        opponent (str), region_class (str), record (str)
+
+    scheduled_games is computed as wins + losses + count(remaining games).
+    """
+    row_pat = re.compile(
+        r"<tr>\s*<td[^>]*>(\d+)</td>"
+        r"<td[^>]*><a[^>]*>([^<]+)</a></td>"
+        r"<td[^>]*>([^<]+)</td>"
+        r"<td[^>]*>([^<]+)</td>"
+        r"<td[^>]*>([^<]+)</td>"
+        r"<td[^>]*>(.*?)</td>\s*</tr>",
+        re.DOTALL,
+    )
+    opp_pat = re.compile(r"<a[^>]*>([^<]+)</a>\s*\(([^:]+):\s*([^)]+)\)")
+
+    results = []
+    for m in row_pat.finditer(html):
+        rank_str, name, record, pi_str, ti_str, detail_html = m.groups()
+
+        rec_m = re.match(r"(\d+)-(\d+)-(\d+)", record.strip())
+        wins   = int(rec_m.group(1)) if rec_m else 0
+        losses = int(rec_m.group(2)) if rec_m else 0
+        ties   = int(rec_m.group(3)) if rec_m else 0
+
+        def _parse_section(label: str) -> List[dict]:
+            sec = re.search(
+                rf"<b>{label}:</b>(.*?)(?=<b>|Remaining:|$)",
+                detail_html, re.DOTALL,
+            )
+            if not sec:
+                return []
+            return [
+                {"opponent": om.group(1).strip(),
+                 "region_class": om.group(2).strip(),
+                 "record": om.group(3).strip()}
+                for om in opp_pat.finditer(sec.group(1))
+            ]
+
+        wins_detail   = _parse_section("Wins")
+        losses_detail = _parse_section("Losses")
+
+        rem_sec = re.search(r"Remaining:(.*?)$", detail_html, re.DOTALL)
+        rem_text = re.sub(r"<[^>]+>", "", rem_sec.group(1) if rem_sec else "").strip()
+        remaining_count = len([g for g in rem_text.split(",") if g.strip()])
+
+        try:
+            pi = float(pi_str.strip())
+        except ValueError:
+            pi = None
+        try:
+            ti = float(ti_str.strip())
+        except ValueError:
+            ti = None
+
+        results.append({
+            "rank": int(rank_str),
+            "team_name": name.strip(),
+            "wins": wins,
+            "losses": losses,
+            "ties": ties,
+            "scheduled_games": wins + losses + remaining_count,
+            "preliminary_index": pi,
+            "tournament_index": ti,
+            "wins_detail": wins_detail,
+            "losses_detail": losses_detail,
+            "source": "fpsports",
+        })
+
+    return results

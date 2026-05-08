@@ -29,9 +29,9 @@ from config import (
     TEAMS,
     YEAR_OVERRIDES,
 )
-from fetch_mpa import FetchError, fetch_class_b_north_standings, fetch_mpa_cc_schedule, fetch_team_schedule
+from fetch_mpa import FetchError, fetch_class_b_north_standings, fetch_fpsports_standings, fetch_mpa_cc_schedule, fetch_team_schedule
 from heal_points import Game, Team, compute_heal_points
-from parse_mpa import parse_mpa_cc_schedule, parse_standings, parse_team_schedule
+from parse_mpa import parse_fpsports_standings, parse_mpa_cc_schedule, parse_standings, parse_team_schedule
 
 
 def _write_json(path: Path, obj) -> None:
@@ -112,6 +112,45 @@ def _load_mpa_standings(
             "preliminary_index": round(r.preliminary_index, 4) if r.preliminary_index is not None else None,
             "tournament_index": round(r.tournament_index, 4) if r.tournament_index is not None else None,
             "source": "mpa",
+        })
+    return result
+
+
+def _load_fpsports_standings(tournament_id: int, division_id: int) -> List[dict]:
+    """Fetch+parse official standings from mpa.fpsports.org. Returns JSON-safe dicts."""
+    try:
+        html = fetch_fpsports_standings(tournament_id, division_id)
+    except FetchError as e:
+        print(f"! Could not fetch fpsports standings: {e}", file=sys.stderr)
+        return []
+
+    try:
+        rows = parse_fpsports_standings(html)
+    except Exception:
+        print("! Failed to parse fpsports standings HTML:", file=sys.stderr)
+        traceback.print_exc()
+        return []
+
+    if not rows:
+        print("  No rows parsed from fpsports standings")
+        return []
+
+    result = []
+    for r in rows:
+        team_key = _NAME_TO_KEY.get(r["team_name"].lower(), "")
+        result.append({
+            "rank": r["rank"],
+            "team_name": r["team_name"],
+            "team_key": team_key,
+            "wins": r["wins"],
+            "losses": r["losses"],
+            "ties": r["ties"],
+            "scheduled_games": r["scheduled_games"],
+            "preliminary_index": round(r["preliminary_index"], 4) if r["preliminary_index"] is not None else None,
+            "tournament_index": round(r["tournament_index"], 4) if r["tournament_index"] is not None else None,
+            "wins_detail": r["wins_detail"],
+            "losses_detail": r["losses_detail"],
+            "source": "fpsports",
         })
     return result
 
@@ -318,13 +357,24 @@ def main() -> int:
     print(f"  {len(schedule_games)} unique games found")
     _write_json(data_dir / "schedule.json", schedule_games)
 
-    # 2. MPA standings
+    # 2. MPA standings — try fpsports.org first (has correct PI/TI + detail),
+    #    then mpareports.com, then fall back to local calculation.
     print("Fetching MPA Heal Point standings…")
-    mpa_rows = _load_mpa_standings(year, season_start, season_end, classification_id)
-    if mpa_rows:
-        print(f"  Got {len(mpa_rows)} rows from MPA")
-        standings = mpa_rows
-    else:
+    fpsports_tid = overrides.get("fpsports_tournament_id")
+    fpsports_did = overrides.get("fpsports_division_id")
+
+    standings = []
+    if fpsports_tid and fpsports_did:
+        standings = _load_fpsports_standings(fpsports_tid, fpsports_did)
+        if standings:
+            print(f"  Got {len(standings)} rows from fpsports.org")
+
+    if not standings:
+        standings = _load_mpa_standings(year, season_start, season_end, classification_id)
+        if standings:
+            print(f"  Got {len(standings)} rows from mpareports.com")
+
+    if not standings:
         print("  Falling back to local Heal Point calculation")
         standings = _local_standings_fallback(
             [g for g in schedule_games if g["played"]], teams_for_year
