@@ -453,10 +453,10 @@
     "date": "2026-05-09",
     "home_team_key": "foxcroft",
     "away_team_key": "hermon",
-    "home_score": null,
-    "away_score": null,
+    "home_score": 0,
+    "away_score": 12,
     "opponent_class": "B",
-    "played": false
+    "played": true
   },
   {
     "date": "2026-05-12",
@@ -669,10 +669,10 @@
     "date": "2026-05-05",
     "home_team_key": "john_bapst",
     "away_team_key": "mdi",
-    "home_score": null,
-    "away_score": null,
+    "home_score": 2,
+    "away_score": 8,
     "opponent_class": "B",
-    "played": false
+    "played": true
   },
   {
     "date": "2026-05-08",
@@ -1002,10 +1002,10 @@
     "date": "2026-05-09",
     "home_team_key": "presque_isle",
     "away_team_key": "john_bapst",
-    "home_score": null,
-    "away_score": null,
+    "home_score": 9,
+    "away_score": 15,
     "opponent_class": "B",
-    "played": false
+    "played": true
   },
   {
     "date": "2026-05-14",
