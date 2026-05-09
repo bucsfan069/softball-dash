@@ -579,10 +579,10 @@
     "date": "2026-05-08",
     "home_team_key": "belfast",
     "away_team_key": "gardiner",
-    "home_score": null,
-    "away_score": null,
+    "home_score": 6,
+    "away_score": 3,
     "opponent_class": "B",
-    "played": false
+    "played": true
   },
   {
     "date": "2026-05-11",
@@ -678,10 +678,10 @@
     "date": "2026-05-08",
     "home_team_key": "washington academy",
     "away_team_key": "mdi",
-    "home_score": null,
-    "away_score": null,
+    "home_score": 8,
+    "away_score": 2,
     "opponent_class": "C",
-    "played": false
+    "played": true
   },
   {
     "date": "2026-05-14",
@@ -759,10 +759,10 @@
     "date": "2026-05-08",
     "home_team_key": "oceanside",
     "away_team_key": "cony",
-    "home_score": null,
-    "away_score": null,
+    "home_score": 0,
+    "away_score": 22,
     "opponent_class": "B",
-    "played": false
+    "played": true
   },
   {
     "date": "2026-05-09",
@@ -1083,10 +1083,10 @@
     "date": "2026-05-08",
     "home_team_key": "winslow",
     "away_team_key": "lawrence",
-    "home_score": null,
-    "away_score": null,
+    "home_score": 5,
+    "away_score": 6,
     "opponent_class": "C",
-    "played": false
+    "played": true
   },
   {
     "date": "2026-05-11",
@@ -1299,10 +1299,10 @@
     "date": "2026-05-08",
     "home_team_key": "erskine academy",
     "away_team_key": "waterville",
-    "home_score": null,
-    "away_score": null,
+    "home_score": 13,
+    "away_score": 3,
     "opponent_class": "B",
-    "played": false
+    "played": true
   },
   {
     "date": "2026-05-13",
