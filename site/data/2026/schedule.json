@@ -432,15 +432,6 @@
     "played": true
   },
   {
-    "date": "2026-05-06",
-    "home_team_key": "hermon",
-    "away_team_key": "brewer",
-    "home_score": null,
-    "away_score": null,
-    "opponent_class": "A",
-    "played": false
-  },
-  {
     "date": "2026-05-07",
     "home_team_key": "john_bapst",
     "away_team_key": "hermon",
@@ -471,6 +462,15 @@
     "date": "2026-05-15",
     "home_team_key": "bangor",
     "away_team_key": "hermon",
+    "home_score": null,
+    "away_score": null,
+    "opponent_class": "A",
+    "played": false
+  },
+  {
+    "date": "2026-05-18",
+    "home_team_key": "hermon",
+    "away_team_key": "brewer",
     "home_score": null,
     "away_score": null,
     "opponent_class": "A",
