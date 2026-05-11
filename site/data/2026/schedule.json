@@ -93,10 +93,10 @@
     "date": "2026-05-11",
     "home_team_key": "nokomis",
     "away_team_key": "waterville",
-    "home_score": null,
-    "away_score": null,
+    "home_score": 17,
+    "away_score": 2,
     "opponent_class": "B",
-    "played": false
+    "played": true
   },
   {
     "date": "2026-05-13",
@@ -351,7 +351,7 @@
     "played": false
   },
   {
-    "date": "2026-05-13",
+    "date": "2026-05-12",
     "home_team_key": "ellsworth",
     "away_team_key": "washington academy",
     "home_score": null,
@@ -432,15 +432,6 @@
     "played": true
   },
   {
-    "date": "2026-05-07",
-    "home_team_key": "john_bapst",
-    "away_team_key": "hermon",
-    "home_score": null,
-    "away_score": null,
-    "opponent_class": "B",
-    "played": false
-  },
-  {
     "date": "2026-05-09",
     "home_team_key": "foxcroft",
     "away_team_key": "hermon",
@@ -450,9 +441,18 @@
     "played": true
   },
   {
-    "date": "2026-05-12",
+    "date": "2026-05-11",
     "home_team_key": "hermon",
     "away_team_key": "john_bapst",
+    "home_score": null,
+    "away_score": null,
+    "opponent_class": "B",
+    "played": false
+  },
+  {
+    "date": "2026-05-12",
+    "home_team_key": "john_bapst",
+    "away_team_key": "hermon",
     "home_score": null,
     "away_score": null,
     "opponent_class": "B",
@@ -765,15 +765,6 @@
     "played": true
   },
   {
-    "date": "2026-05-09",
-    "home_team_key": "cony",
-    "away_team_key": "winslow",
-    "home_score": null,
-    "away_score": null,
-    "opponent_class": "C",
-    "played": false
-  },
-  {
     "date": "2026-05-11",
     "home_team_key": "cony",
     "away_team_key": "leavitt area",
@@ -825,6 +816,15 @@
     "home_score": null,
     "away_score": null,
     "opponent_class": "B",
+    "played": false
+  },
+  {
+    "date": "2026-05-21",
+    "home_team_key": "cony",
+    "away_team_key": "winslow",
+    "home_score": null,
+    "away_score": null,
+    "opponent_class": "C",
     "played": false
   },
   {
