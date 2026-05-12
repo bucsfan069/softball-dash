@@ -588,10 +588,10 @@
     "date": "2026-05-11",
     "home_team_key": "belfast",
     "away_team_key": "oceanside",
-    "home_score": null,
-    "away_score": null,
+    "home_score": 15,
+    "away_score": 0,
     "opponent_class": "B",
-    "played": false
+    "played": true
   },
   {
     "date": "2026-05-13",
@@ -1092,10 +1092,10 @@
     "date": "2026-05-11",
     "home_team_key": "lawrence",
     "away_team_key": "erskine academy",
-    "home_score": null,
-    "away_score": null,
+    "home_score": 7,
+    "away_score": 22,
     "opponent_class": "B",
-    "played": false
+    "played": true
   },
   {
     "date": "2026-05-15",

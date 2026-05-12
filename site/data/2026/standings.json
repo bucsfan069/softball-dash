@@ -23,7 +23,7 @@
       {
         "opponent": "Lawrence",
         "region_class": "North-B",
-        "record": "3-4"
+        "record": "3-5"
       },
       {
         "opponent": "Cony HS",
@@ -40,13 +40,69 @@
       {
         "opponent": "Belfast Area",
         "region_class": "North-B",
-        "record": "3-3"
+        "record": "4-3"
       }
     ],
     "source": "fpsports"
   },
   {
     "rank": 2,
+    "team_name": "Nokomis",
+    "team_key": "nokomis",
+    "wins": 6,
+    "losses": 2,
+    "ties": 0,
+    "scheduled_games": 16,
+    "preliminary_index": 14.0,
+    "tournament_index": 20.067,
+    "wins_detail": [
+      {
+        "opponent": "Foxcroft Academy",
+        "region_class": "North-B",
+        "record": "1-7"
+      },
+      {
+        "opponent": "Winslow",
+        "region_class": "North-C",
+        "record": "4-3"
+      },
+      {
+        "opponent": "Oceanside",
+        "region_class": "North-B",
+        "record": "0-7"
+      },
+      {
+        "opponent": "Belfast Area",
+        "region_class": "North-B",
+        "record": "4-3"
+      },
+      {
+        "opponent": "Maine Central Institute",
+        "region_class": "North-C",
+        "record": "3-7"
+      },
+      {
+        "opponent": "Waterville",
+        "region_class": "North-B",
+        "record": "0-7"
+      }
+    ],
+    "losses_detail": [
+      {
+        "opponent": "Brewer",
+        "region_class": "North-A",
+        "record": "5-3"
+      },
+      {
+        "opponent": "Erskine Academy",
+        "region_class": "South-B",
+        "record": "7-1"
+      }
+    ],
+    "source": "fpsports"
+  },
+  {
+    "rank": 3,
     "team_name": "Hermon",
     "team_key": "hermon",
     "wins": 4,
@@ -81,7 +137,7 @@
     "source": "fpsports"
   },
   {
-    "rank": 3,
+    "rank": 4,
     "team_name": "Ellsworth",
     "team_key": "ellsworth",
     "wins": 4,
@@ -117,62 +173,6 @@
         "opponent": "Bucksport",
         "region_class": "North-C",
         "record": "8-1"
-      }
-    ],
-    "source": "fpsports"
-  },
-  {
-    "rank": 4,
-    "team_name": "Nokomis",
-    "team_key": "nokomis",
-    "wins": 6,
-    "losses": 2,
-    "ties": 0,
-    "scheduled_games": 16,
-    "preliminary_index": 14.0,
-    "tournament_index": 18.371,
-    "wins_detail": [
-      {
-        "opponent": "Foxcroft Academy",
-        "region_class": "North-B",
-        "record": "1-7"
-      },
-      {
-        "opponent": "Winslow",
-        "region_class": "North-C",
-        "record": "4-3"
-      },
-      {
-        "opponent": "Oceanside",
-        "region_class": "North-B",
-        "record": "0-6"
-      },
-      {
-        "opponent": "Belfast Area",
-        "region_class": "North-B",
-        "record": "3-3"
-      },
-      {
-        "opponent": "Maine Central Institute",
-        "region_class": "North-C",
-        "record": "3-7"
-      },
-      {
-        "opponent": "Waterville",
-        "region_class": "North-B",
-        "record": "0-7"
-      }
-    ],
-    "losses_detail": [
-      {
-        "opponent": "Brewer",
-        "region_class": "North-A",
-        "record": "5-3"
-      },
-      {
-        "opponent": "Erskine Academy",
-        "region_class": "South-B",
-        "record": "6-1"
       }
     ],
     "source": "fpsports"
@@ -232,12 +232,12 @@
     "rank": 6,
     "team_name": "Belfast Area",
     "team_key": "belfast",
-    "wins": 3,
+    "wins": 4,
     "losses": 3,
     "ties": 0,
     "scheduled_games": 14,
-    "preliminary_index": 8.143,
-    "tournament_index": 15.089,
+    "preliminary_index": 10.857,
+    "tournament_index": 15.804,
     "wins_detail": [
       {
         "opponent": "Foxcroft Academy",
@@ -247,12 +247,17 @@
       {
         "opponent": "Lawrence",
         "region_class": "North-B",
-        "record": "3-4"
+        "record": "3-5"
       },
       {
         "opponent": "Gardiner Area",
         "region_class": "North-B",
         "record": "5-1"
+      },
+      {
+        "opponent": "Oceanside",
+        "region_class": "North-B",
+        "record": "0-7"
       }
     ],
     "losses_detail": [
@@ -264,7 +269,7 @@
       {
         "opponent": "Erskine Academy",
         "region_class": "South-B",
-        "record": "6-1"
+        "record": "7-1"
       },
       {
         "opponent": "Nokomis",
@@ -381,7 +386,7 @@
     "team_name": "Lawrence",
     "team_key": "lawrence",
     "wins": 3,
-    "losses": 4,
+    "losses": 5,
     "ties": 0,
     "scheduled_games": 16,
     "preliminary_index": 7.0,
@@ -395,7 +400,7 @@
       {
         "opponent": "Oceanside",
         "region_class": "North-B",
-        "record": "0-6"
+        "record": "0-7"
       },
       {
         "opponent": "Winslow",
@@ -407,7 +412,7 @@
       {
         "opponent": "Belfast Area",
         "region_class": "North-B",
-        "record": "3-3"
+        "record": "4-3"
       },
       {
         "opponent": "Cony HS",
@@ -423,6 +428,11 @@
         "opponent": "Winslow",
         "region_class": "North-C",
         "record": "4-3"
+      },
+      {
+        "opponent": "Erskine Academy",
+        "region_class": "South-B",
+        "record": "7-1"
       }
     ],
     "source": "fpsports"
@@ -507,12 +517,12 @@
       {
         "opponent": "Lawrence",
         "region_class": "North-B",
-        "record": "3-4"
+        "record": "3-5"
       },
       {
         "opponent": "Oceanside",
         "region_class": "North-B",
-        "record": "0-6"
+        "record": "0-7"
       }
     ],
     "losses_detail": [
@@ -601,7 +611,7 @@
       {
         "opponent": "Belfast Area",
         "region_class": "North-B",
-        "record": "3-3"
+        "record": "4-3"
       },
       {
         "opponent": "Mount Desert Island",
@@ -641,12 +651,12 @@
       {
         "opponent": "Lawrence",
         "region_class": "North-B",
-        "record": "3-4"
+        "record": "3-5"
       },
       {
         "opponent": "Mount View",
         "region_class": "North-C",
-        "record": "2-5"
+        "record": "3-5"
       },
       {
         "opponent": "Gardiner Area",
@@ -666,7 +676,7 @@
       {
         "opponent": "Erskine Academy",
         "region_class": "South-B",
-        "record": "6-1"
+        "record": "7-1"
       },
       {
         "opponent": "Nokomis",
@@ -681,7 +691,7 @@
     "team_name": "Oceanside",
     "team_key": "oceanside",
     "wins": 0,
-    "losses": 6,
+    "losses": 7,
     "ties": 0,
     "scheduled_games": 16,
     "preliminary_index": 1.0,
@@ -691,7 +701,7 @@
       {
         "opponent": "Erskine Academy",
         "region_class": "South-B",
-        "record": "6-1"
+        "record": "7-1"
       },
       {
         "opponent": "Camden Hills Regional",
@@ -711,12 +721,17 @@
       {
         "opponent": "Lawrence",
         "region_class": "North-B",
-        "record": "3-4"
+        "record": "3-5"
       },
       {
         "opponent": "Cony HS",
         "region_class": "North-B",
         "record": "3-2"
+      },
+      {
+        "opponent": "Belfast Area",
+        "region_class": "North-B",
+        "record": "4-3"
       }
     ],
     "source": "fpsports"
