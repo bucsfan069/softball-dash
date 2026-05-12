@@ -345,10 +345,10 @@
     "date": "2026-05-11",
     "home_team_key": "mdi",
     "away_team_key": "ellsworth",
-    "home_score": null,
-    "away_score": null,
+    "home_score": 0,
+    "away_score": 1,
     "opponent_class": "B",
-    "played": false
+    "played": true
   },
   {
     "date": "2026-05-12",
@@ -444,10 +444,10 @@
     "date": "2026-05-11",
     "home_team_key": "hermon",
     "away_team_key": "john_bapst",
-    "home_score": null,
-    "away_score": null,
+    "home_score": 18,
+    "away_score": 0,
     "opponent_class": "B",
-    "played": false
+    "played": true
   },
   {
     "date": "2026-05-12",
@@ -768,10 +768,10 @@
     "date": "2026-05-11",
     "home_team_key": "cony",
     "away_team_key": "leavitt area",
-    "home_score": null,
-    "away_score": null,
+    "home_score": 6,
+    "away_score": 8,
     "opponent_class": "B",
-    "played": false
+    "played": true
   },
   {
     "date": "2026-05-13",
@@ -1209,10 +1209,10 @@
     "date": "2026-05-11",
     "home_team_key": "caribou",
     "away_team_key": "fort kent community",
-    "home_score": null,
-    "away_score": null,
+    "home_score": 11,
+    "away_score": 0,
     "opponent_class": "C",
-    "played": false
+    "played": true
   },
   {
     "date": "2026-05-26",
@@ -1335,10 +1335,10 @@
     "date": "2026-05-11",
     "home_team_key": "maine central institute",
     "away_team_key": "foxcroft",
-    "home_score": null,
-    "away_score": null,
+    "home_score": 6,
+    "away_score": 5,
     "opponent_class": "C",
-    "played": false
+    "played": true
   },
   {
     "date": "2026-05-26",
@@ -1389,10 +1389,10 @@
     "date": "2026-05-11",
     "home_team_key": "winslow",
     "away_team_key": "gardiner",
-    "home_score": null,
-    "away_score": null,
+    "home_score": 3,
+    "away_score": 9,
     "opponent_class": "C",
-    "played": false
+    "played": true
   },
   {
     "date": "2026-05-12",
