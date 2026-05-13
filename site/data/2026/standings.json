@@ -3,12 +3,12 @@
     "rank": 1,
     "team_name": "Gardiner Area",
     "team_key": "gardiner",
-    "wins": 5,
+    "wins": 6,
     "losses": 1,
     "ties": 0,
     "scheduled_games": 16,
-    "preliminary_index": 11.75,
-    "tournament_index": 24.688,
+    "preliminary_index": 14.0,
+    "tournament_index": 33.203,
     "wins_detail": [
       {
         "opponent": "Leavitt Area",
@@ -34,6 +34,11 @@
         "opponent": "Winslow",
         "region_class": "North-C",
         "record": "4-3"
+      },
+      {
+        "opponent": "Monmouth Academy",
+        "region_class": "South-C",
+        "record": "6-1"
       }
     ],
     "losses_detail": [
@@ -141,7 +146,7 @@
     "team_name": "Ellsworth",
     "team_key": "ellsworth",
     "wins": 4,
-    "losses": 1,
+    "losses": 2,
     "ties": 0,
     "scheduled_games": 16,
     "preliminary_index": 9.5,
@@ -173,6 +178,11 @@
         "opponent": "Bucksport",
         "region_class": "North-C",
         "record": "8-1"
+      },
+      {
+        "opponent": "Washington Academy",
+        "region_class": "North-C",
+        "record": "9-0"
       }
     ],
     "source": "fpsports"
@@ -223,7 +233,7 @@
       {
         "opponent": "Ellsworth",
         "region_class": "North-B",
-        "record": "4-1"
+        "record": "4-2"
       }
     ],
     "source": "fpsports"
@@ -237,7 +247,7 @@
     "ties": 0,
     "scheduled_games": 14,
     "preliminary_index": 10.857,
-    "tournament_index": 15.804,
+    "tournament_index": 17.411,
     "wins_detail": [
       {
         "opponent": "Foxcroft Academy",
@@ -252,7 +262,7 @@
       {
         "opponent": "Gardiner Area",
         "region_class": "North-B",
-        "record": "5-1"
+        "record": "6-1"
       },
       {
         "opponent": "Oceanside",
@@ -371,12 +381,12 @@
       {
         "opponent": "Washington Academy",
         "region_class": "North-C",
-        "record": "8-0"
+        "record": "9-0"
       },
       {
         "opponent": "Ellsworth",
         "region_class": "North-B",
-        "record": "4-1"
+        "record": "4-2"
       }
     ],
     "source": "fpsports"
@@ -422,7 +432,7 @@
       {
         "opponent": "Gardiner Area",
         "region_class": "North-B",
-        "record": "5-1"
+        "record": "6-1"
       },
       {
         "opponent": "Winslow",
@@ -473,7 +483,7 @@
       {
         "opponent": "Ellsworth",
         "region_class": "North-B",
-        "record": "4-1"
+        "record": "4-2"
       },
       {
         "opponent": "Old Town",
@@ -529,7 +539,7 @@
       {
         "opponent": "Gardiner Area",
         "region_class": "North-B",
-        "record": "5-1"
+        "record": "6-1"
       },
       {
         "opponent": "Leavitt Area",
@@ -606,7 +616,7 @@
       {
         "opponent": "Ellsworth",
         "region_class": "North-B",
-        "record": "4-1"
+        "record": "4-2"
       },
       {
         "opponent": "Belfast Area",
@@ -661,7 +671,7 @@
       {
         "opponent": "Gardiner Area",
         "region_class": "North-B",
-        "record": "5-1"
+        "record": "6-1"
       },
       {
         "opponent": "John Bapst Memorial",

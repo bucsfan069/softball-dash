@@ -354,10 +354,10 @@
     "date": "2026-05-12",
     "home_team_key": "ellsworth",
     "away_team_key": "washington academy",
-    "home_score": null,
-    "away_score": null,
+    "home_score": 2,
+    "away_score": 7,
     "opponent_class": "C",
-    "played": false
+    "played": true
   },
   {
     "date": "2026-05-14",
@@ -1398,10 +1398,10 @@
     "date": "2026-05-12",
     "home_team_key": "gardiner",
     "away_team_key": "monmouth academy",
-    "home_score": null,
-    "away_score": null,
+    "home_score": 4,
+    "away_score": 3,
     "opponent_class": "C",
-    "played": false
+    "played": true
   },
   {
     "date": "2026-05-13",
