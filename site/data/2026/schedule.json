@@ -102,10 +102,10 @@
     "date": "2026-05-13",
     "home_team_key": "nokomis",
     "away_team_key": "skowhegan area",
-    "home_score": null,
-    "away_score": null,
+    "home_score": 1,
+    "away_score": 2,
     "opponent_class": "A",
-    "played": false
+    "played": true
   },
   {
     "date": "2026-05-15",
@@ -570,10 +570,10 @@
     "date": "2026-05-07",
     "home_team_key": "belfast",
     "away_team_key": "hampden academy",
-    "home_score": null,
-    "away_score": null,
+    "home_score": 8,
+    "away_score": 0,
     "opponent_class": "A",
-    "played": false
+    "played": true
   },
   {
     "date": "2026-05-08",
@@ -1404,15 +1404,6 @@
     "played": true
   },
   {
-    "date": "2026-05-13",
-    "home_team_key": "gardiner",
-    "away_team_key": "morse",
-    "home_score": null,
-    "away_score": null,
-    "opponent_class": "B",
-    "played": false
-  },
-  {
     "date": "2026-05-18",
     "home_team_key": "gardiner",
     "away_team_key": "medomak valley",
@@ -1434,6 +1425,15 @@
     "date": "2026-05-22",
     "home_team_key": "gardiner",
     "away_team_key": "lincoln academy",
+    "home_score": null,
+    "away_score": null,
+    "opponent_class": "B",
+    "played": false
+  },
+  {
+    "date": "2026-05-27",
+    "home_team_key": "gardiner",
+    "away_team_key": "morse",
     "home_score": null,
     "away_score": null,
     "opponent_class": "B",
