@@ -246,10 +246,10 @@
     "date": "2026-05-13",
     "home_team_key": "foxcroft",
     "away_team_key": "oldtown",
-    "home_score": null,
-    "away_score": null,
+    "home_score": 5,
+    "away_score": 17,
     "opponent_class": "B",
-    "played": false
+    "played": true
   },
   {
     "date": "2026-05-19",
@@ -777,10 +777,10 @@
     "date": "2026-05-13",
     "home_team_key": "monmouth academy",
     "away_team_key": "cony",
-    "home_score": null,
-    "away_score": null,
+    "home_score": 11,
+    "away_score": 14,
     "opponent_class": "C",
-    "played": false
+    "played": true
   },
   {
     "date": "2026-05-14",
@@ -903,10 +903,10 @@
     "date": "2026-05-13",
     "home_team_key": "oceanside",
     "away_team_key": "lawrence",
-    "home_score": null,
-    "away_score": null,
+    "home_score": 0,
+    "away_score": 15,
     "opponent_class": "B",
-    "played": false
+    "played": true
   },
   {
     "date": "2026-05-15",
@@ -1308,10 +1308,10 @@
     "date": "2026-05-13",
     "home_team_key": "waterville",
     "away_team_key": "mount view",
-    "home_score": null,
-    "away_score": null,
+    "home_score": 3,
+    "away_score": 21,
     "opponent_class": "C",
-    "played": false
+    "played": true
   },
   {
     "date": "2026-06-02",
