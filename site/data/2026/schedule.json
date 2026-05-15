@@ -363,10 +363,10 @@
     "date": "2026-05-14",
     "home_team_key": "hermon",
     "away_team_key": "ellsworth",
-    "home_score": null,
-    "away_score": null,
+    "home_score": 5,
+    "away_score": 6,
     "opponent_class": "B",
-    "played": false
+    "played": true
   },
   {
     "date": "2026-05-15",
@@ -453,10 +453,10 @@
     "date": "2026-05-12",
     "home_team_key": "john_bapst",
     "away_team_key": "hermon",
-    "home_score": null,
-    "away_score": null,
+    "home_score": 3,
+    "away_score": 12,
     "opponent_class": "B",
-    "played": false
+    "played": true
   },
   {
     "date": "2026-05-15",
@@ -786,10 +786,10 @@
     "date": "2026-05-14",
     "home_team_key": "cony",
     "away_team_key": "dirigo",
-    "home_score": null,
-    "away_score": null,
+    "home_score": 1,
+    "away_score": 5,
     "opponent_class": "C",
-    "played": false
+    "played": true
   },
   {
     "date": "2026-05-15",
