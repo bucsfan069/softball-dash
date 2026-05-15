@@ -603,15 +603,6 @@
     "played": false
   },
   {
-    "date": "2026-05-15",
-    "home_team_key": "morse",
-    "away_team_key": "belfast",
-    "home_score": null,
-    "away_score": null,
-    "opponent_class": "B",
-    "played": false
-  },
-  {
     "date": "2026-05-18",
     "home_team_key": "cony",
     "away_team_key": "belfast",
@@ -642,6 +633,15 @@
     "date": "2026-05-30",
     "home_team_key": "belfast",
     "away_team_key": "waterville",
+    "home_score": null,
+    "away_score": null,
+    "opponent_class": "B",
+    "played": false
+  },
+  {
+    "date": "2026-06-03",
+    "home_team_key": "morse",
+    "away_team_key": "belfast",
     "home_score": null,
     "away_score": null,
     "opponent_class": "B",
@@ -882,15 +882,6 @@
     "played": true
   },
   {
-    "date": "2026-05-04",
-    "home_team_key": "oceanside",
-    "away_team_key": "morse",
-    "home_score": null,
-    "away_score": null,
-    "opponent_class": "B",
-    "played": false
-  },
-  {
     "date": "2026-05-05",
     "home_team_key": "lawrence",
     "away_team_key": "oceanside",
@@ -907,15 +898,6 @@
     "away_score": 15,
     "opponent_class": "B",
     "played": true
-  },
-  {
-    "date": "2026-05-15",
-    "home_team_key": "lincoln academy",
-    "away_team_key": "oceanside",
-    "home_score": null,
-    "away_score": null,
-    "opponent_class": "B",
-    "played": false
   },
   {
     "date": "2026-05-18",
@@ -945,6 +927,15 @@
     "played": false
   },
   {
+    "date": "2026-05-27",
+    "home_team_key": "lincoln academy",
+    "away_team_key": "oceanside",
+    "home_score": null,
+    "away_score": null,
+    "opponent_class": "B",
+    "played": false
+  },
+  {
     "date": "2026-05-28",
     "home_team_key": "senior game gardiner area",
     "away_team_key": "oceanside",
@@ -966,6 +957,15 @@
     "date": "2026-06-01",
     "home_team_key": "medomak valley",
     "away_team_key": "oceanside",
+    "home_score": null,
+    "away_score": null,
+    "opponent_class": "B",
+    "played": false
+  },
+  {
+    "date": "2026-06-02",
+    "home_team_key": "oceanside",
+    "away_team_key": "morse",
     "home_score": null,
     "away_score": null,
     "opponent_class": "B",
