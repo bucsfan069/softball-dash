@@ -111,10 +111,10 @@
     "date": "2026-05-15",
     "home_team_key": "nokomis",
     "away_team_key": "gardiner",
-    "home_score": null,
-    "away_score": null,
+    "home_score": 5,
+    "away_score": 6,
     "opponent_class": "B",
-    "played": false
+    "played": true
   },
   {
     "date": "2026-05-18",
@@ -372,10 +372,10 @@
     "date": "2026-05-15",
     "home_team_key": "ellsworth",
     "away_team_key": "foxcroft",
-    "home_score": null,
-    "away_score": null,
+    "home_score": 8,
+    "away_score": 26,
     "opponent_class": "B",
-    "played": false
+    "played": true
   },
   {
     "date": "2026-05-18",
@@ -462,10 +462,10 @@
     "date": "2026-05-15",
     "home_team_key": "bangor",
     "away_team_key": "hermon",
-    "home_score": null,
-    "away_score": null,
+    "home_score": 3,
+    "away_score": 5,
     "opponent_class": "A",
-    "played": false
+    "played": true
   },
   {
     "date": "2026-05-18",
@@ -795,10 +795,10 @@
     "date": "2026-05-15",
     "home_team_key": "waterville",
     "away_team_key": "cony",
-    "home_score": null,
-    "away_score": null,
+    "home_score": 0,
+    "away_score": 22,
     "opponent_class": "B",
-    "played": false
+    "played": true
   },
   {
     "date": "2026-05-16",
