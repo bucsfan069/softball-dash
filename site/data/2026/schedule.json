@@ -696,10 +696,10 @@
     "date": "2026-05-16",
     "home_team_key": "caribou",
     "away_team_key": "mdi",
-    "home_score": null,
-    "away_score": null,
+    "home_score": 5,
+    "away_score": 11,
     "opponent_class": "B",
-    "played": false
+    "played": true
   },
   {
     "date": "2026-05-25",
@@ -804,10 +804,10 @@
     "date": "2026-05-16",
     "home_team_key": "winthrop/kents hill ramblers",
     "away_team_key": "cony",
-    "home_score": null,
-    "away_score": null,
+    "home_score": 1,
+    "away_score": 18,
     "opponent_class": "C",
-    "played": false
+    "played": true
   },
   {
     "date": "2026-05-20",
