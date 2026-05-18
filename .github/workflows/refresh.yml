@@ -19,6 +19,8 @@ concurrency:
 jobs:
   refresh:
     runs-on: ubuntu-latest
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
@@ -48,8 +50,10 @@ jobs:
             echo "No data changes — nothing to commit."
           else
             git commit -m "chore(data): refresh $(date -u +'%Y-%m-%dT%H:%MZ')"
+            git pull --rebase origin main
             git push
           fi
+        continue-on-error: true   # push conflicts must not block Pages deploy
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
