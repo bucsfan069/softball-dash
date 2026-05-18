@@ -561,7 +561,10 @@ async function refreshCurrentSeason() {
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ year }),
     });
-    const data = await resp.json();
+    // On static hosts (GitHub Pages) the endpoint returns a 404 HTML page.
+    // Treat any non-JSON response the same as a network failure — hide the button.
+    let data;
+    try { data = await resp.json(); } catch { btn.style.display = "none"; return; }
     if (data.ok) {
       await switchSeason(year);
       showToast(`Refreshed in ${(data.duration_ms / 1000).toFixed(1)}s`, "success");
@@ -569,13 +572,8 @@ async function refreshCurrentSeason() {
       showToast(data.error || "Refresh failed", "error");
     }
   } catch (err) {
-    // On static hosts (GitHub Pages, Netlify) the API endpoint doesn't exist.
-    // Hide the button rather than showing a confusing error.
-    if (err instanceof TypeError) {
-      btn.style.display = "none";
-      return;
-    }
-    showToast(`Network error: ${err.message}`, "error");
+    // TypeError = fetch failed entirely (no network, strict CORS, etc.)
+    btn.style.display = "none";
   } finally {
     btn.disabled = false;
     label.textContent = "Refresh";
