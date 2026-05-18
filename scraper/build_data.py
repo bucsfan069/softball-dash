@@ -30,7 +30,7 @@ from config import (
     YEAR_OVERRIDES,
 )
 from fetch_mpa import FetchError, fetch_class_b_north_standings, fetch_fpsports_standings, fetch_mpa_cc_schedule, fetch_team_schedule
-from heal_points import Game, Team, compute_heal_points
+from heal_points import Game, Team, compute_heal_points, compute_preliminary_indexes, compute_tournament_indexes
 from parse_mpa import parse_fpsports_standings, parse_mpa_cc_schedule, parse_standings, parse_team_schedule
 
 
@@ -313,6 +313,115 @@ def _fetch_all_schedules_mpa_cc(sport_id: str, year: int, teams: List[dict]) -> 
     return list(seen.values())
 
 
+def _generate_ti_history(games: List[dict], teams_for_year: List[dict]) -> dict:
+    """
+    Replay the season chronologically and log every TI change per team.
+
+    Two event types:
+      "win"          — this team won a game; their TI went up because they added
+                       the beaten opponent's PI to their running total.
+      "opponent_win" — a team they previously beat won another game; that
+                       opponent's PI increased, so this team's TI went up.
+
+    Returns {team_key: {"team_name": str, "events": [...], "final_ti": float}}.
+    """
+    team_names = {t["key"]: t["name"] for t in teams_for_year}
+    tracked_keys = set(team_names)
+
+    sched: dict = {}
+    for g in games:
+        for k in (g["home_team_key"], g["away_team_key"]):
+            if k in tracked_keys:
+                sched[k] = sched.get(k, 0) + 1
+
+    teams_list = [
+        Team(
+            key=t["key"],
+            name=t["name"],
+            classification="B",
+            scheduled_games=max(sched.get(t["key"], 14), 14),
+        )
+        for t in teams_for_year
+    ]
+    teams_by_key = {t.key: t for t in teams_list}
+
+    current_ti: dict = {k: 0.0 for k in tracked_keys}
+    history: dict = {k: {"team_name": team_names[k], "events": [], "final_ti": 0.0} for k in tracked_keys}
+    replay: list = []
+
+    for gd in sorted((g for g in games if g["played"]), key=lambda g: g["date"]):
+        hs = gd.get("home_score") or 0
+        as_ = gd.get("away_score") or 0
+        home_key = gd["home_team_key"]
+        away_key = gd["away_team_key"]
+
+        if hs > as_:
+            winner_key, loser_key = home_key, away_key
+        elif as_ > hs:
+            winner_key, loser_key = away_key, home_key
+        else:
+            winner_key = loser_key = None
+
+        replay.append(Game(
+            date=gd["date"],
+            home_team_key=home_key,
+            away_team_key=away_key,
+            home_score=hs,
+            away_score=as_,
+            opponent_class=gd.get("opponent_class", "B"),
+            played=True,
+        ))
+
+        compute_preliminary_indexes(teams_list, replay)
+        compute_tournament_indexes(teams_list, replay)
+
+        for tk in tracked_keys:
+            new_ti = round(teams_by_key[tk].tournament_index, 4)
+            old_ti = current_ti[tk]
+            delta = round(new_ti - old_ti, 4)
+            if abs(delta) < 0.0001:
+                continue
+
+            if tk == winner_key:
+                opp_key = away_key if tk == home_key else home_key
+                opp = teams_by_key.get(opp_key)
+                opp_pi = round(opp.preliminary_index, 4) if opp else 1.0
+                score = f"{hs}–{as_}" if tk == home_key else f"{as_}–{hs}"
+                history[tk]["events"].append({
+                    "date": gd["date"],
+                    "event_type": "win",
+                    "opponent_key": opp_key,
+                    "opponent_name": team_names.get(opp_key) or opp_key.replace("_", " ").title(),
+                    "opponent_class": gd.get("opponent_class", "B"),
+                    "score": score,
+                    "opponent_pi": opp_pi,
+                    "ti_before": old_ti,
+                    "ti_after": new_ti,
+                    "ti_delta": delta,
+                })
+            else:
+                w_name = (team_names.get(winner_key) or winner_key.replace("_", " ").title()) if winner_key else "Unknown"
+                l_name = (team_names.get(loser_key) or loser_key.replace("_", " ").title()) if loser_key else "Unknown"
+                history[tk]["events"].append({
+                    "date": gd["date"],
+                    "event_type": "opponent_win",
+                    "game_winner_key": winner_key,
+                    "game_winner_name": w_name,
+                    "game_loser_key": loser_key,
+                    "game_loser_name": l_name,
+                    "ti_before": old_ti,
+                    "ti_after": new_ti,
+                    "ti_delta": delta,
+                })
+
+            current_ti[tk] = new_ti
+
+    for tk in tracked_keys:
+        history[tk]["final_ti"] = current_ti[tk]
+
+    return history
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(
         description="Fetch and build dashboard JSON for a given season year."
@@ -356,6 +465,11 @@ def main() -> int:
         schedule_games = _fetch_all_schedules(sched_agls, sched_season_str)
     print(f"  {len(schedule_games)} unique games found")
     _write_json(data_dir / "schedule.json", schedule_games)
+
+    # 2b. TI history — replay the season chronologically
+    print("Computing TI history…")
+    ti_history = _generate_ti_history(schedule_games, teams_for_year)
+    _write_json(data_dir / "ti_history.json", ti_history)
 
     # 2. MPA standings — try fpsports.org first (has correct PI/TI + detail),
     #    then mpareports.com, then fall back to local calculation.

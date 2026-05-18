@@ -10,7 +10,7 @@
  * GitHub Pages / Netlify static host with zero backend.
  */
 
-const DATA = { standings: [], schedule: [], teams: [], lastUpdated: null };
+const DATA = { standings: [], schedule: [], teams: [], lastUpdated: null, tiHistory: {} };
 const FOCUS_TEAM_KEY = "lawrence";  // highlight Lawrence in the standings
 const SEASON_STORAGE_KEY = "softball_selected_season";
 const HEAL_POINTS = { A: 40, B: 38, C: 36, D: 34 };
@@ -32,13 +32,14 @@ async function loadJSON(path, fallback) {
 
 async function loadAll(season) {
   const base = `./data/${season}`;
-  const [standings, schedule, teams, lastUpdated] = await Promise.all([
+  const [standings, schedule, teams, lastUpdated, tiHistory] = await Promise.all([
     loadJSON(`${base}/standings.json`, []),
     loadJSON(`${base}/schedule.json`, []),
     loadJSON(`${base}/teams.json`, []),
     loadJSON(`${base}/last_updated.json`, null),
+    loadJSON(`${base}/ti_history.json`, {}),
   ]);
-  Object.assign(DATA, { standings, schedule, teams, lastUpdated });
+  Object.assign(DATA, { standings, schedule, teams, lastUpdated, tiHistory });
 }
 
 // Returns a normalized { seasons: [{year, label}], current: <year> } object
@@ -523,11 +524,13 @@ async function switchSeason(year) {
   await loadAll(year);
   renderLastUpdated();
   populateTeamFilters();
+  populateTiDropdown();
   renderStandings();
   renderSchedule();
   renderScouting();
   autoSelectNextOpponent();
   renderWhatIf();
+  renderTiHistory();
 }
 
 function showToast(message, type = "info") {
@@ -579,6 +582,121 @@ async function refreshCurrentSeason() {
   }
 }
 
+// ------------------- TI History -------------------
+
+function populateTiDropdown() {
+  const sel = $("#ti-team-select");
+  if (!sel) return;
+  sel.innerHTML = DATA.teams.map(t =>
+    `<option value="${t.key}" ${t.key === FOCUS_TEAM_KEY ? "selected" : ""}>${t.name}</option>`
+  ).join("");
+}
+
+function renderTiHistory() {
+  const sel = $("#ti-team-select");
+  const content = $("#ti-history-content");
+  if (!sel || !content) return;
+
+  const teamKey = sel.value;
+  const info = DATA.tiHistory[teamKey];
+
+  if (!info || !info.events) {
+    content.innerHTML = `<p class="hint">No TI history data for this team yet.</p>`;
+    return;
+  }
+
+  const standingRow = DATA.standings.find(s => s.team_key === teamKey);
+  const officialTI = standingRow ? Number(standingRow.tournament_index).toFixed(4) : null;
+  const localTI = Number(info.final_ti).toFixed(4);
+
+  const winEvents = info.events.filter(e => e.event_type === "win").length;
+  const cascadeEvents = info.events.filter(e => e.event_type === "opponent_win").length;
+
+  function fmtDate(d) {
+    if (!d) return "—";
+    const [, m, day] = d.split("-");
+    const months = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
+    return `${months[parseInt(m,10)-1]} ${parseInt(day,10)}`;
+  }
+
+  function classChip(cls) {
+    return `<span class="chip ti-class-chip ti-class-${cls}">Class ${cls}</span>`;
+  }
+
+  const header = `
+    <div class="ti-summary">
+      <div class="ti-summary-row">
+        <span class="ti-summary-label">Team:</span>
+        <span class="ti-summary-val">${info.team_name}</span>
+      </div>
+      ${officialTI ? `<div class="ti-summary-row">
+        <span class="ti-summary-label">Official TI (MPA):</span>
+        <span class="ti-summary-val ti-official">${officialTI}</span>
+      </div>` : ""}
+      <div class="ti-summary-row">
+        <span class="ti-summary-label">Locally replayed TI:</span>
+        <span class="ti-summary-val">${localTI}</span>
+        <span class="ti-summary-note">May differ slightly from official — based on schedule data</span>
+      </div>
+      <div class="ti-summary-row">
+        <span class="ti-summary-label">Events:</span>
+        <span class="ti-summary-val">${winEvents} win${winEvents !== 1 ? "s" : ""} · ${cascadeEvents} ripple effect${cascadeEvents !== 1 ? "s" : ""}</span>
+      </div>
+    </div>
+    <div class="ti-legend">
+      <span class="ti-legend-item"><span class="ti-dot ti-dot-win"></span> Direct win</span>
+      <span class="ti-legend-item"><span class="ti-dot ti-dot-opp"></span> Ripple effect (beaten opponent won another game)</span>
+    </div>`;
+
+  if (!info.events.length) {
+    content.innerHTML = header + `<p class="hint" style="margin-top:12px">No TI-affecting events yet this season.</p>`;
+    return;
+  }
+
+  const rows = info.events.map(e => {
+    const deltaStr = `+${e.ti_delta.toFixed(4)}`;
+    const tiAfterStr = e.ti_after.toFixed(4);
+
+    if (e.event_type === "win") {
+      const classStr = e.opponent_class || "B";
+      return `
+        <div class="ti-event ti-event-win">
+          <div class="ti-event-date">${fmtDate(e.date)}</div>
+          <div class="ti-event-body">
+            <div class="ti-event-title">Beat ${e.opponent_name} ${classChip(classStr)}</div>
+            <div class="ti-event-detail">
+              Score: ${e.score} &nbsp;·&nbsp; Their PI at the time: ${Number(e.opponent_pi).toFixed(3)}
+            </div>
+            <div class="ti-event-explain">
+              Their PI was added to your TI sum. TI = (sum of beaten opponents' PI) ÷ scheduled games × 10
+            </div>
+          </div>
+          <div class="ti-event-delta">
+            <span class="ti-delta-val">${deltaStr}</span>
+            <span class="ti-delta-now">→ ${tiAfterStr}</span>
+          </div>
+        </div>`;
+    } else {
+      return `
+        <div class="ti-event ti-event-opp">
+          <div class="ti-event-date">${fmtDate(e.date)}</div>
+          <div class="ti-event-body">
+            <div class="ti-event-title">${e.game_winner_name} beat ${e.game_loser_name}</div>
+            <div class="ti-event-detail">
+              ${e.game_winner_name}'s PI increased — and you previously beat them, so their higher PI lifted your TI
+            </div>
+          </div>
+          <div class="ti-event-delta">
+            <span class="ti-delta-val">${deltaStr}</span>
+            <span class="ti-delta-now">→ ${tiAfterStr}</span>
+          </div>
+        </div>`;
+    }
+  }).join("");
+
+  content.innerHTML = header + `<div class="ti-timeline">${rows}</div>`;
+}
+
 // ------------------- Wiring -------------------
 
 function wireEvents() {
@@ -587,6 +705,8 @@ function wireEvents() {
   $("#scout-sort").addEventListener("change", renderScouting);
   $("#h2h-a").addEventListener("change", renderH2H);
   $("#h2h-b").addEventListener("change", renderH2H);
+  const tiSel = $("#ti-team-select");
+  if (tiSel) tiSel.addEventListener("change", renderTiHistory);
   $("#season-select").addEventListener("change", e => switchSeason(parseInt(e.target.value, 10)));
   const refreshBtn = $("#refresh-btn");
   if (refreshBtn) refreshBtn.addEventListener("click", refreshCurrentSeason);
@@ -616,10 +736,12 @@ function wireEvents() {
   await loadAll(defaultYear);
   renderLastUpdated();
   populateTeamFilters();
+  populateTiDropdown();
   renderStandings();
   renderSchedule();
   renderScouting();
   autoSelectNextOpponent();
   renderWhatIf();
+  renderTiHistory();
   wireEvents();
 })();
