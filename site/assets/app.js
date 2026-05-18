@@ -621,26 +621,61 @@ function renderTiHistory() {
     return `<span class="chip ti-class-chip ti-class-${cls}">Class ${cls}</span>`;
   }
 
+  const tiDiff = officialTI ? (parseFloat(officialTI) - parseFloat(localTI)).toFixed(4) : null;
+  const confKeys = new Set(DATA.teams.map(t => t.key));
+  const outOfRegionWins = info.events.filter(e =>
+    e.event_type === "win" && !confKeys.has(e.opponent_key)
+  ).length;
+
   const header = `
     <div class="ti-summary">
-      <div class="ti-summary-row">
-        <span class="ti-summary-label">Team:</span>
-        <span class="ti-summary-val">${info.team_name}</span>
-      </div>
       ${officialTI ? `<div class="ti-summary-row">
         <span class="ti-summary-label">Official TI (MPA):</span>
         <span class="ti-summary-val ti-official">${officialTI}</span>
       </div>` : ""}
       <div class="ti-summary-row">
-        <span class="ti-summary-label">Locally replayed TI:</span>
+        <span class="ti-summary-label">This replay:</span>
         <span class="ti-summary-val">${localTI}</span>
-        <span class="ti-summary-note">May differ slightly from official — based on schedule data</span>
+        ${tiDiff ? `<span class="ti-gap-chip">−${tiDiff} vs official</span>` : ""}
       </div>
       <div class="ti-summary-row">
         <span class="ti-summary-label">Events:</span>
         <span class="ti-summary-val">${winEvents} win${winEvents !== 1 ? "s" : ""} · ${cascadeEvents} ripple effect${cascadeEvents !== 1 ? "s" : ""}</span>
       </div>
     </div>
+    <details class="formula-details ti-why-details">
+      <summary>Why does the replay differ from the official TI?</summary>
+      <div class="formula-body">
+        <p>
+          This replay only models the <strong>15 Class B North teams</strong>.
+          When a team beats an opponent from outside that group — a South-B school,
+          a Class A team, anyone not on the conference roster — the replay has no
+          way to know that opponent's real PI, so it substitutes <strong>PI = 1.0</strong>
+          (MPA's floor for a team with zero wins).
+        </p>
+        <p>
+          MPA's official TI uses the actual PI of every opponent, including teams from
+          other regions and classes. Those outside teams can have PI values well above 1.0,
+          which pushes the official TI significantly higher.
+        </p>
+        <p>
+          <strong>The cascade effect compounds this:</strong> if you beat a B-North team
+          who themselves beat an out-of-region opponent, that B-North team's official PI
+          is higher than our local estimate — so your TI is understated even for
+          "all-conference" wins.
+        </p>
+        ${outOfRegionWins > 0 ? `<p>
+          <strong>${info.team_name} has ${outOfRegionWins} win${outOfRegionWins > 1 ? "s" : ""} against
+          out-of-region opponent${outOfRegionWins > 1 ? "s" : ""}</strong> in this log
+          (marked <span class="ti-est-badge">PI est.</span> below).
+          Those are the main driver of the gap with the official number.
+        </p>` : `<p>
+          <strong>${info.team_name} has no out-of-region wins</strong> in this log,
+          so the gap with the official TI comes entirely from the cascade effect —
+          opponents they beat who themselves played out-of-region schedules.
+        </p>`}
+      </div>
+    </details>
     <div class="ti-legend">
       <span class="ti-legend-item"><span class="ti-dot ti-dot-win"></span> Direct win</span>
       <span class="ti-legend-item"><span class="ti-dot ti-dot-opp"></span> Ripple effect (beaten opponent won another game)</span>
@@ -657,14 +692,19 @@ function renderTiHistory() {
 
     if (e.event_type === "win") {
       const classStr = e.opponent_class || "B";
+      const isTracked = confKeys.has(e.opponent_key);
+      const piNote = isTracked
+        ? `Their PI at the time: ${Number(e.opponent_pi).toFixed(3)}`
+        : `Their PI at the time: ${Number(e.opponent_pi).toFixed(3)} — <em>out-of-region team, actual PI unknown to this replay</em>`;
       return `
         <div class="ti-event ti-event-win">
           <div class="ti-event-date">${fmtDate(e.date)}</div>
           <div class="ti-event-body">
-            <div class="ti-event-title">Beat ${e.opponent_name} ${classChip(classStr)}</div>
-            <div class="ti-event-detail">
-              Score: ${e.score} &nbsp;·&nbsp; Their PI at the time: ${Number(e.opponent_pi).toFixed(3)}
+            <div class="ti-event-title">
+              Beat ${e.opponent_name} ${classChip(classStr)}
+              ${!isTracked ? `<span class="ti-est-badge">PI est.</span>` : ""}
             </div>
+            <div class="ti-event-detail">Score: ${e.score} &nbsp;·&nbsp; ${piNote}</div>
             <div class="ti-event-explain">
               Their PI was added to your TI sum. TI = (sum of beaten opponents' PI) ÷ scheduled games × 10
             </div>
