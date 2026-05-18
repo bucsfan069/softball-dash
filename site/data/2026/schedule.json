@@ -1101,10 +1101,10 @@
     "date": "2026-05-15",
     "home_team_key": "messalonskee",
     "away_team_key": "lawrence",
-    "home_score": null,
-    "away_score": null,
+    "home_score": 3,
+    "away_score": 16,
     "opponent_class": "A",
-    "played": false
+    "played": true
   },
   {
     "date": "2026-05-22",
