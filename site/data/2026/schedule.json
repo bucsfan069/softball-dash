@@ -120,10 +120,10 @@
     "date": "2026-05-18",
     "home_team_key": "nokomis",
     "away_team_key": "winslow",
-    "home_score": null,
-    "away_score": null,
+    "home_score": 10,
+    "away_score": 0,
     "opponent_class": "C",
-    "played": false
+    "played": true
   },
   {
     "date": "2026-05-20",
@@ -381,10 +381,10 @@
     "date": "2026-05-18",
     "home_team_key": "ellsworth",
     "away_team_key": "caribou",
-    "home_score": null,
-    "away_score": null,
+    "home_score": 6,
+    "away_score": 5,
     "opponent_class": "B",
-    "played": false
+    "played": true
   },
   {
     "date": "2026-05-21",
@@ -471,10 +471,10 @@
     "date": "2026-05-18",
     "home_team_key": "hermon",
     "away_team_key": "brewer",
-    "home_score": null,
-    "away_score": null,
+    "home_score": 4,
+    "away_score": 0,
     "opponent_class": "A",
-    "played": false
+    "played": true
   },
   {
     "date": "2026-05-23",
@@ -606,10 +606,10 @@
     "date": "2026-05-18",
     "home_team_key": "cony",
     "away_team_key": "belfast",
-    "home_score": null,
-    "away_score": null,
+    "home_score": 4,
+    "away_score": 6,
     "opponent_class": "B",
-    "played": false
+    "played": true
   },
   {
     "date": "2026-05-20",
@@ -903,10 +903,10 @@
     "date": "2026-05-18",
     "home_team_key": "oceanside",
     "away_team_key": "waterville",
-    "home_score": null,
-    "away_score": null,
+    "home_score": 20,
+    "away_score": 25,
     "opponent_class": "B",
-    "played": false
+    "played": true
   },
   {
     "date": "2026-05-20",
@@ -1020,10 +1020,10 @@
     "date": "2026-05-18",
     "home_team_key": "presque_isle",
     "away_team_key": "houlton/greater houlton",
-    "home_score": null,
-    "away_score": null,
+    "home_score": 7,
+    "away_score": 1,
     "opponent_class": "C",
-    "played": false
+    "played": true
   },
   {
     "date": "2026-05-19",
@@ -1407,10 +1407,10 @@
     "date": "2026-05-18",
     "home_team_key": "gardiner",
     "away_team_key": "medomak valley",
-    "home_score": null,
-    "away_score": null,
+    "home_score": 17,
+    "away_score": 16,
     "opponent_class": "B",
-    "played": false
+    "played": true
   },
   {
     "date": "2026-05-20",
