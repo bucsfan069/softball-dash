@@ -69,7 +69,7 @@
     "ties": 0,
     "scheduled_games": 14,
     "preliminary_index": 16.429,
-    "tournament_index": 47.589,
+    "tournament_index": 49.375,
     "wins_detail": [
       {
         "opponent": "Foxcroft Academy",
@@ -84,7 +84,7 @@
       {
         "opponent": "Hampden Academy",
         "region_class": "North-A",
-        "record": "6-4"
+        "record": "7-4"
       },
       {
         "opponent": "Gardiner Area",
@@ -233,7 +233,7 @@
       {
         "opponent": "Washington Academy",
         "region_class": "North-C",
-        "record": "10-1"
+        "record": "10-2"
       },
       {
         "opponent": "Foxcroft Academy",
@@ -543,7 +543,7 @@
       {
         "opponent": "Washington Academy",
         "region_class": "North-C",
-        "record": "10-1"
+        "record": "10-2"
       },
       {
         "opponent": "Ellsworth",
@@ -898,7 +898,7 @@
       {
         "opponent": "Camden Hills Regional",
         "region_class": "North-A",
-        "record": "6-4"
+        "record": "6-5"
       },
       {
         "opponent": "Nokomis",
