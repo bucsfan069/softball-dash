@@ -639,6 +639,15 @@
     "played": false
   },
   {
+    "date": "2026-06-02",
+    "home_team_key": "mount view",
+    "away_team_key": "belfast",
+    "home_score": null,
+    "away_score": null,
+    "opponent_class": "C",
+    "played": false
+  },
+  {
     "date": "2026-06-03",
     "home_team_key": "morse",
     "away_team_key": "belfast",
@@ -813,10 +822,10 @@
     "date": "2026-05-20",
     "home_team_key": "cony",
     "away_team_key": "erskine academy",
-    "home_score": null,
-    "away_score": null,
+    "home_score": 4,
+    "away_score": 6,
     "opponent_class": "B",
-    "played": false
+    "played": true
   },
   {
     "date": "2026-05-21",
@@ -1416,10 +1425,10 @@
     "date": "2026-05-20",
     "home_team_key": "leavitt area",
     "away_team_key": "gardiner",
-    "home_score": null,
-    "away_score": null,
+    "home_score": 13,
+    "away_score": 3,
     "opponent_class": "B",
-    "played": false
+    "played": true
   },
   {
     "date": "2026-05-22",
@@ -1446,6 +1455,15 @@
     "home_score": null,
     "away_score": null,
     "opponent_class": "B",
+    "played": false
+  },
+  {
+    "date": "2026-06-05",
+    "home_team_key": "gardiner",
+    "away_team_key": "skowhegan area",
+    "home_score": null,
+    "away_score": null,
+    "opponent_class": "A",
     "played": false
   }
 ]

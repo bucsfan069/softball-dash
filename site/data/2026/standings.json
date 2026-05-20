@@ -4,16 +4,16 @@
     "team_name": "Gardiner Area",
     "team_key": "gardiner",
     "wins": 8,
-    "losses": 1,
+    "losses": 2,
     "ties": 0,
     "scheduled_games": 15,
     "preliminary_index": 20.0,
-    "tournament_index": 74.794,
+    "tournament_index": 76.378,
     "wins_detail": [
       {
         "opponent": "Leavitt Area",
         "region_class": "South-B",
-        "record": "7-4"
+        "record": "8-4"
       },
       {
         "opponent": "Waterville",
@@ -56,6 +56,11 @@
         "opponent": "Belfast Area",
         "region_class": "North-B",
         "record": "6-3"
+      },
+      {
+        "opponent": "Leavitt Area",
+        "region_class": "South-B",
+        "record": "8-4"
       }
     ],
     "source": "fpsports"
@@ -128,9 +133,9 @@
     "wins": 6,
     "losses": 3,
     "ties": 0,
-    "scheduled_games": 14,
-    "preliminary_index": 16.429,
-    "tournament_index": 49.375,
+    "scheduled_games": 15,
+    "preliminary_index": 15.333,
+    "tournament_index": 46.083,
     "wins_detail": [
       {
         "opponent": "Foxcroft Academy",
@@ -150,7 +155,7 @@
       {
         "opponent": "Gardiner Area",
         "region_class": "North-B",
-        "record": "8-1"
+        "record": "8-2"
       },
       {
         "opponent": "Oceanside",
@@ -257,7 +262,7 @@
     "ties": 0,
     "scheduled_games": 16,
     "preliminary_index": 16.25,
-    "tournament_index": 33.549,
+    "tournament_index": 32.865,
     "wins_detail": [
       {
         "opponent": "Foxcroft Academy",
@@ -314,7 +319,7 @@
       {
         "opponent": "Gardiner Area",
         "region_class": "North-B",
-        "record": "8-1"
+        "record": "8-2"
       }
     ],
     "source": "fpsports"
@@ -482,17 +487,17 @@
       {
         "opponent": "Gardiner Area",
         "region_class": "North-B",
-        "record": "8-1"
+        "record": "8-2"
       },
       {
         "opponent": "Leavitt Area",
         "region_class": "South-B",
-        "record": "7-4"
+        "record": "8-4"
       },
       {
         "opponent": "Dirigo",
         "region_class": "South-C",
-        "record": "9-0"
+        "record": "10-0"
       },
       {
         "opponent": "Belfast Area",
@@ -761,7 +766,7 @@
       {
         "opponent": "Gardiner Area",
         "region_class": "North-B",
-        "record": "8-1"
+        "record": "8-2"
       },
       {
         "opponent": "Winslow",
@@ -868,7 +873,7 @@
       {
         "opponent": "Gardiner Area",
         "region_class": "North-B",
-        "record": "8-1"
+        "record": "8-2"
       },
       {
         "opponent": "John Bapst Memorial",
