@@ -255,10 +255,10 @@
     "date": "2026-05-19",
     "home_team_key": "oldtown",
     "away_team_key": "hermon",
-    "home_score": null,
-    "away_score": null,
+    "home_score": 1,
+    "away_score": 3,
     "opponent_class": "B",
-    "played": false
+    "played": true
   },
   {
     "date": "2026-05-20",
@@ -1029,10 +1029,10 @@
     "date": "2026-05-19",
     "home_team_key": "fort kent community",
     "away_team_key": "presque_isle",
-    "home_score": null,
-    "away_score": null,
+    "home_score": 2,
+    "away_score": 15,
     "opponent_class": "C",
-    "played": false
+    "played": true
   },
   {
     "date": "2026-05-27",
@@ -1155,10 +1155,10 @@
     "date": "2026-05-19",
     "home_team_key": "foxcroft",
     "away_team_key": "john_bapst",
-    "home_score": null,
-    "away_score": null,
+    "home_score": 0,
+    "away_score": 6,
     "opponent_class": "B",
-    "played": false
+    "played": true
   },
   {
     "date": "2026-05-26",
