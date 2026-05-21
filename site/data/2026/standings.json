@@ -74,7 +74,7 @@
     "ties": 0,
     "scheduled_games": 16,
     "preliminary_index": 19.25,
-    "tournament_index": 60.0,
+    "tournament_index": 61.563,
     "wins_detail": [
       {
         "opponent": "Old Town",
@@ -104,7 +104,7 @@
       {
         "opponent": "Bangor",
         "region_class": "North-A",
-        "record": "4-7"
+        "record": "5-7"
       },
       {
         "opponent": "Brewer",
@@ -561,7 +561,7 @@
       {
         "opponent": "Messalonskee",
         "region_class": "North-A",
-        "record": "0-9"
+        "record": "0-10"
       },
       {
         "opponent": "Nokomis",
