@@ -8,7 +8,7 @@
     "ties": 0,
     "scheduled_games": 15,
     "preliminary_index": 20.0,
-    "tournament_index": 79.561,
+    "tournament_index": 78.75,
     "wins_detail": [
       {
         "opponent": "Leavitt Area",
@@ -409,7 +409,7 @@
     "ties": 0,
     "scheduled_games": 16,
     "preliminary_index": 9.25,
-    "tournament_index": 27.981,
+    "tournament_index": 29.712,
     "wins_detail": [
       {
         "opponent": "Mount Desert Island",
@@ -424,7 +424,7 @@
       {
         "opponent": "Houlton/Greater Houlton",
         "region_class": "North-C",
-        "record": "6-2"
+        "record": "7-2"
       },
       {
         "opponent": "Fort Kent Community",
@@ -465,7 +465,7 @@
     "ties": 0,
     "scheduled_games": 16,
     "preliminary_index": 14.0,
-    "tournament_index": 25.292,
+    "tournament_index": 24.531,
     "wins_detail": [
       {
         "opponent": "Lincoln Academy",
@@ -842,7 +842,7 @@
       {
         "opponent": "Houlton/Greater Houlton",
         "region_class": "North-C",
-        "record": "6-2"
+        "record": "7-2"
       },
       {
         "opponent": "Foxcroft Academy",
