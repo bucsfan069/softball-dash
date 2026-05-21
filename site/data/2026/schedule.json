@@ -129,10 +129,10 @@
     "date": "2026-05-20",
     "home_team_key": "lawrence",
     "away_team_key": "nokomis",
-    "home_score": null,
-    "away_score": null,
+    "home_score": 6,
+    "away_score": 5,
     "opponent_class": "B",
-    "played": false
+    "played": true
   },
   {
     "date": "2026-05-22",
@@ -264,10 +264,10 @@
     "date": "2026-05-20",
     "home_team_key": "mdi",
     "away_team_key": "oldtown",
-    "home_score": null,
-    "away_score": null,
+    "home_score": 4,
+    "away_score": 13,
     "opponent_class": "B",
-    "played": false
+    "played": true
   },
   {
     "date": "2026-05-23",
@@ -615,10 +615,10 @@
     "date": "2026-05-20",
     "home_team_key": "waterville",
     "away_team_key": "belfast",
-    "home_score": null,
-    "away_score": null,
+    "home_score": 1,
+    "away_score": 18,
     "opponent_class": "B",
-    "played": false
+    "played": true
   },
   {
     "date": "2026-05-28",
