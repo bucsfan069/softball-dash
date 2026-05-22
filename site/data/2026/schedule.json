@@ -390,10 +390,10 @@
     "date": "2026-05-21",
     "home_team_key": "john_bapst",
     "away_team_key": "ellsworth",
-    "home_score": null,
-    "away_score": null,
+    "home_score": 5,
+    "away_score": 11,
     "opponent_class": "B",
-    "played": false
+    "played": true
   },
   {
     "date": "2026-05-23",
@@ -831,10 +831,10 @@
     "date": "2026-05-21",
     "home_team_key": "cony",
     "away_team_key": "winslow",
-    "home_score": null,
-    "away_score": null,
+    "home_score": 7,
+    "away_score": 6,
     "opponent_class": "C",
-    "played": false
+    "played": true
   },
   {
     "date": "2026-05-28",
@@ -1002,10 +1002,10 @@
     "date": "2026-05-05",
     "home_team_key": "presque_isle",
     "away_team_key": "fort kent community",
-    "home_score": null,
-    "away_score": null,
+    "home_score": 14,
+    "away_score": 4,
     "opponent_class": "C",
-    "played": false
+    "played": true
   },
   {
     "date": "2026-05-09",
@@ -1221,6 +1221,15 @@
     "home_score": 11,
     "away_score": 0,
     "opponent_class": "C",
+    "played": true
+  },
+  {
+    "date": "2026-05-21",
+    "home_team_key": "foxcroft",
+    "away_team_key": "caribou",
+    "home_score": 2,
+    "away_score": 13,
+    "opponent_class": "B",
     "played": true
   },
   {
