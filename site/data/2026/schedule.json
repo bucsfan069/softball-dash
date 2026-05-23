@@ -399,10 +399,10 @@
     "date": "2026-05-23",
     "home_team_key": "presque_isle",
     "away_team_key": "ellsworth",
-    "home_score": null,
-    "away_score": null,
+    "home_score": 5,
+    "away_score": 4,
     "opponent_class": "B",
-    "played": false
+    "played": true
   },
   {
     "date": "2026-05-26",
@@ -480,10 +480,10 @@
     "date": "2026-05-23",
     "home_team_key": "hermon",
     "away_team_key": "foxcroft",
-    "home_score": null,
-    "away_score": null,
+    "home_score": 10,
+    "away_score": 0,
     "opponent_class": "B",
-    "played": false
+    "played": true
   },
   {
     "date": "2026-05-28",
