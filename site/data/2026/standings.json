@@ -437,6 +437,82 @@
   },
   {
     "rank": 7,
+    "team_name": "Cony HS",
+    "team_key": "cony",
+    "wins": 7,
+    "losses": 5,
+    "ties": 0,
+    "scheduled_games": 16,
+    "preliminary_index": 16.25,
+    "tournament_index": 35.469,
+    "wins_detail": [
+      {
+        "opponent": "Lincoln Academy",
+        "region_class": "South-B",
+        "record": "1-10"
+      },
+      {
+        "opponent": "Lawrence",
+        "region_class": "North-B",
+        "record": "7-5"
+      },
+      {
+        "opponent": "Oceanside",
+        "region_class": "North-B",
+        "record": "0-10"
+      },
+      {
+        "opponent": "Monmouth Academy",
+        "region_class": "South-C",
+        "record": "8-2"
+      },
+      {
+        "opponent": "Waterville",
+        "region_class": "North-B",
+        "record": "1-11"
+      },
+      {
+        "opponent": "Winthrop/Kents Hill Ramblers",
+        "region_class": "South-C",
+        "record": "3-8"
+      },
+      {
+        "opponent": "Winslow",
+        "region_class": "North-C",
+        "record": "4-6"
+      }
+    ],
+    "losses_detail": [
+      {
+        "opponent": "Gardiner Area",
+        "region_class": "North-B",
+        "record": "9-2"
+      },
+      {
+        "opponent": "Leavitt Area",
+        "region_class": "South-B",
+        "record": "8-5"
+      },
+      {
+        "opponent": "Dirigo",
+        "region_class": "South-C",
+        "record": "11-0"
+      },
+      {
+        "opponent": "Belfast Area",
+        "region_class": "North-B",
+        "record": "8-3"
+      },
+      {
+        "opponent": "Erskine Academy",
+        "region_class": "South-B",
+        "record": "9-3"
+      }
+    ],
+    "source": "fpsports"
+  },
+  {
+    "rank": 8,
     "team_name": "Nokomis",
     "team_key": "nokomis",
     "wins": 7,
@@ -512,82 +588,6 @@
         "opponent": "Hermon",
         "region_class": "North-B",
         "record": "10-1"
-      }
-    ],
-    "source": "fpsports"
-  },
-  {
-    "rank": 8,
-    "team_name": "Cony HS",
-    "team_key": "cony",
-    "wins": 7,
-    "losses": 5,
-    "ties": 0,
-    "scheduled_games": 16,
-    "preliminary_index": 16.25,
-    "tournament_index": 34.063,
-    "wins_detail": [
-      {
-        "opponent": "Lincoln Academy",
-        "region_class": "South-B",
-        "record": "1-10"
-      },
-      {
-        "opponent": "Lawrence",
-        "region_class": "North-B",
-        "record": "7-5"
-      },
-      {
-        "opponent": "Oceanside",
-        "region_class": "North-B",
-        "record": "0-10"
-      },
-      {
-        "opponent": "Monmouth Academy",
-        "region_class": "South-C",
-        "record": "8-2"
-      },
-      {
-        "opponent": "Waterville",
-        "region_class": "North-B",
-        "record": "1-11"
-      },
-      {
-        "opponent": "Winthrop/Kents Hill Ramblers",
-        "region_class": "South-C",
-        "record": "2-8"
-      },
-      {
-        "opponent": "Winslow",
-        "region_class": "North-C",
-        "record": "4-6"
-      }
-    ],
-    "losses_detail": [
-      {
-        "opponent": "Gardiner Area",
-        "region_class": "North-B",
-        "record": "9-2"
-      },
-      {
-        "opponent": "Leavitt Area",
-        "region_class": "South-B",
-        "record": "8-5"
-      },
-      {
-        "opponent": "Dirigo",
-        "region_class": "South-C",
-        "record": "11-0"
-      },
-      {
-        "opponent": "Belfast Area",
-        "region_class": "North-B",
-        "record": "8-3"
-      },
-      {
-        "opponent": "Erskine Academy",
-        "region_class": "South-B",
-        "record": "9-3"
       }
     ],
     "source": "fpsports"
