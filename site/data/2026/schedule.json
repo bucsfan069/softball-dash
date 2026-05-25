@@ -711,15 +711,6 @@
     "played": true
   },
   {
-    "date": "2026-05-25",
-    "home_team_key": "mdi",
-    "away_team_key": "bucksport",
-    "home_score": null,
-    "away_score": null,
-    "opponent_class": "C",
-    "played": false
-  },
-  {
     "date": "2026-05-27",
     "home_team_key": "mdi",
     "away_team_key": "john_bapst",
@@ -735,6 +726,15 @@
     "home_score": null,
     "away_score": null,
     "opponent_class": "B",
+    "played": false
+  },
+  {
+    "date": "2026-06-01",
+    "home_team_key": "mdi",
+    "away_team_key": "bucksport",
+    "home_score": null,
+    "away_score": null,
+    "opponent_class": "C",
     "played": false
   },
   {
