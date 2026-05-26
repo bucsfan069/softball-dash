@@ -624,10 +624,10 @@
     "date": "2026-05-22",
     "home_team_key": "belfast",
     "away_team_key": "winslow",
-    "home_score": null,
-    "away_score": null,
+    "home_score": 8,
+    "away_score": 3,
     "opponent_class": "C",
-    "played": false
+    "played": true
   },
   {
     "date": "2026-05-28",
