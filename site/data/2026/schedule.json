@@ -1182,10 +1182,10 @@
     "date": "2026-05-26",
     "home_team_key": "john_bapst",
     "away_team_key": "waterville",
-    "home_score": null,
-    "away_score": null,
+    "home_score": 8,
+    "away_score": 11,
     "opponent_class": "B",
-    "played": false
+    "played": true
   },
   {
     "date": "2026-06-02",
@@ -1245,10 +1245,10 @@
     "date": "2026-05-26",
     "home_team_key": "fort kent community",
     "away_team_key": "caribou",
-    "home_score": null,
-    "away_score": null,
+    "home_score": 4,
+    "away_score": 16,
     "opponent_class": "C",
-    "played": false
+    "played": true
   },
   {
     "date": "2026-06-01",
