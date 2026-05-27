@@ -23,7 +23,7 @@
       {
         "opponent": "Foxcroft Academy",
         "region_class": "North-B",
-        "record": "2-11"
+        "record": "2-12"
       },
       {
         "opponent": "John Bapst Memorial",
@@ -58,7 +58,7 @@
       {
         "opponent": "Foxcroft Academy",
         "region_class": "North-B",
-        "record": "2-11"
+        "record": "2-12"
       },
       {
         "opponent": "Ellsworth",
@@ -79,12 +79,12 @@
     "rank": 2,
     "team_name": "Gardiner Area",
     "team_key": "gardiner",
-    "wins": 9,
+    "wins": 10,
     "losses": 3,
     "ties": 0,
     "scheduled_games": 16,
-    "preliminary_index": 21.125,
-    "tournament_index": 89.531,
+    "preliminary_index": 23.5,
+    "tournament_index": 95.625,
     "wins_detail": [
       {
         "opponent": "Leavitt Area",
@@ -129,7 +129,12 @@
       {
         "opponent": "Lincoln Academy",
         "region_class": "South-B",
-        "record": "1-11"
+        "record": "2-11"
+      },
+      {
+        "opponent": "Morse",
+        "region_class": "South-B",
+        "record": "3-9"
       }
     ],
     "losses_detail": [
@@ -160,12 +165,12 @@
     "ties": 0,
     "scheduled_games": 16,
     "preliminary_index": 21.375,
-    "tournament_index": 63.125,
+    "tournament_index": 66.094,
     "wins_detail": [
       {
         "opponent": "Foxcroft Academy",
         "region_class": "North-B",
-        "record": "2-11"
+        "record": "2-12"
       },
       {
         "opponent": "Lawrence",
@@ -180,17 +185,17 @@
       {
         "opponent": "Gardiner Area",
         "region_class": "North-B",
-        "record": "9-3"
+        "record": "10-3"
       },
       {
         "opponent": "Oceanside",
         "region_class": "North-B",
-        "record": "0-11"
+        "record": "0-12"
       },
       {
         "opponent": "Lincoln Academy",
         "region_class": "South-B",
-        "record": "1-11"
+        "record": "2-11"
       },
       {
         "opponent": "Cony HS",
@@ -241,7 +246,7 @@
       {
         "opponent": "Foxcroft Academy",
         "region_class": "North-B",
-        "record": "2-11"
+        "record": "2-12"
       },
       {
         "opponent": "John Bapst Memorial",
@@ -293,7 +298,7 @@
       {
         "opponent": "Foxcroft Academy",
         "region_class": "North-B",
-        "record": "2-11"
+        "record": "2-12"
       },
       {
         "opponent": "Presque Isle",
@@ -418,12 +423,12 @@
       {
         "opponent": "Foxcroft Academy",
         "region_class": "North-B",
-        "record": "2-11"
+        "record": "2-12"
       },
       {
         "opponent": "Foxcroft Academy",
         "region_class": "North-B",
-        "record": "2-11"
+        "record": "2-12"
       },
       {
         "opponent": "Mount Desert Island",
@@ -469,12 +474,12 @@
     "ties": 0,
     "scheduled_games": 16,
     "preliminary_index": 18.625,
-    "tournament_index": 50.469,
+    "tournament_index": 51.953,
     "wins_detail": [
       {
         "opponent": "Foxcroft Academy",
         "region_class": "North-B",
-        "record": "2-11"
+        "record": "2-12"
       },
       {
         "opponent": "Winslow",
@@ -484,7 +489,7 @@
       {
         "opponent": "Oceanside",
         "region_class": "North-B",
-        "record": "0-11"
+        "record": "0-12"
       },
       {
         "opponent": "Belfast Area",
@@ -494,7 +499,7 @@
       {
         "opponent": "Maine Central Institute",
         "region_class": "North-C",
-        "record": "4-9"
+        "record": "5-9"
       },
       {
         "opponent": "Waterville",
@@ -531,7 +536,7 @@
       {
         "opponent": "Gardiner Area",
         "region_class": "North-B",
-        "record": "9-3"
+        "record": "10-3"
       },
       {
         "opponent": "Lawrence",
@@ -555,7 +560,7 @@
     "ties": 0,
     "scheduled_games": 16,
     "preliminary_index": 19.0,
-    "tournament_index": 40.938,
+    "tournament_index": 42.422,
     "wins_detail": [
       {
         "opponent": "Waterville",
@@ -565,7 +570,7 @@
       {
         "opponent": "Oceanside",
         "region_class": "North-B",
-        "record": "0-11"
+        "record": "0-12"
       },
       {
         "opponent": "Winslow",
@@ -575,7 +580,7 @@
       {
         "opponent": "Oceanside",
         "region_class": "North-B",
-        "record": "0-11"
+        "record": "0-12"
       },
       {
         "opponent": "Messalonskee",
@@ -595,7 +600,7 @@
       {
         "opponent": "Gardiner Area",
         "region_class": "North-B",
-        "record": "9-3"
+        "record": "10-3"
       }
     ],
     "losses_detail": [
@@ -612,7 +617,7 @@
       {
         "opponent": "Gardiner Area",
         "region_class": "North-B",
-        "record": "9-3"
+        "record": "10-3"
       },
       {
         "opponent": "Winslow",
@@ -636,12 +641,12 @@
     "ties": 0,
     "scheduled_games": 16,
     "preliminary_index": 16.25,
-    "tournament_index": 39.844,
+    "tournament_index": 41.328,
     "wins_detail": [
       {
         "opponent": "Lincoln Academy",
         "region_class": "South-B",
-        "record": "1-11"
+        "record": "2-11"
       },
       {
         "opponent": "Lawrence",
@@ -651,7 +656,7 @@
       {
         "opponent": "Oceanside",
         "region_class": "North-B",
-        "record": "0-11"
+        "record": "0-12"
       },
       {
         "opponent": "Monmouth Academy",
@@ -678,7 +683,7 @@
       {
         "opponent": "Gardiner Area",
         "region_class": "North-B",
-        "record": "9-3"
+        "record": "10-3"
       },
       {
         "opponent": "Leavitt Area",
@@ -722,7 +727,7 @@
       {
         "opponent": "Foxcroft Academy",
         "region_class": "North-B",
-        "record": "2-11"
+        "record": "2-12"
       },
       {
         "opponent": "Presque Isle",
@@ -813,7 +818,7 @@
       {
         "opponent": "Foxcroft Academy",
         "region_class": "North-B",
-        "record": "2-11"
+        "record": "2-12"
       }
     ],
     "losses_detail": [
@@ -870,7 +875,7 @@
     "team_name": "Foxcroft Academy",
     "team_key": "foxcroft",
     "wins": 2,
-    "losses": 11,
+    "losses": 12,
     "ties": 0,
     "scheduled_games": 16,
     "preliminary_index": 4.75,
@@ -921,7 +926,7 @@
       {
         "opponent": "Maine Central Institute",
         "region_class": "North-C",
-        "record": "4-9"
+        "record": "5-9"
       },
       {
         "opponent": "Old Town",
@@ -942,6 +947,11 @@
         "opponent": "Hermon",
         "region_class": "North-B",
         "record": "11-1"
+      },
+      {
+        "opponent": "Maine Central Institute",
+        "region_class": "North-C",
+        "record": "5-9"
       }
     ],
     "source": "fpsports"
@@ -965,7 +975,7 @@
       {
         "opponent": "Foxcroft Academy",
         "region_class": "North-B",
-        "record": "2-11"
+        "record": "2-12"
       },
       {
         "opponent": "Fort Kent Community",
@@ -992,7 +1002,7 @@
       {
         "opponent": "Foxcroft Academy",
         "region_class": "North-B",
-        "record": "2-11"
+        "record": "2-12"
       },
       {
         "opponent": "Mount Desert Island",
@@ -1031,7 +1041,7 @@
       {
         "opponent": "Oceanside",
         "region_class": "North-B",
-        "record": "0-11"
+        "record": "0-12"
       },
       {
         "opponent": "John Bapst Memorial",
@@ -1053,7 +1063,7 @@
       {
         "opponent": "Gardiner Area",
         "region_class": "North-B",
-        "record": "9-3"
+        "record": "10-3"
       },
       {
         "opponent": "John Bapst Memorial",
@@ -1103,7 +1113,7 @@
     "team_name": "Oceanside",
     "team_key": "oceanside",
     "wins": 0,
-    "losses": 11,
+    "losses": 12,
     "ties": 0,
     "scheduled_games": 16,
     "preliminary_index": 1.0,
@@ -1164,6 +1174,11 @@
         "opponent": "Winslow",
         "region_class": "North-C",
         "record": "5-7"
+      },
+      {
+        "opponent": "Lincoln Academy",
+        "region_class": "South-B",
+        "record": "2-11"
       }
     ],
     "source": "fpsports"

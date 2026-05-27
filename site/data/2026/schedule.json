@@ -948,10 +948,10 @@
     "date": "2026-05-27",
     "home_team_key": "lincoln academy",
     "away_team_key": "oceanside",
-    "home_score": null,
-    "away_score": null,
+    "home_score": 13,
+    "away_score": 2,
     "opponent_class": "B",
-    "played": false
+    "played": true
   },
   {
     "date": "2026-05-28",
@@ -1371,10 +1371,10 @@
     "date": "2026-05-26",
     "home_team_key": "foxcroft",
     "away_team_key": "maine central institute",
-    "home_score": null,
-    "away_score": null,
+    "home_score": 3,
+    "away_score": 5,
     "opponent_class": "C",
-    "played": false
+    "played": true
   },
   {
     "date": "2026-04-10",
@@ -1461,10 +1461,10 @@
     "date": "2026-05-27",
     "home_team_key": "gardiner",
     "away_team_key": "morse",
-    "home_score": null,
-    "away_score": null,
+    "home_score": 3,
+    "away_score": 0,
     "opponent_class": "B",
-    "played": false
+    "played": true
   },
   {
     "date": "2026-05-29",
