@@ -714,10 +714,10 @@
     "date": "2026-05-27",
     "home_team_key": "mdi",
     "away_team_key": "john_bapst",
-    "home_score": null,
-    "away_score": null,
+    "home_score": 4,
+    "away_score": 0,
     "opponent_class": "B",
-    "played": false
+    "played": true
   },
   {
     "date": "2026-05-30",
