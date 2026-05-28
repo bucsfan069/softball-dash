@@ -1056,10 +1056,10 @@
     "date": "2026-05-27",
     "home_team_key": "class of 2026 recognition game for hhs houlton/greater houlton",
     "away_team_key": "presque_isle",
-    "home_score": null,
-    "away_score": null,
+    "home_score": 2,
+    "away_score": 0,
     "opponent_class": "C",
-    "played": false
+    "played": true
   },
   {
     "date": "2026-06-02",
