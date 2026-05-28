@@ -489,10 +489,10 @@
     "date": "2026-05-28",
     "home_team_key": "hermon",
     "away_team_key": "mdi",
-    "home_score": null,
-    "away_score": null,
+    "home_score": 11,
+    "away_score": 0,
     "opponent_class": "B",
-    "played": false
+    "played": true
   },
   {
     "date": "2026-05-30",
@@ -639,7 +639,7 @@
     "played": false
   },
   {
-    "date": "2026-05-30",
+    "date": "2026-05-29",
     "home_team_key": "belfast",
     "away_team_key": "waterville",
     "home_score": null,
@@ -957,10 +957,10 @@
     "date": "2026-05-28",
     "home_team_key": "senior game gardiner area",
     "away_team_key": "oceanside",
-    "home_score": null,
-    "away_score": null,
+    "home_score": 15,
+    "away_score": 0,
     "opponent_class": "B",
-    "played": false
+    "played": true
   },
   {
     "date": "2026-05-29",
