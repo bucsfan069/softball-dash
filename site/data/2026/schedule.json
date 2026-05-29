@@ -156,10 +156,10 @@
     "date": "2026-05-28",
     "home_team_key": "waterville",
     "away_team_key": "nokomis",
-    "home_score": null,
-    "away_score": null,
+    "home_score": 8,
+    "away_score": 17,
     "opponent_class": "B",
-    "played": false
+    "played": true
   },
   {
     "date": "2026-06-01",
@@ -291,10 +291,10 @@
     "date": "2026-05-28",
     "home_team_key": "oldtown",
     "away_team_key": "ellsworth",
-    "home_score": null,
-    "away_score": null,
+    "home_score": 11,
+    "away_score": 1,
     "opponent_class": "B",
-    "played": false
+    "played": true
   },
   {
     "date": "2026-05-30",
@@ -633,10 +633,10 @@
     "date": "2026-05-28",
     "home_team_key": "winslow",
     "away_team_key": "belfast",
-    "home_score": null,
-    "away_score": null,
+    "home_score": 5,
+    "away_score": 9,
     "opponent_class": "C",
-    "played": false
+    "played": true
   },
   {
     "date": "2026-05-29",
@@ -849,10 +849,10 @@
     "date": "2026-05-28",
     "home_team_key": "cony",
     "away_team_key": "messalonskee",
-    "home_score": null,
-    "away_score": null,
+    "home_score": 19,
+    "away_score": 14,
     "opponent_class": "A",
-    "played": false
+    "played": true
   },
   {
     "date": "2026-05-30",
@@ -1146,10 +1146,10 @@
     "date": "2026-05-28",
     "home_team_key": "mount view",
     "away_team_key": "lawrence",
-    "home_score": null,
-    "away_score": null,
+    "home_score": 2,
+    "away_score": 6,
     "opponent_class": "C",
-    "played": false
+    "played": true
   },
   {
     "date": "2026-04-25",
