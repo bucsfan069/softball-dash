@@ -300,10 +300,10 @@
     "date": "2026-05-30",
     "home_team_key": "caribou",
     "away_team_key": "oldtown",
-    "home_score": null,
-    "away_score": null,
+    "home_score": 0,
+    "away_score": 21,
     "opponent_class": "B",
-    "played": false
+    "played": true
   },
   {
     "date": "2026-06-03",
@@ -498,10 +498,10 @@
     "date": "2026-05-30",
     "home_team_key": "presque_isle",
     "away_team_key": "hermon",
-    "home_score": null,
-    "away_score": null,
+    "home_score": 1,
+    "away_score": 19,
     "opponent_class": "B",
-    "played": false
+    "played": true
   },
   {
     "date": "2026-06-02",
@@ -858,10 +858,10 @@
     "date": "2026-05-30",
     "home_team_key": "lawrence",
     "away_team_key": "cony",
-    "home_score": null,
-    "away_score": null,
+    "home_score": 16,
+    "away_score": 5,
     "opponent_class": "B",
-    "played": false
+    "played": true
   },
   {
     "date": "2026-06-02",
