@@ -18,7 +18,7 @@
       {
         "opponent": "Waterville",
         "region_class": "North-B",
-        "record": "2-12"
+        "record": "2-13"
       },
       {
         "opponent": "Lawrence",
@@ -75,7 +75,7 @@
       {
         "opponent": "Belfast Area",
         "region_class": "North-B",
-        "record": "10-3"
+        "record": "11-3"
       },
       {
         "opponent": "Leavitt Area",
@@ -99,7 +99,7 @@
     "ties": 0,
     "scheduled_games": 16,
     "preliminary_index": 28.75,
-    "tournament_index": 110.547,
+    "tournament_index": 115.078,
     "wins_detail": [
       {
         "opponent": "Old Town",
@@ -109,12 +109,12 @@
       {
         "opponent": "Mount Desert Island",
         "region_class": "North-B",
-        "record": "6-7"
+        "record": "7-7"
       },
       {
         "opponent": "Foxcroft Academy",
         "region_class": "North-B",
-        "record": "2-12"
+        "record": "2-13"
       },
       {
         "opponent": "John Bapst Memorial",
@@ -134,7 +134,7 @@
       {
         "opponent": "Brewer",
         "region_class": "North-A",
-        "record": "7-7"
+        "record": "8-7"
       },
       {
         "opponent": "Old Town",
@@ -149,7 +149,7 @@
       {
         "opponent": "Foxcroft Academy",
         "region_class": "North-B",
-        "record": "2-12"
+        "record": "2-13"
       },
       {
         "opponent": "Ellsworth",
@@ -159,7 +159,7 @@
       {
         "opponent": "Mount Desert Island",
         "region_class": "North-B",
-        "record": "6-7"
+        "record": "7-7"
       }
     ],
     "losses_detail": [
@@ -175,17 +175,17 @@
     "rank": 3,
     "team_name": "Belfast Area",
     "team_key": "belfast",
-    "wins": 10,
+    "wins": 11,
     "losses": 3,
     "ties": 0,
     "scheduled_games": 16,
-    "preliminary_index": 23.625,
-    "tournament_index": 85.391,
+    "preliminary_index": 26.0,
+    "tournament_index": 88.359,
     "wins_detail": [
       {
         "opponent": "Foxcroft Academy",
         "region_class": "North-B",
-        "record": "2-12"
+        "record": "2-13"
       },
       {
         "opponent": "Lawrence",
@@ -195,7 +195,7 @@
       {
         "opponent": "Hampden Academy",
         "region_class": "North-A",
-        "record": "9-5"
+        "record": "9-6"
       },
       {
         "opponent": "Gardiner Area",
@@ -220,7 +220,7 @@
       {
         "opponent": "Waterville",
         "region_class": "North-B",
-        "record": "2-12"
+        "record": "2-13"
       },
       {
         "opponent": "Winslow",
@@ -231,6 +231,11 @@
         "opponent": "Winslow",
         "region_class": "North-C",
         "record": "6-8"
+      },
+      {
+        "opponent": "Waterville",
+        "region_class": "North-B",
+        "record": "2-13"
       }
     ],
     "losses_detail": [
@@ -261,7 +266,7 @@
     "ties": 0,
     "scheduled_games": 16,
     "preliminary_index": 21.375,
-    "tournament_index": 70.781,
+    "tournament_index": 73.75,
     "wins_detail": [
       {
         "opponent": "Presque Isle",
@@ -276,7 +281,7 @@
       {
         "opponent": "Mount Desert Island",
         "region_class": "North-B",
-        "record": "6-7"
+        "record": "7-7"
       },
       {
         "opponent": "John Bapst Memorial",
@@ -286,17 +291,17 @@
       {
         "opponent": "Foxcroft Academy",
         "region_class": "North-B",
-        "record": "2-12"
+        "record": "2-13"
       },
       {
         "opponent": "Foxcroft Academy",
         "region_class": "North-B",
-        "record": "2-12"
+        "record": "2-13"
       },
       {
         "opponent": "Mount Desert Island",
         "region_class": "North-B",
-        "record": "6-7"
+        "record": "7-7"
       },
       {
         "opponent": "John Bapst Memorial",
@@ -342,12 +347,12 @@
     "ties": 0,
     "scheduled_games": 16,
     "preliminary_index": 19.0,
-    "tournament_index": 69.609,
+    "tournament_index": 71.094,
     "wins_detail": [
       {
         "opponent": "Foxcroft Academy",
         "region_class": "North-B",
-        "record": "2-12"
+        "record": "2-13"
       },
       {
         "opponent": "John Bapst Memorial",
@@ -362,7 +367,7 @@
       {
         "opponent": "Mount Desert Island",
         "region_class": "North-B",
-        "record": "6-7"
+        "record": "7-7"
       },
       {
         "opponent": "Hermon",
@@ -399,7 +404,7 @@
       {
         "opponent": "Foxcroft Academy",
         "region_class": "North-B",
-        "record": "2-12"
+        "record": "2-13"
       },
       {
         "opponent": "Presque Isle",
@@ -433,12 +438,12 @@
     "ties": 0,
     "scheduled_games": 16,
     "preliminary_index": 21.0,
-    "tournament_index": 60.859,
+    "tournament_index": 62.344,
     "wins_detail": [
       {
         "opponent": "Foxcroft Academy",
         "region_class": "North-B",
-        "record": "2-12"
+        "record": "2-13"
       },
       {
         "opponent": "Winslow",
@@ -453,7 +458,7 @@
       {
         "opponent": "Belfast Area",
         "region_class": "North-B",
-        "record": "10-3"
+        "record": "11-3"
       },
       {
         "opponent": "Maine Central Institute",
@@ -463,7 +468,7 @@
       {
         "opponent": "Waterville",
         "region_class": "North-B",
-        "record": "2-12"
+        "record": "2-13"
       },
       {
         "opponent": "Winslow",
@@ -478,14 +483,14 @@
       {
         "opponent": "Waterville",
         "region_class": "North-B",
-        "record": "2-12"
+        "record": "2-13"
       }
     ],
     "losses_detail": [
       {
         "opponent": "Brewer",
         "region_class": "North-A",
-        "record": "7-7"
+        "record": "8-7"
       },
       {
         "opponent": "Erskine Academy",
@@ -495,7 +500,7 @@
       {
         "opponent": "Skowhegan Area",
         "region_class": "North-A",
-        "record": "10-4"
+        "record": "11-4"
       },
       {
         "opponent": "Gardiner Area",
@@ -524,12 +529,12 @@
     "ties": 0,
     "scheduled_games": 16,
     "preliminary_index": 16.25,
-    "tournament_index": 59.429,
+    "tournament_index": 60.913,
     "wins_detail": [
       {
         "opponent": "Mount Desert Island",
         "region_class": "North-B",
-        "record": "6-7"
+        "record": "7-7"
       },
       {
         "opponent": "Fort Kent Community",
@@ -576,7 +581,7 @@
       {
         "opponent": "Mount Desert Island",
         "region_class": "North-B",
-        "record": "6-7"
+        "record": "7-7"
       },
       {
         "opponent": "John Bapst Memorial",
@@ -610,7 +615,7 @@
       {
         "opponent": "Waterville",
         "region_class": "North-B",
-        "record": "2-12"
+        "record": "2-13"
       },
       {
         "opponent": "Oceanside",
@@ -640,7 +645,7 @@
       {
         "opponent": "Waterville",
         "region_class": "North-B",
-        "record": "2-12"
+        "record": "2-13"
       },
       {
         "opponent": "Gardiner Area",
@@ -657,7 +662,7 @@
       {
         "opponent": "Belfast Area",
         "region_class": "North-B",
-        "record": "10-3"
+        "record": "11-3"
       },
       {
         "opponent": "Cony HS",
@@ -716,7 +721,7 @@
       {
         "opponent": "Waterville",
         "region_class": "North-B",
-        "record": "2-12"
+        "record": "2-13"
       },
       {
         "opponent": "Winthrop/Kents Hill Ramblers",
@@ -753,7 +758,7 @@
       {
         "opponent": "Belfast Area",
         "region_class": "North-B",
-        "record": "10-3"
+        "record": "11-3"
       },
       {
         "opponent": "Erskine Academy",
@@ -772,17 +777,17 @@
     "rank": 10,
     "team_name": "Mount Desert Island",
     "team_key": "mdi",
-    "wins": 6,
+    "wins": 7,
     "losses": 7,
     "ties": 0,
     "scheduled_games": 16,
-    "preliminary_index": 14.25,
-    "tournament_index": 39.531,
+    "preliminary_index": 16.625,
+    "tournament_index": 42.5,
     "wins_detail": [
       {
         "opponent": "Foxcroft Academy",
         "region_class": "North-B",
-        "record": "2-12"
+        "record": "2-13"
       },
       {
         "opponent": "Presque Isle",
@@ -808,6 +813,11 @@
         "opponent": "John Bapst Memorial",
         "region_class": "North-B",
         "record": "5-10"
+      },
+      {
+        "opponent": "Foxcroft Academy",
+        "region_class": "North-B",
+        "record": "2-13"
       }
     ],
     "losses_detail": [
@@ -873,7 +883,7 @@
       {
         "opponent": "Waterville",
         "region_class": "North-B",
-        "record": "2-12"
+        "record": "2-13"
       },
       {
         "opponent": "Presque Isle",
@@ -883,7 +893,7 @@
       {
         "opponent": "Foxcroft Academy",
         "region_class": "North-B",
-        "record": "2-12"
+        "record": "2-13"
       }
     ],
     "losses_detail": [
@@ -900,7 +910,7 @@
       {
         "opponent": "Mount Desert Island",
         "region_class": "North-B",
-        "record": "6-7"
+        "record": "7-7"
       },
       {
         "opponent": "Presque Isle",
@@ -930,12 +940,12 @@
       {
         "opponent": "Waterville",
         "region_class": "North-B",
-        "record": "2-12"
+        "record": "2-13"
       },
       {
         "opponent": "Mount Desert Island",
         "region_class": "North-B",
-        "record": "6-7"
+        "record": "7-7"
       }
     ],
     "source": "fpsports"
@@ -964,7 +974,7 @@
       {
         "opponent": "Foxcroft Academy",
         "region_class": "North-B",
-        "record": "2-12"
+        "record": "2-13"
       },
       {
         "opponent": "Fort Kent Community",
@@ -991,17 +1001,17 @@
       {
         "opponent": "Foxcroft Academy",
         "region_class": "North-B",
-        "record": "2-12"
+        "record": "2-13"
       },
       {
         "opponent": "Mount Desert Island",
         "region_class": "North-B",
-        "record": "6-7"
+        "record": "7-7"
       },
       {
         "opponent": "Mount Desert Island",
         "region_class": "North-B",
-        "record": "6-7"
+        "record": "7-7"
       },
       {
         "opponent": "Ellsworth",
@@ -1021,7 +1031,7 @@
     "team_name": "Foxcroft Academy",
     "team_key": "foxcroft",
     "wins": 2,
-    "losses": 12,
+    "losses": 13,
     "ties": 0,
     "scheduled_games": 16,
     "preliminary_index": 4.75,
@@ -1052,12 +1062,12 @@
       {
         "opponent": "Belfast Area",
         "region_class": "North-B",
-        "record": "10-3"
+        "record": "11-3"
       },
       {
         "opponent": "Mount Desert Island",
         "region_class": "North-B",
-        "record": "6-7"
+        "record": "7-7"
       },
       {
         "opponent": "Old Town",
@@ -1098,6 +1108,11 @@
         "opponent": "Maine Central Institute",
         "region_class": "North-C",
         "record": "5-10"
+      },
+      {
+        "opponent": "Mount Desert Island",
+        "region_class": "North-B",
+        "record": "7-7"
       }
     ],
     "source": "fpsports"
@@ -1107,7 +1122,7 @@
     "team_name": "Waterville",
     "team_key": "waterville",
     "wins": 2,
-    "losses": 12,
+    "losses": 13,
     "ties": 0,
     "scheduled_games": 16,
     "preliminary_index": 4.75,
@@ -1173,7 +1188,7 @@
       {
         "opponent": "Belfast Area",
         "region_class": "North-B",
-        "record": "10-3"
+        "record": "11-3"
       },
       {
         "opponent": "Lawrence",
@@ -1184,6 +1199,11 @@
         "opponent": "Nokomis",
         "region_class": "North-B",
         "record": "9-6"
+      },
+      {
+        "opponent": "Belfast Area",
+        "region_class": "North-B",
+        "record": "11-3"
       }
     ],
     "source": "fpsports"
@@ -1233,7 +1253,7 @@
       {
         "opponent": "Belfast Area",
         "region_class": "North-B",
-        "record": "10-3"
+        "record": "11-3"
       },
       {
         "opponent": "Lawrence",
@@ -1243,7 +1263,7 @@
       {
         "opponent": "Waterville",
         "region_class": "North-B",
-        "record": "2-12"
+        "record": "2-13"
       },
       {
         "opponent": "Medomak Valley",

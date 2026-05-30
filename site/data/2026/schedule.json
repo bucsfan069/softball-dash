@@ -642,10 +642,10 @@
     "date": "2026-05-29",
     "home_team_key": "belfast",
     "away_team_key": "waterville",
-    "home_score": null,
-    "away_score": null,
+    "home_score": 13,
+    "away_score": 0,
     "opponent_class": "B",
-    "played": false
+    "played": true
   },
   {
     "date": "2026-06-02",
@@ -723,10 +723,10 @@
     "date": "2026-05-29",
     "home_team_key": "foxcroft",
     "away_team_key": "mdi",
-    "home_score": null,
-    "away_score": null,
+    "home_score": 3,
+    "away_score": 6,
     "opponent_class": "B",
-    "played": false
+    "played": true
   },
   {
     "date": "2026-06-01",
