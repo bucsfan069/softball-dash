@@ -165,10 +165,10 @@
     "date": "2026-06-01",
     "home_team_key": "nokomis",
     "away_team_key": "lawrence",
-    "home_score": null,
-    "away_score": null,
+    "home_score": 4,
+    "away_score": 17,
     "opponent_class": "B",
-    "played": false
+    "played": true
   },
   {
     "date": "2026-04-10",
@@ -732,10 +732,10 @@
     "date": "2026-06-01",
     "home_team_key": "mdi",
     "away_team_key": "bucksport",
-    "home_score": null,
-    "away_score": null,
+    "home_score": 2,
+    "away_score": 17,
     "opponent_class": "C",
-    "played": false
+    "played": true
   },
   {
     "date": "2026-04-16",
@@ -975,10 +975,10 @@
     "date": "2026-06-01",
     "home_team_key": "medomak valley",
     "away_team_key": "oceanside",
-    "home_score": null,
-    "away_score": null,
+    "home_score": 18,
+    "away_score": 0,
     "opponent_class": "B",
-    "played": false
+    "played": true
   },
   {
     "date": "2026-06-02",
@@ -1254,10 +1254,10 @@
     "date": "2026-06-01",
     "home_team_key": "caribou",
     "away_team_key": "houlton/greater houlton",
-    "home_score": null,
-    "away_score": null,
+    "home_score": 0,
+    "away_score": 5,
     "opponent_class": "C",
-    "played": false
+    "played": true
   },
   {
     "date": "2026-04-09",
