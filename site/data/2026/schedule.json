@@ -651,10 +651,10 @@
     "date": "2026-06-02",
     "home_team_key": "mount view",
     "away_team_key": "belfast",
-    "home_score": null,
-    "away_score": null,
+    "home_score": 0,
+    "away_score": 8,
     "opponent_class": "C",
-    "played": false
+    "played": true
   },
   {
     "date": "2026-06-03",
@@ -867,10 +867,10 @@
     "date": "2026-06-02",
     "home_team_key": "gardiner",
     "away_team_key": "cony",
-    "home_score": null,
-    "away_score": null,
+    "home_score": 8,
+    "away_score": 4,
     "opponent_class": "B",
-    "played": false
+    "played": true
   },
   {
     "date": "2026-04-24",
@@ -1065,10 +1065,10 @@
     "date": "2026-06-02",
     "home_team_key": "caribou",
     "away_team_key": "presque_isle",
-    "home_score": null,
-    "away_score": null,
+    "home_score": 5,
+    "away_score": 18,
     "opponent_class": "B",
-    "played": false
+    "played": true
   },
   {
     "date": "2026-04-24",
@@ -1344,10 +1344,10 @@
     "date": "2026-06-02",
     "home_team_key": "winslow",
     "away_team_key": "waterville",
-    "home_score": null,
-    "away_score": null,
+    "home_score": 16,
+    "away_score": 1,
     "opponent_class": "C",
-    "played": false
+    "played": true
   },
   {
     "date": "2026-04-16",
