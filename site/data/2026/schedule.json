@@ -309,10 +309,10 @@
     "date": "2026-06-03",
     "home_team_key": "oldtown",
     "away_team_key": "orono",
-    "home_score": null,
-    "away_score": null,
+    "home_score": 8,
+    "away_score": 3,
     "opponent_class": "C",
-    "played": false
+    "played": true
   },
   {
     "date": "2026-04-23",
@@ -660,10 +660,10 @@
     "date": "2026-06-03",
     "home_team_key": "morse",
     "away_team_key": "belfast",
-    "home_score": null,
-    "away_score": null,
+    "home_score": 3,
+    "away_score": 16,
     "opponent_class": "B",
-    "played": false
+    "played": true
   },
   {
     "date": "2026-04-28",
