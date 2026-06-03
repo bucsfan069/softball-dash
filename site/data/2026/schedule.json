@@ -417,10 +417,10 @@
     "date": "2026-06-02",
     "home_team_key": "ellsworth",
     "away_team_key": "mdi",
-    "home_score": null,
-    "away_score": null,
+    "home_score": 0,
+    "away_score": 10,
     "opponent_class": "B",
-    "played": false
+    "played": true
   },
   {
     "date": "2026-05-04",
@@ -507,10 +507,10 @@
     "date": "2026-06-02",
     "home_team_key": "hampden academy",
     "away_team_key": "hermon",
-    "home_score": null,
-    "away_score": null,
+    "home_score": 1,
+    "away_score": 0,
     "opponent_class": "A",
-    "played": false
+    "played": true
   },
   {
     "date": "2026-04-15",
@@ -984,10 +984,10 @@
     "date": "2026-06-02",
     "home_team_key": "oceanside",
     "away_team_key": "morse",
-    "home_score": null,
-    "away_score": null,
+    "home_score": 2,
+    "away_score": 26,
     "opponent_class": "B",
-    "played": false
+    "played": true
   },
   {
     "date": "2026-04-18",
@@ -1191,10 +1191,10 @@
     "date": "2026-06-02",
     "home_team_key": "john_bapst",
     "away_team_key": "foxcroft",
-    "home_score": null,
-    "away_score": null,
+    "home_score": 5,
+    "away_score": 3,
     "opponent_class": "B",
-    "played": false
+    "played": true
   },
   {
     "date": "2026-04-22",
