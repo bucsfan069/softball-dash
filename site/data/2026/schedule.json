@@ -171,6 +171,15 @@
     "played": true
   },
   {
+    "date": "2026-06-09",
+    "home_team_key": "prelim nokomis",
+    "away_team_key": "cony",
+    "home_score": null,
+    "away_score": null,
+    "opponent_class": "B",
+    "played": false
+  },
+  {
     "date": "2026-04-10",
     "home_team_key": "skowhegan area",
     "away_team_key": "oldtown",
@@ -313,6 +322,15 @@
     "away_score": 3,
     "opponent_class": "C",
     "played": true
+  },
+  {
+    "date": "2026-06-11",
+    "home_team_key": "quarterfinal old town",
+    "away_team_key": "lawrence",
+    "home_score": null,
+    "away_score": null,
+    "opponent_class": "B",
+    "played": false
   },
   {
     "date": "2026-04-23",
@@ -745,6 +763,15 @@
     "away_score": 17,
     "opponent_class": "C",
     "played": true
+  },
+  {
+    "date": "2026-06-09",
+    "home_team_key": "prelim presque isle",
+    "away_team_key": "mdi",
+    "home_score": null,
+    "away_score": null,
+    "opponent_class": "B",
+    "played": false
   },
   {
     "date": "2026-04-16",

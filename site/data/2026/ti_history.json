@@ -1,909 +1,236 @@
 {
-  "caribou": {
-    "team_name": "Caribou",
-    "events": [
-      {
-        "date": "2026-05-11",
-        "event_type": "win",
-        "opponent_key": "fort kent community",
-        "opponent_name": "Fort Kent Community",
-        "opponent_class": "C",
-        "score": "11\u20130",
-        "opponent_pi": 1.0,
-        "ti_before": 0.0,
-        "ti_after": 0.7143,
-        "ti_delta": 0.7143
-      },
-      {
-        "date": "2026-05-14",
-        "event_type": "win",
-        "opponent_key": "presque_isle",
-        "opponent_name": "Presque Isle",
-        "opponent_class": "B",
-        "score": "3\u20132",
-        "opponent_pi": 2.5714,
-        "ti_before": 0.7143,
-        "ti_after": 2.551,
-        "ti_delta": 1.8367
-      },
-      {
-        "date": "2026-05-18",
-        "event_type": "opponent_win",
-        "game_winner_key": "presque_isle",
-        "game_winner_name": "Presque Isle",
-        "game_loser_key": "houlton/greater houlton",
-        "game_loser_name": "Houlton/Greater Houlton",
-        "ti_before": 2.551,
-        "ti_after": 4.3878,
-        "ti_delta": 1.8368
-      },
-      {
-        "date": "2026-05-19",
-        "event_type": "opponent_win",
-        "game_winner_key": "presque_isle",
-        "game_winner_name": "Presque Isle",
-        "game_loser_key": "fort kent community",
-        "game_loser_name": "Fort Kent Community",
-        "ti_before": 4.3878,
-        "ti_after": 6.2245,
-        "ti_delta": 1.8367
-      },
-      {
-        "date": "2026-05-21",
-        "event_type": "win",
-        "opponent_key": "foxcroft",
-        "opponent_name": "Foxcroft Academy",
-        "opponent_class": "B",
-        "score": "13\u20132",
-        "opponent_pi": 4.4706,
-        "ti_before": 6.2245,
-        "ti_after": 9.4178,
-        "ti_delta": 3.1933
-      },
-      {
-        "date": "2026-05-23",
-        "event_type": "opponent_win",
-        "game_winner_key": "presque_isle",
-        "game_winner_name": "Presque Isle",
-        "game_loser_key": "ellsworth",
-        "game_loser_name": "Ellsworth/George Stevens",
-        "ti_before": 9.4178,
-        "ti_after": 11.3565,
-        "ti_delta": 1.9387
-      },
-      {
-        "date": "2026-05-26",
-        "event_type": "win",
-        "opponent_key": "fort kent community",
-        "opponent_name": "Fort Kent Community",
-        "opponent_class": "C",
-        "score": "16\u20134",
-        "opponent_pi": 1.0,
-        "ti_before": 11.3565,
-        "ti_after": 12.0708,
-        "ti_delta": 0.7143
-      },
-      {
-        "date": "2026-06-02",
-        "event_type": "opponent_win",
-        "game_winner_key": "presque_isle",
-        "game_winner_name": "Presque Isle",
-        "game_loser_key": "caribou",
-        "game_loser_name": "Caribou",
-        "ti_before": 12.0708,
-        "ti_after": 14.0096,
-        "ti_delta": 1.9388
-      }
-    ],
-    "final_ti": 14.0096
-  },
-  "oldtown": {
-    "team_name": "Old Town",
-    "events": [
-      {
-        "date": "2026-04-24",
-        "event_type": "win",
-        "opponent_key": "presque_isle",
-        "opponent_name": "Presque Isle",
-        "opponent_class": "B",
-        "score": "15\u20130",
-        "opponent_pi": 1.0,
-        "ti_before": 0.0,
-        "ti_after": 0.5882,
-        "ti_delta": 0.5882
-      },
-      {
-        "date": "2026-04-29",
-        "event_type": "win",
-        "opponent_key": "mdi",
-        "opponent_name": "MDI High School",
-        "opponent_class": "B",
-        "score": "11\u20131",
-        "opponent_pi": 2.7143,
-        "ti_before": 0.5882,
-        "ti_after": 2.1849,
-        "ti_delta": 1.5967
-      },
-      {
-        "date": "2026-05-02",
-        "event_type": "win",
-        "opponent_key": "john_bapst",
-        "opponent_name": "John Bapst",
-        "opponent_class": "B",
-        "score": "6\u20133",
-        "opponent_pi": 5.4286,
-        "ti_before": 2.1849,
-        "ti_after": 5.3782,
-        "ti_delta": 3.1933
-      },
-      {
-        "date": "2026-05-02",
-        "event_type": "opponent_win",
-        "game_winner_key": "mdi",
-        "game_winner_name": "MDI High School",
-        "game_loser_key": "presque_isle",
-        "game_loser_name": "Presque Isle",
-        "ti_before": 5.3782,
-        "ti_after": 6.9748,
-        "ti_delta": 1.5966
-      },
-      {
-        "date": "2026-05-05",
-        "event_type": "opponent_win",
-        "game_winner_key": "mdi",
-        "game_winner_name": "MDI High School",
-        "game_loser_key": "john_bapst",
-        "game_loser_name": "John Bapst",
-        "ti_before": 6.9748,
-        "ti_after": 8.5714,
-        "ti_delta": 1.5966
-      },
-      {
-        "date": "2026-05-05",
-        "event_type": "opponent_win",
-        "game_winner_key": "presque_isle",
-        "game_winner_name": "Presque Isle",
-        "game_loser_key": "fort kent community",
-        "game_loser_name": "Fort Kent Community",
-        "ti_before": 8.5714,
-        "ti_after": 9.4958,
-        "ti_delta": 0.9244
-      },
-      {
-        "date": "2026-05-07",
-        "event_type": "win",
-        "opponent_key": "foxcroft",
-        "opponent_name": "Foxcroft Academy",
-        "opponent_class": "B",
-        "score": "10\u20130",
-        "opponent_pi": 2.2353,
-        "ti_before": 9.4958,
-        "ti_after": 10.8107,
-        "ti_delta": 1.3149
-      },
-      {
-        "date": "2026-05-09",
-        "event_type": "opponent_win",
-        "game_winner_key": "john_bapst",
-        "game_winner_name": "John Bapst",
-        "game_loser_key": "presque_isle",
-        "game_loser_name": "Presque Isle",
-        "ti_before": 10.8107,
-        "ti_after": 12.4073,
-        "ti_delta": 1.5966
-      },
-      {
-        "date": "2026-05-13",
-        "event_type": "win",
-        "opponent_key": "foxcroft",
-        "opponent_name": "Foxcroft Academy",
-        "opponent_class": "B",
-        "score": "17\u20135",
-        "opponent_pi": 2.2353,
-        "ti_before": 12.4073,
-        "ti_after": 13.7222,
-        "ti_delta": 1.3149
-      },
-      {
-        "date": "2026-05-15",
-        "event_type": "opponent_win",
-        "game_winner_key": "foxcroft",
-        "game_winner_name": "Foxcroft Academy",
-        "game_loser_key": "ellsworth",
-        "game_loser_name": "Ellsworth/George Stevens",
-        "ti_before": 13.7222,
-        "ti_after": 16.352,
-        "ti_delta": 2.6298
-      },
-      {
-        "date": "2026-05-16",
-        "event_type": "opponent_win",
-        "game_winner_key": "mdi",
-        "game_winner_name": "MDI High School",
-        "game_loser_key": "caribou",
-        "game_loser_name": "Caribou",
-        "ti_before": 16.352,
-        "ti_after": 17.9486,
-        "ti_delta": 1.5966
-      },
-      {
-        "date": "2026-05-18",
-        "event_type": "opponent_win",
-        "game_winner_key": "presque_isle",
-        "game_winner_name": "Presque Isle",
-        "game_loser_key": "houlton/greater houlton",
-        "game_loser_name": "Houlton/Greater Houlton",
-        "ti_before": 17.9486,
-        "ti_after": 19.4612,
-        "ti_delta": 1.5126
-      },
-      {
-        "date": "2026-05-19",
-        "event_type": "opponent_win",
-        "game_winner_key": "presque_isle",
-        "game_winner_name": "Presque Isle",
-        "game_loser_key": "fort kent community",
-        "game_loser_name": "Fort Kent Community",
-        "ti_before": 19.4612,
-        "ti_after": 20.9738,
-        "ti_delta": 1.5126
-      },
-      {
-        "date": "2026-05-19",
-        "event_type": "opponent_win",
-        "game_winner_key": "john_bapst",
-        "game_winner_name": "John Bapst",
-        "game_loser_key": "foxcroft",
-        "game_loser_name": "Foxcroft Academy",
-        "ti_before": 20.9738,
-        "ti_after": 22.5704,
-        "ti_delta": 1.5966
-      },
-      {
-        "date": "2026-05-20",
-        "event_type": "win",
-        "opponent_key": "mdi",
-        "opponent_name": "MDI High School",
-        "opponent_class": "B",
-        "score": "13\u20134",
-        "opponent_pi": 10.8571,
-        "ti_before": 22.5704,
-        "ti_after": 28.957,
-        "ti_delta": 6.3866
-      },
-      {
-        "date": "2026-05-23",
-        "event_type": "win",
-        "opponent_key": "john_bapst",
-        "opponent_name": "John Bapst",
-        "opponent_class": "B",
-        "score": "15\u20130",
-        "opponent_pi": 10.8571,
-        "ti_before": 28.957,
-        "ti_after": 35.3435,
-        "ti_delta": 6.3865
-      },
-      {
-        "date": "2026-05-23",
-        "event_type": "opponent_win",
-        "game_winner_key": "presque_isle",
-        "game_winner_name": "Presque Isle",
-        "game_loser_key": "ellsworth",
-        "game_loser_name": "Ellsworth/George Stevens",
-        "ti_before": 35.3435,
-        "ti_after": 36.9402,
-        "ti_delta": 1.5967
-      },
-      {
-        "date": "2026-05-27",
-        "event_type": "opponent_win",
-        "game_winner_key": "mdi",
-        "game_winner_name": "MDI High School",
-        "game_loser_key": "john_bapst",
-        "game_loser_name": "John Bapst",
-        "ti_before": 36.9402,
-        "ti_after": 40.1335,
-        "ti_delta": 3.1933
-      },
-      {
-        "date": "2026-05-28",
-        "event_type": "win",
-        "opponent_key": "ellsworth",
-        "opponent_name": "Ellsworth/George Stevens",
-        "opponent_class": "B",
-        "score": "11\u20131",
-        "opponent_pi": 16.625,
-        "ti_before": 40.1335,
-        "ti_after": 49.9129,
-        "ti_delta": 9.7794
-      },
-      {
-        "date": "2026-05-29",
-        "event_type": "opponent_win",
-        "game_winner_key": "mdi",
-        "game_winner_name": "MDI High School",
-        "game_loser_key": "foxcroft",
-        "game_loser_name": "Foxcroft Academy",
-        "ti_before": 49.9129,
-        "ti_after": 53.1062,
-        "ti_delta": 3.1933
-      },
-      {
-        "date": "2026-05-30",
-        "event_type": "win",
-        "opponent_key": "caribou",
-        "opponent_name": "Caribou",
-        "opponent_class": "B",
-        "score": "21\u20130",
-        "opponent_pi": 10.5714,
-        "ti_before": 53.1062,
-        "ti_after": 59.3246,
-        "ti_delta": 6.2184
-      },
-      {
-        "date": "2026-06-02",
-        "event_type": "opponent_win",
-        "game_winner_key": "mdi",
-        "game_winner_name": "MDI High School",
-        "game_loser_key": "ellsworth",
-        "game_loser_name": "Ellsworth/George Stevens",
-        "ti_before": 59.3246,
-        "ti_after": 62.5179,
-        "ti_delta": 3.1933
-      },
-      {
-        "date": "2026-06-02",
-        "event_type": "opponent_win",
-        "game_winner_key": "presque_isle",
-        "game_winner_name": "Presque Isle",
-        "game_loser_key": "caribou",
-        "game_loser_name": "Caribou",
-        "ti_before": 62.5179,
-        "ti_after": 64.1146,
-        "ti_delta": 1.5967
-      },
-      {
-        "date": "2026-06-02",
-        "event_type": "opponent_win",
-        "game_winner_key": "john_bapst",
-        "game_winner_name": "John Bapst",
-        "game_loser_key": "foxcroft",
-        "game_loser_name": "Foxcroft Academy",
-        "ti_before": 64.1146,
-        "ti_after": 67.3078,
-        "ti_delta": 3.1932
-      },
-      {
-        "date": "2026-06-03",
-        "event_type": "win",
-        "opponent_key": "orono",
-        "opponent_name": "Orono",
-        "opponent_class": "C",
-        "score": "8\u20133",
-        "opponent_pi": 1.0,
-        "ti_before": 67.3078,
-        "ti_after": 67.8961,
-        "ti_delta": 0.5883
-      }
-    ],
-    "final_ti": 67.8961
-  },
-  "mdi": {
-    "team_name": "MDI High School",
+  "hermon": {
+    "team_name": "Hermon",
     "events": [
       {
         "date": "2026-04-28",
         "event_type": "win",
-        "opponent_key": "foxcroft",
-        "opponent_name": "Foxcroft Academy",
+        "opponent_key": "oldtown",
+        "opponent_name": "Old Town",
         "opponent_class": "B",
-        "score": "12\u20132",
-        "opponent_pi": 1.0,
+        "score": "3\u20132",
+        "opponent_pi": 2.2353,
         "ti_before": 0.0,
-        "ti_after": 0.7143,
-        "ti_delta": 0.7143
-      },
-      {
-        "date": "2026-05-02",
-        "event_type": "win",
-        "opponent_key": "presque_isle",
-        "opponent_name": "Presque Isle",
-        "opponent_class": "B",
-        "score": "8\u20136",
-        "opponent_pi": 1.0,
-        "ti_before": 0.7143,
-        "ti_after": 1.4286,
-        "ti_delta": 0.7143
-      },
-      {
-        "date": "2026-05-02",
-        "event_type": "opponent_win",
-        "game_winner_key": "foxcroft",
-        "game_winner_name": "Foxcroft Academy",
-        "game_loser_key": "caribou",
-        "game_loser_name": "Caribou",
-        "ti_before": 1.4286,
-        "ti_after": 2.3109,
-        "ti_delta": 0.8823
-      },
-      {
-        "date": "2026-05-05",
-        "event_type": "win",
-        "opponent_key": "john_bapst",
-        "opponent_name": "John Bapst",
-        "opponent_class": "B",
-        "score": "8\u20132",
-        "opponent_pi": 5.4286,
-        "ti_before": 2.3109,
-        "ti_after": 6.1885,
-        "ti_delta": 3.8776
-      },
-      {
-        "date": "2026-05-05",
-        "event_type": "opponent_win",
-        "game_winner_key": "presque_isle",
-        "game_winner_name": "Presque Isle",
-        "game_loser_key": "fort kent community",
-        "game_loser_name": "Fort Kent Community",
-        "ti_before": 6.1885,
-        "ti_after": 7.3109,
-        "ti_delta": 1.1224
-      },
-      {
-        "date": "2026-05-09",
-        "event_type": "opponent_win",
-        "game_winner_key": "john_bapst",
-        "game_winner_name": "John Bapst",
-        "game_loser_key": "presque_isle",
-        "game_loser_name": "Presque Isle",
-        "ti_before": 7.3109,
-        "ti_after": 9.2497,
-        "ti_delta": 1.9388
-      },
-      {
-        "date": "2026-05-15",
-        "event_type": "opponent_win",
-        "game_winner_key": "foxcroft",
-        "game_winner_name": "Foxcroft Academy",
-        "game_loser_key": "ellsworth",
-        "game_loser_name": "Ellsworth/George Stevens",
-        "ti_before": 9.2497,
-        "ti_after": 10.8463,
-        "ti_delta": 1.5966
-      },
-      {
-        "date": "2026-05-16",
-        "event_type": "win",
-        "opponent_key": "caribou",
-        "opponent_name": "Caribou",
-        "opponent_class": "B",
-        "score": "11\u20135",
-        "opponent_pi": 5.2857,
-        "ti_before": 10.8463,
-        "ti_after": 14.6218,
-        "ti_delta": 3.7755
-      },
-      {
-        "date": "2026-05-18",
-        "event_type": "opponent_win",
-        "game_winner_key": "presque_isle",
-        "game_winner_name": "Presque Isle",
-        "game_loser_key": "houlton/greater houlton",
-        "game_loser_name": "Houlton/Greater Houlton",
-        "ti_before": 14.6218,
-        "ti_after": 16.4586,
-        "ti_delta": 1.8368
-      },
-      {
-        "date": "2026-05-19",
-        "event_type": "opponent_win",
-        "game_winner_key": "presque_isle",
-        "game_winner_name": "Presque Isle",
-        "game_loser_key": "fort kent community",
-        "game_loser_name": "Fort Kent Community",
-        "ti_before": 16.4586,
-        "ti_after": 18.2953,
-        "ti_delta": 1.8367
-      },
-      {
-        "date": "2026-05-19",
-        "event_type": "opponent_win",
-        "game_winner_key": "john_bapst",
-        "game_winner_name": "John Bapst",
-        "game_loser_key": "foxcroft",
-        "game_loser_name": "Foxcroft Academy",
-        "ti_before": 18.2953,
-        "ti_after": 20.2341,
-        "ti_delta": 1.9388
-      },
-      {
-        "date": "2026-05-21",
-        "event_type": "opponent_win",
-        "game_winner_key": "caribou",
-        "game_winner_name": "Caribou",
-        "game_loser_key": "foxcroft",
-        "game_loser_name": "Foxcroft Academy",
-        "ti_before": 20.2341,
-        "ti_after": 22.1729,
-        "ti_delta": 1.9388
-      },
-      {
-        "date": "2026-05-23",
-        "event_type": "opponent_win",
-        "game_winner_key": "presque_isle",
-        "game_winner_name": "Presque Isle",
-        "game_loser_key": "ellsworth",
-        "game_loser_name": "Ellsworth/George Stevens",
-        "ti_before": 22.1729,
-        "ti_after": 24.1116,
-        "ti_delta": 1.9387
-      },
-      {
-        "date": "2026-05-26",
-        "event_type": "opponent_win",
-        "game_winner_key": "caribou",
-        "game_winner_name": "Caribou",
-        "game_loser_key": "fort kent community",
-        "game_loser_name": "Fort Kent Community",
-        "ti_before": 24.1116,
-        "ti_after": 25.9484,
-        "ti_delta": 1.8368
-      },
-      {
-        "date": "2026-05-27",
-        "event_type": "win",
-        "opponent_key": "john_bapst",
-        "opponent_name": "John Bapst",
-        "opponent_class": "B",
-        "score": "4\u20130",
-        "opponent_pi": 10.8571,
-        "ti_before": 25.9484,
-        "ti_after": 33.7035,
-        "ti_delta": 7.7551
-      },
-      {
-        "date": "2026-05-29",
-        "event_type": "win",
-        "opponent_key": "foxcroft",
-        "opponent_name": "Foxcroft Academy",
-        "opponent_class": "B",
-        "score": "6\u20133",
-        "opponent_pi": 4.4706,
-        "ti_before": 33.7035,
-        "ti_after": 36.8968,
-        "ti_delta": 3.1933
-      },
-      {
-        "date": "2026-06-02",
-        "event_type": "win",
-        "opponent_key": "ellsworth",
-        "opponent_name": "Ellsworth/George Stevens",
-        "opponent_class": "B",
-        "score": "10\u20130",
-        "opponent_pi": 16.625,
-        "ti_before": 36.8968,
-        "ti_after": 48.7718,
-        "ti_delta": 11.875
-      },
-      {
-        "date": "2026-06-02",
-        "event_type": "opponent_win",
-        "game_winner_key": "presque_isle",
-        "game_winner_name": "Presque Isle",
-        "game_loser_key": "caribou",
-        "game_loser_name": "Caribou",
-        "ti_before": 48.7718,
-        "ti_after": 50.7105,
-        "ti_delta": 1.9387
-      },
-      {
-        "date": "2026-06-02",
-        "event_type": "opponent_win",
-        "game_winner_key": "john_bapst",
-        "game_winner_name": "John Bapst",
-        "game_loser_key": "foxcroft",
-        "game_loser_name": "Foxcroft Academy",
-        "ti_before": 50.7105,
-        "ti_after": 54.5881,
-        "ti_delta": 3.8776
-      }
-    ],
-    "final_ti": 54.5881
-  },
-  "waterville": {
-    "team_name": "Waterville",
-    "events": [
-      {
-        "date": "2026-05-18",
-        "event_type": "win",
-        "opponent_key": "oceanside",
-        "opponent_name": "Oceanside",
-        "opponent_class": "B",
-        "score": "25\u201320",
-        "opponent_pi": 1.0,
-        "ti_before": 0.0,
-        "ti_after": 0.5,
-        "ti_delta": 0.5
-      },
-      {
-        "date": "2026-05-26",
-        "event_type": "win",
-        "opponent_key": "john_bapst",
-        "opponent_name": "John Bapst",
-        "opponent_class": "B",
-        "score": "11\u20138",
-        "opponent_pi": 10.8571,
-        "ti_before": 0.5,
-        "ti_after": 5.9286,
-        "ti_delta": 5.4286
-      },
-      {
-        "date": "2026-06-02",
-        "event_type": "opponent_win",
-        "game_winner_key": "john_bapst",
-        "game_winner_name": "John Bapst",
-        "game_loser_key": "foxcroft",
-        "game_loser_name": "Foxcroft Academy",
-        "ti_before": 5.9286,
-        "ti_after": 7.2857,
-        "ti_delta": 1.3571
-      }
-    ],
-    "final_ti": 7.2857
-  },
-  "gardiner": {
-    "team_name": "Gardiner Area",
-    "events": [
-      {
-        "date": "2026-04-27",
-        "event_type": "win",
-        "opponent_key": "leavitt area",
-        "opponent_name": "Leavitt Area",
-        "opponent_class": "B",
-        "score": "2\u20131",
-        "opponent_pi": 1.0,
-        "ti_before": 0.0,
-        "ti_after": 0.5263,
-        "ti_delta": 0.5263
+        "ti_after": 1.4902,
+        "ti_delta": 1.4902
       },
       {
         "date": "2026-04-29",
-        "event_type": "win",
-        "opponent_key": "waterville",
-        "opponent_name": "Waterville",
-        "opponent_class": "B",
-        "score": "18\u20133",
-        "opponent_pi": 1.0,
-        "ti_before": 0.5263,
-        "ti_after": 1.0526,
-        "ti_delta": 0.5263
+        "event_type": "opponent_win",
+        "game_winner_key": "oldtown",
+        "game_winner_name": "Old Town",
+        "game_loser_key": "mdi",
+        "game_loser_name": "MDI High School",
+        "ti_before": 1.4902,
+        "ti_after": 2.9804,
+        "ti_delta": 1.4902
       },
       {
-        "date": "2026-05-01",
-        "event_type": "win",
-        "opponent_key": "lawrence",
-        "opponent_name": "Lawrence",
-        "opponent_class": "B",
-        "score": "15\u20135",
-        "opponent_pi": 2.375,
-        "ti_before": 1.0526,
-        "ti_after": 2.3026,
-        "ti_delta": 1.25
+        "date": "2026-05-02",
+        "event_type": "opponent_win",
+        "game_winner_key": "oldtown",
+        "game_winner_name": "Old Town",
+        "game_loser_key": "john_bapst",
+        "game_loser_name": "John Bapst",
+        "ti_before": 2.9804,
+        "ti_after": 4.4706,
+        "ti_delta": 1.4902
       },
       {
-        "date": "2026-05-05",
+        "date": "2026-05-04",
         "event_type": "win",
-        "opponent_key": "cony",
-        "opponent_name": "Cony",
+        "opponent_key": "mdi",
+        "opponent_name": "MDI High School",
         "opponent_class": "B",
-        "score": "11\u20135",
-        "opponent_pi": 4.4706,
-        "ti_before": 2.3026,
-        "ti_after": 4.6556,
-        "ti_delta": 2.353
+        "score": "6\u20130",
+        "opponent_pi": 5.0667,
+        "ti_before": 4.4706,
+        "ti_after": 7.8484,
+        "ti_delta": 3.3778
       },
       {
         "date": "2026-05-05",
         "event_type": "opponent_win",
-        "game_winner_key": "lawrence",
-        "game_winner_name": "Lawrence",
-        "game_loser_key": "oceanside",
-        "game_loser_name": "Oceanside",
-        "ti_before": 4.6556,
-        "ti_after": 5.9056,
-        "ti_delta": 1.25
+        "game_winner_key": "mdi",
+        "game_winner_name": "MDI High School",
+        "game_loser_key": "john_bapst",
+        "game_loser_name": "John Bapst",
+        "ti_before": 7.8484,
+        "ti_after": 9.5373,
+        "ti_delta": 1.6889
       },
       {
-        "date": "2026-05-08",
+        "date": "2026-05-07",
         "event_type": "opponent_win",
-        "game_winner_key": "cony",
-        "game_winner_name": "Cony",
-        "game_loser_key": "oceanside",
-        "game_loser_name": "Oceanside",
-        "ti_before": 5.9056,
-        "ti_after": 7.082,
-        "ti_delta": 1.1764
+        "game_winner_key": "oldtown",
+        "game_winner_name": "Old Town",
+        "game_loser_key": "foxcroft",
+        "game_loser_name": "Foxcroft Academy",
+        "ti_before": 9.5373,
+        "ti_after": 11.0275,
+        "ti_delta": 1.4902
       },
       {
-        "date": "2026-05-08",
-        "event_type": "opponent_win",
-        "game_winner_key": "lawrence",
-        "game_winner_name": "Lawrence",
-        "game_loser_key": "winslow",
-        "game_loser_name": "Winslow",
-        "ti_before": 7.082,
-        "ti_after": 8.2663,
-        "ti_delta": 1.1843
+        "date": "2026-05-09",
+        "event_type": "win",
+        "opponent_key": "foxcroft",
+        "opponent_name": "Foxcroft Academy",
+        "opponent_class": "B",
+        "score": "12\u20130",
+        "opponent_pi": 2.2353,
+        "ti_before": 11.0275,
+        "ti_after": 12.5176,
+        "ti_delta": 1.4901
       },
       {
         "date": "2026-05-11",
         "event_type": "win",
-        "opponent_key": "winslow",
-        "opponent_name": "Winslow",
-        "opponent_class": "C",
-        "score": "9\u20133",
-        "opponent_pi": 1.0,
-        "ti_before": 8.2663,
-        "ti_after": 8.7926,
-        "ti_delta": 0.5263
+        "opponent_key": "john_bapst",
+        "opponent_name": "John Bapst",
+        "opponent_class": "B",
+        "score": "18\u20130",
+        "opponent_pi": 8.1429,
+        "ti_before": 12.5176,
+        "ti_after": 17.9462,
+        "ti_delta": 5.4286
       },
       {
         "date": "2026-05-12",
         "event_type": "win",
-        "opponent_key": "monmouth academy",
-        "opponent_name": "Monmouth Academy",
-        "opponent_class": "C",
-        "score": "4\u20133",
-        "opponent_pi": 1.0,
-        "ti_before": 8.7926,
-        "ti_after": 9.3189,
-        "ti_delta": 0.5263
+        "opponent_key": "john_bapst",
+        "opponent_name": "John Bapst",
+        "opponent_class": "B",
+        "score": "12\u20133",
+        "opponent_pi": 8.1429,
+        "ti_before": 17.9462,
+        "ti_after": 23.3748,
+        "ti_delta": 5.4286
       },
       {
         "date": "2026-05-13",
         "event_type": "opponent_win",
-        "game_winner_key": "cony",
-        "game_winner_name": "Cony",
-        "game_loser_key": "monmouth academy",
-        "game_loser_name": "Monmouth Academy",
-        "ti_before": 9.3189,
-        "ti_after": 10.4334,
-        "ti_delta": 1.1145
+        "game_winner_key": "oldtown",
+        "game_winner_name": "Old Town",
+        "game_loser_key": "foxcroft",
+        "game_loser_name": "Foxcroft Academy",
+        "ti_before": 23.3748,
+        "ti_after": 24.865,
+        "ti_delta": 1.4902
       },
       {
-        "date": "2026-05-13",
+        "date": "2026-05-15",
         "event_type": "opponent_win",
-        "game_winner_key": "lawrence",
-        "game_winner_name": "Lawrence",
-        "game_loser_key": "oceanside",
-        "game_loser_name": "Oceanside",
-        "ti_before": 10.4334,
-        "ti_after": 11.6834,
-        "ti_delta": 1.25
+        "game_winner_key": "foxcroft",
+        "game_winner_name": "Foxcroft Academy",
+        "game_loser_key": "ellsworth",
+        "game_loser_name": "Ellsworth/George Stevens",
+        "ti_before": 24.865,
+        "ti_after": 26.3552,
+        "ti_delta": 1.4902
       },
       {
         "date": "2026-05-15",
         "event_type": "win",
-        "opponent_key": "nokomis",
-        "opponent_name": "Nokomis Regional",
-        "opponent_class": "B",
-        "score": "6\u20135",
-        "opponent_pi": 11.7895,
-        "ti_before": 11.6834,
-        "ti_after": 17.8884,
-        "ti_delta": 6.205
-      },
-      {
-        "date": "2026-05-15",
-        "event_type": "opponent_win",
-        "game_winner_key": "cony",
-        "game_winner_name": "Cony",
-        "game_loser_key": "waterville",
-        "game_loser_name": "Waterville",
-        "ti_before": 17.8884,
-        "ti_after": 19.0649,
-        "ti_delta": 1.1765
-      },
-      {
-        "date": "2026-05-15",
-        "event_type": "opponent_win",
-        "game_winner_key": "lawrence",
-        "game_winner_name": "Lawrence",
-        "game_loser_key": "messalonskee",
-        "game_loser_name": "Messalonskee",
-        "ti_before": 19.0649,
-        "ti_after": 20.3807,
-        "ti_delta": 1.3158
+        "opponent_key": "bangor",
+        "opponent_name": "Bangor",
+        "opponent_class": "A",
+        "score": "5\u20133",
+        "opponent_pi": 1.0,
+        "ti_before": 26.3552,
+        "ti_after": 27.0218,
+        "ti_delta": 0.6666
       },
       {
         "date": "2026-05-16",
         "event_type": "opponent_win",
-        "game_winner_key": "cony",
-        "game_winner_name": "Cony",
-        "game_loser_key": "winthrop/kents hill ramblers",
-        "game_loser_name": "Winthrop/Kents Hill Ramblers",
-        "ti_before": 20.3807,
-        "ti_after": 21.4952,
-        "ti_delta": 1.1145
-      },
-      {
-        "date": "2026-05-18",
-        "event_type": "opponent_win",
-        "game_winner_key": "nokomis",
-        "game_winner_name": "Nokomis Regional",
-        "game_loser_key": "winslow",
-        "game_loser_name": "Winslow",
-        "ti_before": 21.4952,
-        "ti_after": 22.4925,
-        "ti_delta": 0.9973
-      },
-      {
-        "date": "2026-05-18",
-        "event_type": "opponent_win",
-        "game_winner_key": "waterville",
-        "game_winner_name": "Waterville",
-        "game_loser_key": "oceanside",
-        "game_loser_name": "Oceanside",
-        "ti_before": 22.4925,
-        "ti_after": 22.9661,
-        "ti_delta": 0.4736
+        "game_winner_key": "mdi",
+        "game_winner_name": "MDI High School",
+        "game_loser_key": "caribou",
+        "game_loser_name": "Caribou",
+        "ti_before": 27.0218,
+        "ti_after": 28.7107,
+        "ti_delta": 1.6889
       },
       {
         "date": "2026-05-18",
         "event_type": "win",
-        "opponent_key": "medomak valley",
-        "opponent_name": "Medomak Valley",
-        "opponent_class": "B",
-        "score": "17\u201316",
+        "opponent_key": "brewer",
+        "opponent_name": "Brewer",
+        "opponent_class": "A",
+        "score": "4\u20130",
         "opponent_pi": 1.0,
-        "ti_before": 22.9661,
-        "ti_after": 23.4925,
-        "ti_delta": 0.5264
+        "ti_before": 28.7107,
+        "ti_after": 29.3774,
+        "ti_delta": 0.6667
+      },
+      {
+        "date": "2026-05-19",
+        "event_type": "win",
+        "opponent_key": "oldtown",
+        "opponent_name": "Old Town",
+        "opponent_class": "B",
+        "score": "3\u20131",
+        "opponent_pi": 11.1765,
+        "ti_before": 29.3774,
+        "ti_after": 36.8284,
+        "ti_delta": 7.451
+      },
+      {
+        "date": "2026-05-19",
+        "event_type": "opponent_win",
+        "game_winner_key": "john_bapst",
+        "game_winner_name": "John Bapst",
+        "game_loser_key": "foxcroft",
+        "game_loser_name": "Foxcroft Academy",
+        "ti_before": 36.8284,
+        "ti_after": 40.4474,
+        "ti_delta": 3.619
       },
       {
         "date": "2026-05-20",
         "event_type": "opponent_win",
-        "game_winner_key": "lawrence",
-        "game_winner_name": "Lawrence",
-        "game_loser_key": "nokomis",
-        "game_loser_name": "Nokomis Regional",
-        "ti_before": 23.4925,
-        "ti_after": 24.7425,
-        "ti_delta": 1.25
-      },
-      {
-        "date": "2026-05-21",
-        "event_type": "opponent_win",
-        "game_winner_key": "cony",
-        "game_winner_name": "Cony",
-        "game_loser_key": "winslow",
-        "game_loser_name": "Winslow",
-        "ti_before": 24.7425,
-        "ti_after": 25.857,
-        "ti_delta": 1.1145
-      },
-      {
-        "date": "2026-05-22",
-        "event_type": "opponent_win",
-        "game_winner_key": "lawrence",
-        "game_winner_name": "Lawrence",
-        "game_loser_key": "waterville",
-        "game_loser_name": "Waterville",
-        "ti_before": 25.857,
-        "ti_after": 27.107,
-        "ti_delta": 1.25
+        "game_winner_key": "oldtown",
+        "game_winner_name": "Old Town",
+        "game_loser_key": "mdi",
+        "game_loser_name": "MDI High School",
+        "ti_before": 40.4474,
+        "ti_after": 43.4278,
+        "ti_delta": 2.9804
       },
       {
         "date": "2026-05-22",
         "event_type": "win",
-        "opponent_key": "lincoln academy",
-        "opponent_name": "Lincoln Academy",
+        "opponent_key": "nokomis",
+        "opponent_name": "Nokomis Regional",
         "opponent_class": "B",
-        "score": "12\u20132",
-        "opponent_pi": 1.0,
-        "ti_before": 27.107,
-        "ti_after": 27.6333,
-        "ti_delta": 0.5263
+        "score": "11\u20130",
+        "opponent_pi": 13.6842,
+        "ti_before": 43.4278,
+        "ti_after": 52.5506,
+        "ti_delta": 9.1228
+      },
+      {
+        "date": "2026-05-23",
+        "event_type": "opponent_win",
+        "game_winner_key": "oldtown",
+        "game_winner_name": "Old Town",
+        "game_loser_key": "john_bapst",
+        "game_loser_name": "John Bapst",
+        "ti_before": 52.5506,
+        "ti_after": 55.531,
+        "ti_delta": 2.9804
+      },
+      {
+        "date": "2026-05-23",
+        "event_type": "win",
+        "opponent_key": "foxcroft",
+        "opponent_name": "Foxcroft Academy",
+        "opponent_class": "B",
+        "score": "10\u20130",
+        "opponent_pi": 4.4706,
+        "ti_before": 55.531,
+        "ti_after": 58.5114,
+        "ti_delta": 2.9804
       },
       {
         "date": "2026-05-26",
@@ -912,43 +239,32 @@
         "game_winner_name": "Nokomis Regional",
         "game_loser_key": "cony",
         "game_loser_name": "Cony",
-        "ti_before": 27.6333,
-        "ti_after": 28.686,
-        "ti_delta": 1.0527
+        "ti_before": 58.5114,
+        "ti_after": 59.8447,
+        "ti_delta": 1.3333
       },
       {
         "date": "2026-05-26",
-        "event_type": "opponent_win",
-        "game_winner_key": "lawrence",
-        "game_winner_name": "Lawrence",
-        "game_loser_key": "gardiner",
-        "game_loser_name": "Gardiner Area",
-        "ti_before": 28.686,
-        "ti_after": 29.936,
-        "ti_delta": 1.25
-      },
-      {
-        "date": "2026-05-26",
-        "event_type": "opponent_win",
-        "game_winner_key": "waterville",
-        "game_winner_name": "Waterville",
-        "game_loser_key": "john_bapst",
-        "game_loser_name": "John Bapst",
-        "ti_before": 29.936,
-        "ti_after": 30.936,
-        "ti_delta": 1.0
+        "event_type": "win",
+        "opponent_key": "ellsworth",
+        "opponent_name": "Ellsworth/George Stevens",
+        "opponent_class": "B",
+        "score": "2\u20131",
+        "opponent_pi": 16.625,
+        "ti_before": 59.8447,
+        "ti_after": 70.9281,
+        "ti_delta": 11.0834
       },
       {
         "date": "2026-05-27",
-        "event_type": "win",
-        "opponent_key": "morse",
-        "opponent_name": "Morse",
-        "opponent_class": "B",
-        "score": "3\u20130",
-        "opponent_pi": 1.0,
-        "ti_before": 30.936,
-        "ti_after": 31.4623,
-        "ti_delta": 0.5263
+        "event_type": "opponent_win",
+        "game_winner_key": "mdi",
+        "game_winner_name": "MDI High School",
+        "game_loser_key": "john_bapst",
+        "game_loser_name": "John Bapst",
+        "ti_before": 70.9281,
+        "ti_after": 72.617,
+        "ti_delta": 1.6889
       },
       {
         "date": "2026-05-28",
@@ -957,80 +273,113 @@
         "game_winner_name": "Nokomis Regional",
         "game_loser_key": "waterville",
         "game_loser_name": "Waterville",
-        "ti_before": 31.4623,
-        "ti_after": 32.5149,
-        "ti_delta": 1.0526
+        "ti_before": 72.617,
+        "ti_after": 73.9503,
+        "ti_delta": 1.3333
       },
       {
         "date": "2026-05-28",
         "event_type": "opponent_win",
-        "game_winner_key": "cony",
-        "game_winner_name": "Cony",
-        "game_loser_key": "messalonskee",
-        "game_loser_name": "Messalonskee",
-        "ti_before": 32.5149,
-        "ti_after": 33.7533,
-        "ti_delta": 1.2384
+        "game_winner_key": "oldtown",
+        "game_winner_name": "Old Town",
+        "game_loser_key": "ellsworth",
+        "game_loser_name": "Ellsworth/George Stevens",
+        "ti_before": 73.9503,
+        "ti_after": 76.9307,
+        "ti_delta": 2.9804
       },
       {
         "date": "2026-05-28",
-        "event_type": "opponent_win",
-        "game_winner_key": "lawrence",
-        "game_winner_name": "Lawrence",
-        "game_loser_key": "mount view",
-        "game_loser_name": "Mount View",
-        "ti_before": 33.7533,
-        "ti_after": 34.9375,
-        "ti_delta": 1.1842
+        "event_type": "win",
+        "opponent_key": "mdi",
+        "opponent_name": "MDI High School",
+        "opponent_class": "B",
+        "score": "11\u20130",
+        "opponent_pi": 12.6667,
+        "ti_before": 76.9307,
+        "ti_after": 85.3751,
+        "ti_delta": 8.4444
       },
       {
         "date": "2026-05-29",
-        "event_type": "win",
-        "opponent_key": "erskine academy",
-        "opponent_name": "Erskine Academy",
-        "opponent_class": "B",
-        "score": "10\u20130",
-        "opponent_pi": 1.0,
-        "ti_before": 34.9375,
-        "ti_after": 35.4638,
-        "ti_delta": 0.5263
+        "event_type": "opponent_win",
+        "game_winner_key": "mdi",
+        "game_winner_name": "MDI High School",
+        "game_loser_key": "foxcroft",
+        "game_loser_name": "Foxcroft Academy",
+        "ti_before": 85.3751,
+        "ti_after": 88.7529,
+        "ti_delta": 3.3778
       },
       {
         "date": "2026-05-30",
         "event_type": "opponent_win",
-        "game_winner_key": "lawrence",
-        "game_winner_name": "Lawrence",
-        "game_loser_key": "cony",
-        "game_loser_name": "Cony",
-        "ti_before": 35.4638,
-        "ti_after": 36.7138,
-        "ti_delta": 1.25
+        "game_winner_key": "oldtown",
+        "game_winner_name": "Old Town",
+        "game_loser_key": "caribou",
+        "game_loser_name": "Caribou",
+        "ti_before": 88.7529,
+        "ti_after": 91.7333,
+        "ti_delta": 2.9804
       },
       {
-        "date": "2026-06-01",
-        "event_type": "opponent_win",
-        "game_winner_key": "lawrence",
-        "game_winner_name": "Lawrence",
-        "game_loser_key": "nokomis",
-        "game_loser_name": "Nokomis Regional",
-        "ti_before": 36.7138,
-        "ti_after": 37.9638,
-        "ti_delta": 1.25
+        "date": "2026-05-30",
+        "event_type": "win",
+        "opponent_key": "presque_isle",
+        "opponent_name": "Presque Isle",
+        "opponent_class": "B",
+        "score": "19\u20131",
+        "opponent_pi": 10.4286,
+        "ti_before": 91.7333,
+        "ti_after": 98.6857,
+        "ti_delta": 6.9524
       },
       {
         "date": "2026-06-02",
-        "event_type": "win",
-        "opponent_key": "cony",
-        "opponent_name": "Cony",
-        "opponent_class": "B",
-        "score": "8\u20134",
-        "opponent_pi": 17.6471,
-        "ti_before": 37.9638,
-        "ti_after": 47.2518,
-        "ti_delta": 9.288
+        "event_type": "opponent_win",
+        "game_winner_key": "mdi",
+        "game_winner_name": "MDI High School",
+        "game_loser_key": "ellsworth",
+        "game_loser_name": "Ellsworth/George Stevens",
+        "ti_before": 98.6857,
+        "ti_after": 102.0635,
+        "ti_delta": 3.3778
+      },
+      {
+        "date": "2026-06-02",
+        "event_type": "opponent_win",
+        "game_winner_key": "presque_isle",
+        "game_winner_name": "Presque Isle",
+        "game_loser_key": "caribou",
+        "game_loser_name": "Caribou",
+        "ti_before": 102.0635,
+        "ti_after": 103.873,
+        "ti_delta": 1.8095
+      },
+      {
+        "date": "2026-06-02",
+        "event_type": "opponent_win",
+        "game_winner_key": "john_bapst",
+        "game_winner_name": "John Bapst",
+        "game_loser_key": "foxcroft",
+        "game_loser_name": "Foxcroft Academy",
+        "ti_before": 103.873,
+        "ti_after": 107.492,
+        "ti_delta": 3.619
+      },
+      {
+        "date": "2026-06-03",
+        "event_type": "opponent_win",
+        "game_winner_key": "oldtown",
+        "game_winner_name": "Old Town",
+        "game_loser_key": "orono",
+        "game_loser_name": "Orono",
+        "ti_before": 107.492,
+        "ti_after": 110.3156,
+        "ti_delta": 2.8236
       }
     ],
-    "final_ti": 47.2518
+    "final_ti": 110.3156
   },
   "ellsworth": {
     "team_name": "Ellsworth/George Stevens",
@@ -1122,10 +471,10 @@
         "opponent_name": "MDI High School",
         "opponent_class": "B",
         "score": "1\u20130",
-        "opponent_pi": 8.1429,
+        "opponent_pi": 7.6,
         "ti_before": 12.0746,
-        "ti_after": 17.1639,
-        "ti_delta": 5.0893
+        "ti_after": 16.8246,
+        "ti_delta": 4.75
       },
       {
         "date": "2026-05-13",
@@ -1134,8 +483,8 @@
         "game_winner_name": "Old Town",
         "game_loser_key": "foxcroft",
         "game_loser_name": "Foxcroft Academy",
-        "ti_before": 17.1639,
-        "ti_after": 18.5609,
+        "ti_before": 16.8246,
+        "ti_after": 18.2216,
         "ti_delta": 1.397
       },
       {
@@ -1146,8 +495,8 @@
         "opponent_class": "B",
         "score": "6\u20135",
         "opponent_pi": 12.6667,
-        "ti_before": 18.5609,
-        "ti_after": 26.4776,
+        "ti_before": 18.2216,
+        "ti_after": 26.1383,
         "ti_delta": 7.9167
       },
       {
@@ -1157,9 +506,9 @@
         "game_winner_name": "Foxcroft Academy",
         "game_loser_key": "ellsworth",
         "game_loser_name": "Ellsworth/George Stevens",
-        "ti_before": 26.4776,
-        "ti_after": 27.8746,
-        "ti_delta": 1.397
+        "ti_before": 26.1383,
+        "ti_after": 27.5354,
+        "ti_delta": 1.3971
       },
       {
         "date": "2026-05-15",
@@ -1168,9 +517,9 @@
         "game_winner_name": "Hermon",
         "game_loser_key": "bangor",
         "game_loser_name": "Bangor",
-        "ti_before": 27.8746,
-        "ti_after": 29.5413,
-        "ti_delta": 1.6667
+        "ti_before": 27.5354,
+        "ti_after": 29.202,
+        "ti_delta": 1.6666
       },
       {
         "date": "2026-05-16",
@@ -1179,9 +528,9 @@
         "game_winner_name": "MDI High School",
         "game_loser_key": "caribou",
         "game_loser_name": "Caribou",
-        "ti_before": 29.5413,
-        "ti_after": 31.2377,
-        "ti_delta": 1.6964
+        "ti_before": 29.202,
+        "ti_after": 30.7854,
+        "ti_delta": 1.5834
       },
       {
         "date": "2026-05-18",
@@ -1191,9 +540,9 @@
         "opponent_class": "B",
         "score": "6\u20135",
         "opponent_pi": 5.2857,
-        "ti_before": 31.2377,
-        "ti_after": 34.5413,
-        "ti_delta": 3.3036
+        "ti_before": 30.7854,
+        "ti_after": 34.0889,
+        "ti_delta": 3.3035
       },
       {
         "date": "2026-05-18",
@@ -1202,8 +551,8 @@
         "game_winner_name": "Hermon",
         "game_loser_key": "brewer",
         "game_loser_name": "Brewer",
-        "ti_before": 34.5413,
-        "ti_after": 36.208,
+        "ti_before": 34.0889,
+        "ti_after": 35.7556,
         "ti_delta": 1.6667
       },
       {
@@ -1213,8 +562,8 @@
         "game_winner_name": "Hermon",
         "game_loser_key": "oldtown",
         "game_loser_name": "Old Town",
-        "ti_before": 36.208,
-        "ti_after": 37.7913,
+        "ti_before": 35.7556,
+        "ti_after": 37.3389,
         "ti_delta": 1.5833
       },
       {
@@ -1224,9 +573,9 @@
         "game_winner_name": "John Bapst",
         "game_loser_key": "foxcroft",
         "game_loser_name": "Foxcroft Academy",
-        "ti_before": 37.7913,
-        "ti_after": 39.4877,
-        "ti_delta": 1.6964
+        "ti_before": 37.3389,
+        "ti_after": 39.0354,
+        "ti_delta": 1.6965
       },
       {
         "date": "2026-05-20",
@@ -1235,9 +584,9 @@
         "game_winner_name": "Old Town",
         "game_loser_key": "mdi",
         "game_loser_name": "MDI High School",
-        "ti_before": 39.4877,
-        "ti_after": 40.8848,
-        "ti_delta": 1.3971
+        "ti_before": 39.0354,
+        "ti_after": 40.4324,
+        "ti_delta": 1.397
       },
       {
         "date": "2026-05-21",
@@ -1247,8 +596,8 @@
         "opponent_class": "B",
         "score": "11\u20135",
         "opponent_pi": 10.8571,
-        "ti_before": 40.8848,
-        "ti_after": 47.6705,
+        "ti_before": 40.4324,
+        "ti_after": 47.2181,
         "ti_delta": 6.7857
       },
       {
@@ -1258,9 +607,9 @@
         "game_winner_name": "Caribou",
         "game_loser_key": "foxcroft",
         "game_loser_name": "Foxcroft Academy",
-        "ti_before": 47.6705,
-        "ti_after": 49.3669,
-        "ti_delta": 1.6964
+        "ti_before": 47.2181,
+        "ti_after": 48.9146,
+        "ti_delta": 1.6965
       },
       {
         "date": "2026-05-22",
@@ -1269,9 +618,9 @@
         "game_winner_name": "Hermon",
         "game_loser_key": "nokomis",
         "game_loser_name": "Nokomis Regional",
-        "ti_before": 49.3669,
-        "ti_after": 50.9503,
-        "ti_delta": 1.5834
+        "ti_before": 48.9146,
+        "ti_after": 50.4979,
+        "ti_delta": 1.5833
       },
       {
         "date": "2026-05-23",
@@ -1280,9 +629,9 @@
         "game_winner_name": "Old Town",
         "game_loser_key": "john_bapst",
         "game_loser_name": "John Bapst",
-        "ti_before": 50.9503,
-        "ti_after": 52.3473,
-        "ti_delta": 1.397
+        "ti_before": 50.4979,
+        "ti_after": 51.895,
+        "ti_delta": 1.3971
       },
       {
         "date": "2026-05-23",
@@ -1291,9 +640,9 @@
         "game_winner_name": "Hermon",
         "game_loser_key": "foxcroft",
         "game_loser_name": "Foxcroft Academy",
-        "ti_before": 52.3473,
-        "ti_after": 53.9307,
-        "ti_delta": 1.5834
+        "ti_before": 51.895,
+        "ti_after": 53.4783,
+        "ti_delta": 1.5833
       },
       {
         "date": "2026-05-26",
@@ -1302,8 +651,8 @@
         "game_winner_name": "Hermon",
         "game_loser_key": "ellsworth",
         "game_loser_name": "Ellsworth/George Stevens",
-        "ti_before": 53.9307,
-        "ti_after": 55.514,
+        "ti_before": 53.4783,
+        "ti_after": 55.0616,
         "ti_delta": 1.5833
       },
       {
@@ -1313,9 +662,9 @@
         "game_winner_name": "Caribou",
         "game_loser_key": "fort kent community",
         "game_loser_name": "Fort Kent Community",
-        "ti_before": 55.514,
-        "ti_after": 57.1211,
-        "ti_delta": 1.6071
+        "ti_before": 55.0616,
+        "ti_after": 56.6688,
+        "ti_delta": 1.6072
       },
       {
         "date": "2026-05-27",
@@ -1324,9 +673,9 @@
         "game_winner_name": "MDI High School",
         "game_loser_key": "john_bapst",
         "game_loser_name": "John Bapst",
-        "ti_before": 57.1211,
-        "ti_after": 58.8176,
-        "ti_delta": 1.6965
+        "ti_before": 56.6688,
+        "ti_after": 58.2521,
+        "ti_delta": 1.5833
       },
       {
         "date": "2026-05-28",
@@ -1335,9 +684,9 @@
         "game_winner_name": "Old Town",
         "game_loser_key": "ellsworth",
         "game_loser_name": "Ellsworth/George Stevens",
-        "ti_before": 58.8176,
-        "ti_after": 60.2146,
-        "ti_delta": 1.397
+        "ti_before": 58.2521,
+        "ti_after": 59.6492,
+        "ti_delta": 1.3971
       },
       {
         "date": "2026-05-28",
@@ -1346,9 +695,9 @@
         "game_winner_name": "Hermon",
         "game_loser_key": "mdi",
         "game_loser_name": "MDI High School",
-        "ti_before": 60.2146,
-        "ti_after": 61.798,
-        "ti_delta": 1.5834
+        "ti_before": 59.6492,
+        "ti_after": 61.2325,
+        "ti_delta": 1.5833
       },
       {
         "date": "2026-05-29",
@@ -1357,9 +706,9 @@
         "game_winner_name": "MDI High School",
         "game_loser_key": "foxcroft",
         "game_loser_name": "Foxcroft Academy",
-        "ti_before": 61.798,
-        "ti_after": 63.4944,
-        "ti_delta": 1.6964
+        "ti_before": 61.2325,
+        "ti_after": 62.8158,
+        "ti_delta": 1.5833
       },
       {
         "date": "2026-05-30",
@@ -1368,8 +717,8 @@
         "game_winner_name": "Old Town",
         "game_loser_key": "caribou",
         "game_loser_name": "Caribou",
-        "ti_before": 63.4944,
-        "ti_after": 64.8915,
+        "ti_before": 62.8158,
+        "ti_after": 64.2129,
         "ti_delta": 1.3971
       },
       {
@@ -1379,8 +728,8 @@
         "game_winner_name": "Hermon",
         "game_loser_key": "presque_isle",
         "game_loser_name": "Presque Isle",
-        "ti_before": 64.8915,
-        "ti_after": 66.4748,
+        "ti_before": 64.2129,
+        "ti_after": 65.7962,
         "ti_delta": 1.5833
       },
       {
@@ -1390,9 +739,9 @@
         "game_winner_name": "MDI High School",
         "game_loser_key": "ellsworth",
         "game_loser_name": "Ellsworth/George Stevens",
-        "ti_before": 66.4748,
-        "ti_after": 68.1712,
-        "ti_delta": 1.6964
+        "ti_before": 65.7962,
+        "ti_after": 67.3796,
+        "ti_delta": 1.5834
       },
       {
         "date": "2026-06-02",
@@ -1401,9 +750,9 @@
         "game_winner_name": "John Bapst",
         "game_loser_key": "foxcroft",
         "game_loser_name": "Foxcroft Academy",
-        "ti_before": 68.1712,
-        "ti_after": 71.5641,
-        "ti_delta": 3.3929
+        "ti_before": 67.3796,
+        "ti_after": 70.7724,
+        "ti_delta": 3.3928
       },
       {
         "date": "2026-06-03",
@@ -1412,50 +761,39 @@
         "game_winner_name": "Old Town",
         "game_loser_key": "orono",
         "game_loser_name": "Orono",
-        "ti_before": 71.5641,
-        "ti_after": 72.8876,
+        "ti_before": 70.7724,
+        "ti_after": 72.0959,
         "ti_delta": 1.3235
       }
     ],
-    "final_ti": 72.8876
+    "final_ti": 72.0959
   },
-  "belfast": {
-    "team_name": "Belfast Area",
+  "cony": {
+    "team_name": "Cony",
     "events": [
       {
-        "date": "2026-04-24",
+        "date": "2026-04-27",
         "event_type": "win",
-        "opponent_key": "foxcroft",
-        "opponent_name": "Foxcroft Academy",
+        "opponent_key": "lincoln academy",
+        "opponent_name": "Lincoln Academy",
         "opponent_class": "B",
-        "score": "6\u20135",
+        "score": "4\u20131",
         "opponent_pi": 1.0,
         "ti_before": 0.0,
         "ti_after": 0.5556,
         "ti_delta": 0.5556
       },
       {
-        "date": "2026-04-27",
+        "date": "2026-04-28",
         "event_type": "win",
         "opponent_key": "lawrence",
         "opponent_name": "Lawrence",
         "opponent_class": "B",
-        "score": "5\u20133",
-        "opponent_pi": 2.375,
+        "score": "3\u20131",
+        "opponent_pi": 2.2353,
         "ti_before": 0.5556,
-        "ti_after": 1.875,
-        "ti_delta": 1.3194
-      },
-      {
-        "date": "2026-05-02",
-        "event_type": "opponent_win",
-        "game_winner_key": "foxcroft",
-        "game_winner_name": "Foxcroft Academy",
-        "game_loser_key": "caribou",
-        "game_loser_name": "Caribou",
-        "ti_before": 1.875,
-        "ti_after": 2.5613,
-        "ti_delta": 0.6863
+        "ti_after": 1.7974,
+        "ti_delta": 1.2418
       },
       {
         "date": "2026-05-05",
@@ -1464,33 +802,21 @@
         "game_winner_name": "Lawrence",
         "game_loser_key": "oceanside",
         "game_loser_name": "Oceanside",
-        "ti_before": 2.5613,
-        "ti_after": 3.8807,
-        "ti_delta": 1.3194
-      },
-      {
-        "date": "2026-05-07",
-        "event_type": "win",
-        "opponent_key": "hampden academy",
-        "opponent_name": "Hampden Academy",
-        "opponent_class": "A",
-        "score": "8\u20130",
-        "opponent_pi": 1.0,
-        "ti_before": 3.8807,
-        "ti_after": 4.4363,
-        "ti_delta": 0.5556
+        "ti_before": 1.7974,
+        "ti_after": 3.0392,
+        "ti_delta": 1.2418
       },
       {
         "date": "2026-05-08",
         "event_type": "win",
-        "opponent_key": "gardiner",
-        "opponent_name": "Gardiner Area",
+        "opponent_key": "oceanside",
+        "opponent_name": "Oceanside",
         "opponent_class": "B",
-        "score": "6\u20133",
-        "opponent_pi": 8.0,
-        "ti_before": 4.4363,
-        "ti_after": 8.8807,
-        "ti_delta": 4.4444
+        "score": "22\u20130",
+        "opponent_pi": 1.0,
+        "ti_before": 3.0392,
+        "ti_after": 3.5948,
+        "ti_delta": 0.5556
       },
       {
         "date": "2026-05-08",
@@ -1499,54 +825,20 @@
         "game_winner_name": "Lawrence",
         "game_loser_key": "winslow",
         "game_loser_name": "Winslow",
-        "ti_before": 8.8807,
-        "ti_after": 10.1307,
-        "ti_delta": 1.25
-      },
-      {
-        "date": "2026-05-11",
-        "event_type": "win",
-        "opponent_key": "oceanside",
-        "opponent_name": "Oceanside",
-        "opponent_class": "B",
-        "score": "15\u20130",
-        "opponent_pi": 1.0,
-        "ti_before": 10.1307,
-        "ti_after": 10.6863,
-        "ti_delta": 0.5556
-      },
-      {
-        "date": "2026-05-11",
-        "event_type": "opponent_win",
-        "game_winner_key": "gardiner",
-        "game_winner_name": "Gardiner Area",
-        "game_loser_key": "winslow",
-        "game_loser_name": "Winslow",
-        "ti_before": 10.6863,
-        "ti_after": 11.7389,
-        "ti_delta": 1.0526
-      },
-      {
-        "date": "2026-05-12",
-        "event_type": "opponent_win",
-        "game_winner_key": "gardiner",
-        "game_winner_name": "Gardiner Area",
-        "game_loser_key": "monmouth academy",
-        "game_loser_name": "Monmouth Academy",
-        "ti_before": 11.7389,
-        "ti_after": 12.7915,
-        "ti_delta": 1.0526
+        "ti_before": 3.5948,
+        "ti_after": 4.7712,
+        "ti_delta": 1.1764
       },
       {
         "date": "2026-05-13",
         "event_type": "win",
-        "opponent_key": "lincoln academy",
-        "opponent_name": "Lincoln Academy",
-        "opponent_class": "B",
-        "score": "6\u20134",
+        "opponent_key": "monmouth academy",
+        "opponent_name": "Monmouth Academy",
+        "opponent_class": "C",
+        "score": "14\u201311",
         "opponent_pi": 1.0,
-        "ti_before": 12.7915,
-        "ti_after": 13.3471,
+        "ti_before": 4.7712,
+        "ti_after": 5.3268,
         "ti_delta": 0.5556
       },
       {
@@ -1556,31 +848,21 @@
         "game_winner_name": "Lawrence",
         "game_loser_key": "oceanside",
         "game_loser_name": "Oceanside",
-        "ti_before": 13.3471,
-        "ti_after": 14.6665,
-        "ti_delta": 1.3194
+        "ti_before": 5.3268,
+        "ti_after": 6.5686,
+        "ti_delta": 1.2418
       },
       {
         "date": "2026-05-15",
-        "event_type": "opponent_win",
-        "game_winner_key": "gardiner",
-        "game_winner_name": "Gardiner Area",
-        "game_loser_key": "nokomis",
-        "game_loser_name": "Nokomis Regional",
-        "ti_before": 14.6665,
-        "ti_after": 15.7776,
-        "ti_delta": 1.1111
-      },
-      {
-        "date": "2026-05-15",
-        "event_type": "opponent_win",
-        "game_winner_key": "foxcroft",
-        "game_winner_name": "Foxcroft Academy",
-        "game_loser_key": "ellsworth",
-        "game_loser_name": "Ellsworth/George Stevens",
-        "ti_before": 15.7776,
-        "ti_after": 17.0195,
-        "ti_delta": 1.2419
+        "event_type": "win",
+        "opponent_key": "waterville",
+        "opponent_name": "Waterville",
+        "opponent_class": "B",
+        "score": "22\u20130",
+        "opponent_pi": 1.0,
+        "ti_before": 6.5686,
+        "ti_after": 7.1242,
+        "ti_delta": 0.5556
       },
       {
         "date": "2026-05-15",
@@ -1589,32 +871,32 @@
         "game_winner_name": "Lawrence",
         "game_loser_key": "messalonskee",
         "game_loser_name": "Messalonskee",
-        "ti_before": 17.0195,
-        "ti_after": 18.4084,
-        "ti_delta": 1.3889
+        "ti_before": 7.1242,
+        "ti_after": 8.4314,
+        "ti_delta": 1.3072
       },
       {
-        "date": "2026-05-18",
+        "date": "2026-05-16",
         "event_type": "win",
-        "opponent_key": "cony",
-        "opponent_name": "Cony",
-        "opponent_class": "B",
-        "score": "6\u20134",
-        "opponent_pi": 13.1765,
-        "ti_before": 18.4084,
-        "ti_after": 25.7286,
-        "ti_delta": 7.3202
+        "opponent_key": "winthrop/kents hill ramblers",
+        "opponent_name": "Winthrop/Kents Hill Ramblers",
+        "opponent_class": "C",
+        "score": "18\u20131",
+        "opponent_pi": 1.0,
+        "ti_before": 8.4314,
+        "ti_after": 8.9869,
+        "ti_delta": 0.5555
       },
       {
         "date": "2026-05-18",
         "event_type": "opponent_win",
-        "game_winner_key": "gardiner",
-        "game_winner_name": "Gardiner Area",
-        "game_loser_key": "medomak valley",
-        "game_loser_name": "Medomak Valley",
-        "ti_before": 25.7286,
-        "ti_after": 26.8397,
-        "ti_delta": 1.1111
+        "game_winner_key": "waterville",
+        "game_winner_name": "Waterville",
+        "game_loser_key": "oceanside",
+        "game_loser_name": "Oceanside",
+        "ti_before": 8.9869,
+        "ti_after": 9.4869,
+        "ti_delta": 0.5
       },
       {
         "date": "2026-05-20",
@@ -1623,44 +905,21 @@
         "game_winner_name": "Lawrence",
         "game_loser_key": "nokomis",
         "game_loser_name": "Nokomis Regional",
-        "ti_before": 26.8397,
-        "ti_after": 28.1592,
-        "ti_delta": 1.3195
-      },
-      {
-        "date": "2026-05-20",
-        "event_type": "win",
-        "opponent_key": "waterville",
-        "opponent_name": "Waterville",
-        "opponent_class": "B",
-        "score": "18\u20131",
-        "opponent_pi": 1.9,
-        "ti_before": 28.1592,
-        "ti_after": 29.2147,
-        "ti_delta": 1.0555
+        "ti_before": 9.4869,
+        "ti_after": 10.7288,
+        "ti_delta": 1.2419
       },
       {
         "date": "2026-05-21",
-        "event_type": "opponent_win",
-        "game_winner_key": "cony",
-        "game_winner_name": "Cony",
-        "game_loser_key": "winslow",
-        "game_loser_name": "Winslow",
-        "ti_before": 29.2147,
-        "ti_after": 30.3912,
-        "ti_delta": 1.1765
-      },
-      {
-        "date": "2026-05-22",
         "event_type": "win",
         "opponent_key": "winslow",
         "opponent_name": "Winslow",
         "opponent_class": "C",
-        "score": "8\u20133",
+        "score": "7\u20136",
         "opponent_pi": 1.0,
-        "ti_before": 30.3912,
-        "ti_after": 30.9468,
-        "ti_delta": 0.5556
+        "ti_before": 10.7288,
+        "ti_after": 11.2843,
+        "ti_delta": 0.5555
       },
       {
         "date": "2026-05-22",
@@ -1669,20 +928,9 @@
         "game_winner_name": "Lawrence",
         "game_loser_key": "waterville",
         "game_loser_name": "Waterville",
-        "ti_before": 30.9468,
-        "ti_after": 32.2662,
-        "ti_delta": 1.3194
-      },
-      {
-        "date": "2026-05-22",
-        "event_type": "opponent_win",
-        "game_winner_key": "gardiner",
-        "game_winner_name": "Gardiner Area",
-        "game_loser_key": "lincoln academy",
-        "game_loser_name": "Lincoln Academy",
-        "ti_before": 32.2662,
-        "ti_after": 33.3773,
-        "ti_delta": 1.1111
+        "ti_before": 11.2843,
+        "ti_after": 12.5261,
+        "ti_delta": 1.2418
       },
       {
         "date": "2026-05-26",
@@ -1691,9 +939,9 @@
         "game_winner_name": "Lawrence",
         "game_loser_key": "gardiner",
         "game_loser_name": "Gardiner Area",
-        "ti_before": 33.3773,
-        "ti_after": 34.6968,
-        "ti_delta": 1.3195
+        "ti_before": 12.5261,
+        "ti_after": 13.768,
+        "ti_delta": 1.2419
       },
       {
         "date": "2026-05-26",
@@ -1702,43 +950,21 @@
         "game_winner_name": "Waterville",
         "game_loser_key": "john_bapst",
         "game_loser_name": "John Bapst",
-        "ti_before": 34.6968,
-        "ti_after": 35.7523,
+        "ti_before": 13.768,
+        "ti_after": 14.8235,
         "ti_delta": 1.0555
-      },
-      {
-        "date": "2026-05-27",
-        "event_type": "opponent_win",
-        "game_winner_key": "gardiner",
-        "game_winner_name": "Gardiner Area",
-        "game_loser_key": "morse",
-        "game_loser_name": "Morse",
-        "ti_before": 35.7523,
-        "ti_after": 36.8634,
-        "ti_delta": 1.1111
       },
       {
         "date": "2026-05-28",
         "event_type": "win",
-        "opponent_key": "winslow",
-        "opponent_name": "Winslow",
-        "opponent_class": "C",
-        "score": "9\u20135",
+        "opponent_key": "messalonskee",
+        "opponent_name": "Messalonskee",
+        "opponent_class": "A",
+        "score": "19\u201314",
         "opponent_pi": 1.0,
-        "ti_before": 36.8634,
-        "ti_after": 37.419,
+        "ti_before": 14.8235,
+        "ti_after": 15.3791,
         "ti_delta": 0.5556
-      },
-      {
-        "date": "2026-05-28",
-        "event_type": "opponent_win",
-        "game_winner_key": "cony",
-        "game_winner_name": "Cony",
-        "game_loser_key": "messalonskee",
-        "game_loser_name": "Messalonskee",
-        "ti_before": 37.419,
-        "ti_after": 38.7262,
-        "ti_delta": 1.3072
       },
       {
         "date": "2026-05-28",
@@ -1747,32 +973,9 @@
         "game_winner_name": "Lawrence",
         "game_loser_key": "mount view",
         "game_loser_name": "Mount View",
-        "ti_before": 38.7262,
-        "ti_after": 39.9762,
-        "ti_delta": 1.25
-      },
-      {
-        "date": "2026-05-29",
-        "event_type": "win",
-        "opponent_key": "waterville",
-        "opponent_name": "Waterville",
-        "opponent_class": "B",
-        "score": "13\u20130",
-        "opponent_pi": 3.8,
-        "ti_before": 39.9762,
-        "ti_after": 42.0873,
-        "ti_delta": 2.1111
-      },
-      {
-        "date": "2026-05-29",
-        "event_type": "opponent_win",
-        "game_winner_key": "gardiner",
-        "game_winner_name": "Gardiner Area",
-        "game_loser_key": "erskine academy",
-        "game_loser_name": "Erskine Academy",
-        "ti_before": 42.0873,
-        "ti_after": 43.1984,
-        "ti_delta": 1.1111
+        "ti_before": 15.3791,
+        "ti_after": 16.5556,
+        "ti_delta": 1.1765
       },
       {
         "date": "2026-05-30",
@@ -1781,9 +984,9 @@
         "game_winner_name": "Lawrence",
         "game_loser_key": "cony",
         "game_loser_name": "Cony",
-        "ti_before": 43.1984,
-        "ti_after": 44.5178,
-        "ti_delta": 1.3194
+        "ti_before": 16.5556,
+        "ti_after": 17.7974,
+        "ti_delta": 1.2418
       },
       {
         "date": "2026-06-01",
@@ -1792,262 +995,12 @@
         "game_winner_name": "Lawrence",
         "game_loser_key": "nokomis",
         "game_loser_name": "Nokomis Regional",
-        "ti_before": 44.5178,
-        "ti_after": 45.8373,
-        "ti_delta": 1.3195
-      },
-      {
-        "date": "2026-06-02",
-        "event_type": "win",
-        "opponent_key": "mount view",
-        "opponent_name": "Mount View",
-        "opponent_class": "C",
-        "score": "8\u20130",
-        "opponent_pi": 1.0,
-        "ti_before": 45.8373,
-        "ti_after": 46.3928,
-        "ti_delta": 0.5555
-      },
-      {
-        "date": "2026-06-02",
-        "event_type": "opponent_win",
-        "game_winner_key": "gardiner",
-        "game_winner_name": "Gardiner Area",
-        "game_loser_key": "cony",
-        "game_loser_name": "Cony",
-        "ti_before": 46.3928,
-        "ti_after": 47.504,
-        "ti_delta": 1.1112
-      },
-      {
-        "date": "2026-06-03",
-        "event_type": "win",
-        "opponent_key": "morse",
-        "opponent_name": "Morse",
-        "opponent_class": "B",
-        "score": "16\u20133",
-        "opponent_pi": 1.0,
-        "ti_before": 47.504,
-        "ti_after": 48.0595,
-        "ti_delta": 0.5555
+        "ti_before": 17.7974,
+        "ti_after": 19.0392,
+        "ti_delta": 1.2418
       }
     ],
-    "final_ti": 48.0595
-  },
-  "lawrence": {
-    "team_name": "Lawrence",
-    "events": [
-      {
-        "date": "2026-04-24",
-        "event_type": "win",
-        "opponent_key": "waterville",
-        "opponent_name": "Waterville",
-        "opponent_class": "B",
-        "score": "13\u20133",
-        "opponent_pi": 1.0,
-        "ti_before": 0.0,
-        "ti_after": 0.625,
-        "ti_delta": 0.625
-      },
-      {
-        "date": "2026-05-05",
-        "event_type": "win",
-        "opponent_key": "oceanside",
-        "opponent_name": "Oceanside",
-        "opponent_class": "B",
-        "score": "15\u20130",
-        "opponent_pi": 1.0,
-        "ti_before": 0.625,
-        "ti_after": 1.25,
-        "ti_delta": 0.625
-      },
-      {
-        "date": "2026-05-08",
-        "event_type": "win",
-        "opponent_key": "winslow",
-        "opponent_name": "Winslow",
-        "opponent_class": "C",
-        "score": "6\u20135",
-        "opponent_pi": 1.0,
-        "ti_before": 1.25,
-        "ti_after": 1.875,
-        "ti_delta": 0.625
-      },
-      {
-        "date": "2026-05-13",
-        "event_type": "win",
-        "opponent_key": "oceanside",
-        "opponent_name": "Oceanside",
-        "opponent_class": "B",
-        "score": "15\u20130",
-        "opponent_pi": 1.0,
-        "ti_before": 1.875,
-        "ti_after": 2.5,
-        "ti_delta": 0.625
-      },
-      {
-        "date": "2026-05-15",
-        "event_type": "win",
-        "opponent_key": "messalonskee",
-        "opponent_name": "Messalonskee",
-        "opponent_class": "A",
-        "score": "16\u20133",
-        "opponent_pi": 1.0,
-        "ti_before": 2.5,
-        "ti_after": 3.125,
-        "ti_delta": 0.625
-      },
-      {
-        "date": "2026-05-18",
-        "event_type": "opponent_win",
-        "game_winner_key": "waterville",
-        "game_winner_name": "Waterville",
-        "game_loser_key": "oceanside",
-        "game_loser_name": "Oceanside",
-        "ti_before": 3.125,
-        "ti_after": 3.6875,
-        "ti_delta": 0.5625
-      },
-      {
-        "date": "2026-05-20",
-        "event_type": "win",
-        "opponent_key": "nokomis",
-        "opponent_name": "Nokomis Regional",
-        "opponent_class": "B",
-        "score": "6\u20135",
-        "opponent_pi": 13.6842,
-        "ti_before": 3.6875,
-        "ti_after": 12.2401,
-        "ti_delta": 8.5526
-      },
-      {
-        "date": "2026-05-22",
-        "event_type": "win",
-        "opponent_key": "waterville",
-        "opponent_name": "Waterville",
-        "opponent_class": "B",
-        "score": "12\u20131",
-        "opponent_pi": 1.9,
-        "ti_before": 12.2401,
-        "ti_after": 13.4276,
-        "ti_delta": 1.1875
-      },
-      {
-        "date": "2026-05-26",
-        "event_type": "opponent_win",
-        "game_winner_key": "nokomis",
-        "game_winner_name": "Nokomis Regional",
-        "game_loser_key": "cony",
-        "game_loser_name": "Cony",
-        "ti_before": 13.4276,
-        "ti_after": 14.6776,
-        "ti_delta": 1.25
-      },
-      {
-        "date": "2026-05-26",
-        "event_type": "win",
-        "opponent_key": "gardiner",
-        "opponent_name": "Gardiner Area",
-        "opponent_class": "B",
-        "score": "8\u20137",
-        "opponent_pi": 17.7895,
-        "ti_before": 14.6776,
-        "ti_after": 25.7961,
-        "ti_delta": 11.1185
-      },
-      {
-        "date": "2026-05-26",
-        "event_type": "opponent_win",
-        "game_winner_key": "waterville",
-        "game_winner_name": "Waterville",
-        "game_loser_key": "john_bapst",
-        "game_loser_name": "John Bapst",
-        "ti_before": 25.7961,
-        "ti_after": 28.1711,
-        "ti_delta": 2.375
-      },
-      {
-        "date": "2026-05-27",
-        "event_type": "opponent_win",
-        "game_winner_key": "gardiner",
-        "game_winner_name": "Gardiner Area",
-        "game_loser_key": "morse",
-        "game_loser_name": "Morse",
-        "ti_before": 28.1711,
-        "ti_after": 29.4211,
-        "ti_delta": 1.25
-      },
-      {
-        "date": "2026-05-28",
-        "event_type": "opponent_win",
-        "game_winner_key": "nokomis",
-        "game_winner_name": "Nokomis Regional",
-        "game_loser_key": "waterville",
-        "game_loser_name": "Waterville",
-        "ti_before": 29.4211,
-        "ti_after": 30.6711,
-        "ti_delta": 1.25
-      },
-      {
-        "date": "2026-05-28",
-        "event_type": "win",
-        "opponent_key": "mount view",
-        "opponent_name": "Mount View",
-        "opponent_class": "C",
-        "score": "6\u20132",
-        "opponent_pi": 1.0,
-        "ti_before": 30.6711,
-        "ti_after": 31.2961,
-        "ti_delta": 0.625
-      },
-      {
-        "date": "2026-05-29",
-        "event_type": "opponent_win",
-        "game_winner_key": "gardiner",
-        "game_winner_name": "Gardiner Area",
-        "game_loser_key": "erskine academy",
-        "game_loser_name": "Erskine Academy",
-        "ti_before": 31.2961,
-        "ti_after": 32.5461,
-        "ti_delta": 1.25
-      },
-      {
-        "date": "2026-05-30",
-        "event_type": "win",
-        "opponent_key": "cony",
-        "opponent_name": "Cony",
-        "opponent_class": "B",
-        "score": "16\u20135",
-        "opponent_pi": 17.6471,
-        "ti_before": 32.5461,
-        "ti_after": 43.5755,
-        "ti_delta": 11.0294
-      },
-      {
-        "date": "2026-06-01",
-        "event_type": "win",
-        "opponent_key": "nokomis",
-        "opponent_name": "Nokomis Regional",
-        "opponent_class": "B",
-        "score": "17\u20134",
-        "opponent_pi": 17.6842,
-        "ti_before": 43.5755,
-        "ti_after": 54.6281,
-        "ti_delta": 11.0526
-      },
-      {
-        "date": "2026-06-02",
-        "event_type": "opponent_win",
-        "game_winner_key": "gardiner",
-        "game_winner_name": "Gardiner Area",
-        "game_loser_key": "cony",
-        "game_loser_name": "Cony",
-        "ti_before": 54.6281,
-        "ti_after": 55.8781,
-        "ti_delta": 1.25
-      }
-    ],
-    "final_ti": 55.8781
+    "final_ti": 19.0392
   },
   "nokomis": {
     "team_name": "Nokomis Regional",
@@ -2253,10 +1206,10 @@
         "opponent_name": "Cony",
         "opponent_class": "B",
         "score": "11\u20136",
-        "opponent_pi": 15.2941,
+        "opponent_pi": 14.4444,
         "ti_before": 15.4582,
-        "ti_after": 23.5077,
-        "ti_delta": 8.0495
+        "ti_after": 23.0605,
+        "ti_delta": 7.6023
       },
       {
         "date": "2026-05-26",
@@ -2265,8 +1218,8 @@
         "game_winner_name": "Waterville",
         "game_loser_key": "john_bapst",
         "game_loser_name": "John Bapst",
-        "ti_before": 23.5077,
-        "ti_after": 24.5077,
+        "ti_before": 23.0605,
+        "ti_after": 24.0605,
         "ti_delta": 1.0
       },
       {
@@ -2277,8 +1230,8 @@
         "opponent_class": "B",
         "score": "17\u20138",
         "opponent_pi": 3.8,
-        "ti_before": 24.5077,
-        "ti_after": 26.5077,
+        "ti_before": 24.0605,
+        "ti_after": 26.0605,
         "ti_delta": 2.0
       },
       {
@@ -2288,8 +1241,8 @@
         "game_winner_name": "Belfast Area",
         "game_loser_key": "winslow",
         "game_loser_name": "Winslow",
-        "ti_before": 26.5077,
-        "ti_after": 27.5604,
+        "ti_before": 26.0605,
+        "ti_after": 27.1132,
         "ti_delta": 1.0527
       },
       {
@@ -2299,9 +1252,9 @@
         "game_winner_name": "Cony",
         "game_loser_key": "messalonskee",
         "game_loser_name": "Messalonskee",
-        "ti_before": 27.5604,
-        "ti_after": 28.7988,
-        "ti_delta": 1.2384
+        "ti_before": 27.1132,
+        "ti_after": 28.2828,
+        "ti_delta": 1.1696
       },
       {
         "date": "2026-05-29",
@@ -2310,8 +1263,8 @@
         "game_winner_name": "Belfast Area",
         "game_loser_key": "waterville",
         "game_loser_name": "Waterville",
-        "ti_before": 28.7988,
-        "ti_after": 29.9099,
+        "ti_before": 28.2828,
+        "ti_after": 29.3939,
         "ti_delta": 1.1111
       },
       {
@@ -2321,8 +1274,8 @@
         "game_winner_name": "Belfast Area",
         "game_loser_key": "mount view",
         "game_loser_name": "Mount View",
-        "ti_before": 29.9099,
-        "ti_after": 30.9625,
+        "ti_before": 29.3939,
+        "ti_after": 30.4465,
         "ti_delta": 1.0526
       },
       {
@@ -2332,12 +1285,17 @@
         "game_winner_name": "Belfast Area",
         "game_loser_key": "morse",
         "game_loser_name": "Morse",
-        "ti_before": 30.9625,
-        "ti_after": 32.0736,
+        "ti_before": 30.4465,
+        "ti_after": 31.5576,
         "ti_delta": 1.1111
       }
     ],
-    "final_ti": 32.0736
+    "final_ti": 31.5576
+  },
+  "oceanside": {
+    "team_name": "Oceanside",
+    "events": [],
+    "final_ti": 0.0
   },
   "presque_isle": {
     "team_name": "Presque Isle",
@@ -2404,6 +1362,1765 @@
       }
     ],
     "final_ti": 21.5689
+  },
+  "caribou": {
+    "team_name": "Caribou",
+    "events": [
+      {
+        "date": "2026-05-11",
+        "event_type": "win",
+        "opponent_key": "fort kent community",
+        "opponent_name": "Fort Kent Community",
+        "opponent_class": "C",
+        "score": "11\u20130",
+        "opponent_pi": 1.0,
+        "ti_before": 0.0,
+        "ti_after": 0.7143,
+        "ti_delta": 0.7143
+      },
+      {
+        "date": "2026-05-14",
+        "event_type": "win",
+        "opponent_key": "presque_isle",
+        "opponent_name": "Presque Isle",
+        "opponent_class": "B",
+        "score": "3\u20132",
+        "opponent_pi": 2.5714,
+        "ti_before": 0.7143,
+        "ti_after": 2.551,
+        "ti_delta": 1.8367
+      },
+      {
+        "date": "2026-05-18",
+        "event_type": "opponent_win",
+        "game_winner_key": "presque_isle",
+        "game_winner_name": "Presque Isle",
+        "game_loser_key": "houlton/greater houlton",
+        "game_loser_name": "Houlton/Greater Houlton",
+        "ti_before": 2.551,
+        "ti_after": 4.3878,
+        "ti_delta": 1.8368
+      },
+      {
+        "date": "2026-05-19",
+        "event_type": "opponent_win",
+        "game_winner_key": "presque_isle",
+        "game_winner_name": "Presque Isle",
+        "game_loser_key": "fort kent community",
+        "game_loser_name": "Fort Kent Community",
+        "ti_before": 4.3878,
+        "ti_after": 6.2245,
+        "ti_delta": 1.8367
+      },
+      {
+        "date": "2026-05-21",
+        "event_type": "win",
+        "opponent_key": "foxcroft",
+        "opponent_name": "Foxcroft Academy",
+        "opponent_class": "B",
+        "score": "13\u20132",
+        "opponent_pi": 4.4706,
+        "ti_before": 6.2245,
+        "ti_after": 9.4178,
+        "ti_delta": 3.1933
+      },
+      {
+        "date": "2026-05-23",
+        "event_type": "opponent_win",
+        "game_winner_key": "presque_isle",
+        "game_winner_name": "Presque Isle",
+        "game_loser_key": "ellsworth",
+        "game_loser_name": "Ellsworth/George Stevens",
+        "ti_before": 9.4178,
+        "ti_after": 11.3565,
+        "ti_delta": 1.9387
+      },
+      {
+        "date": "2026-05-26",
+        "event_type": "win",
+        "opponent_key": "fort kent community",
+        "opponent_name": "Fort Kent Community",
+        "opponent_class": "C",
+        "score": "16\u20134",
+        "opponent_pi": 1.0,
+        "ti_before": 11.3565,
+        "ti_after": 12.0708,
+        "ti_delta": 0.7143
+      },
+      {
+        "date": "2026-06-02",
+        "event_type": "opponent_win",
+        "game_winner_key": "presque_isle",
+        "game_winner_name": "Presque Isle",
+        "game_loser_key": "caribou",
+        "game_loser_name": "Caribou",
+        "ti_before": 12.0708,
+        "ti_after": 14.0096,
+        "ti_delta": 1.9388
+      }
+    ],
+    "final_ti": 14.0096
+  },
+  "gardiner": {
+    "team_name": "Gardiner Area",
+    "events": [
+      {
+        "date": "2026-04-27",
+        "event_type": "win",
+        "opponent_key": "leavitt area",
+        "opponent_name": "Leavitt Area",
+        "opponent_class": "B",
+        "score": "2\u20131",
+        "opponent_pi": 1.0,
+        "ti_before": 0.0,
+        "ti_after": 0.5263,
+        "ti_delta": 0.5263
+      },
+      {
+        "date": "2026-04-29",
+        "event_type": "win",
+        "opponent_key": "waterville",
+        "opponent_name": "Waterville",
+        "opponent_class": "B",
+        "score": "18\u20133",
+        "opponent_pi": 1.0,
+        "ti_before": 0.5263,
+        "ti_after": 1.0526,
+        "ti_delta": 0.5263
+      },
+      {
+        "date": "2026-05-01",
+        "event_type": "win",
+        "opponent_key": "lawrence",
+        "opponent_name": "Lawrence",
+        "opponent_class": "B",
+        "score": "15\u20135",
+        "opponent_pi": 2.2353,
+        "ti_before": 1.0526,
+        "ti_after": 2.2291,
+        "ti_delta": 1.1765
+      },
+      {
+        "date": "2026-05-05",
+        "event_type": "win",
+        "opponent_key": "cony",
+        "opponent_name": "Cony",
+        "opponent_class": "B",
+        "score": "11\u20135",
+        "opponent_pi": 4.2222,
+        "ti_before": 2.2291,
+        "ti_after": 4.4513,
+        "ti_delta": 2.2222
+      },
+      {
+        "date": "2026-05-05",
+        "event_type": "opponent_win",
+        "game_winner_key": "lawrence",
+        "game_winner_name": "Lawrence",
+        "game_loser_key": "oceanside",
+        "game_loser_name": "Oceanside",
+        "ti_before": 4.4513,
+        "ti_after": 5.6278,
+        "ti_delta": 1.1765
+      },
+      {
+        "date": "2026-05-08",
+        "event_type": "opponent_win",
+        "game_winner_key": "cony",
+        "game_winner_name": "Cony",
+        "game_loser_key": "oceanside",
+        "game_loser_name": "Oceanside",
+        "ti_before": 5.6278,
+        "ti_after": 6.7389,
+        "ti_delta": 1.1111
+      },
+      {
+        "date": "2026-05-08",
+        "event_type": "opponent_win",
+        "game_winner_key": "lawrence",
+        "game_winner_name": "Lawrence",
+        "game_loser_key": "winslow",
+        "game_loser_name": "Winslow",
+        "ti_before": 6.7389,
+        "ti_after": 7.8535,
+        "ti_delta": 1.1146
+      },
+      {
+        "date": "2026-05-11",
+        "event_type": "win",
+        "opponent_key": "winslow",
+        "opponent_name": "Winslow",
+        "opponent_class": "C",
+        "score": "9\u20133",
+        "opponent_pi": 1.0,
+        "ti_before": 7.8535,
+        "ti_after": 8.3798,
+        "ti_delta": 0.5263
+      },
+      {
+        "date": "2026-05-12",
+        "event_type": "win",
+        "opponent_key": "monmouth academy",
+        "opponent_name": "Monmouth Academy",
+        "opponent_class": "C",
+        "score": "4\u20133",
+        "opponent_pi": 1.0,
+        "ti_before": 8.3798,
+        "ti_after": 8.9061,
+        "ti_delta": 0.5263
+      },
+      {
+        "date": "2026-05-13",
+        "event_type": "opponent_win",
+        "game_winner_key": "cony",
+        "game_winner_name": "Cony",
+        "game_loser_key": "monmouth academy",
+        "game_loser_name": "Monmouth Academy",
+        "ti_before": 8.9061,
+        "ti_after": 9.9587,
+        "ti_delta": 1.0526
+      },
+      {
+        "date": "2026-05-13",
+        "event_type": "opponent_win",
+        "game_winner_key": "lawrence",
+        "game_winner_name": "Lawrence",
+        "game_loser_key": "oceanside",
+        "game_loser_name": "Oceanside",
+        "ti_before": 9.9587,
+        "ti_after": 11.1352,
+        "ti_delta": 1.1765
+      },
+      {
+        "date": "2026-05-15",
+        "event_type": "win",
+        "opponent_key": "nokomis",
+        "opponent_name": "Nokomis Regional",
+        "opponent_class": "B",
+        "score": "6\u20135",
+        "opponent_pi": 11.7895,
+        "ti_before": 11.1352,
+        "ti_after": 17.3402,
+        "ti_delta": 6.205
+      },
+      {
+        "date": "2026-05-15",
+        "event_type": "opponent_win",
+        "game_winner_key": "cony",
+        "game_winner_name": "Cony",
+        "game_loser_key": "waterville",
+        "game_loser_name": "Waterville",
+        "ti_before": 17.3402,
+        "ti_after": 18.4513,
+        "ti_delta": 1.1111
+      },
+      {
+        "date": "2026-05-15",
+        "event_type": "opponent_win",
+        "game_winner_key": "lawrence",
+        "game_winner_name": "Lawrence",
+        "game_loser_key": "messalonskee",
+        "game_loser_name": "Messalonskee",
+        "ti_before": 18.4513,
+        "ti_after": 19.6897,
+        "ti_delta": 1.2384
+      },
+      {
+        "date": "2026-05-16",
+        "event_type": "opponent_win",
+        "game_winner_key": "cony",
+        "game_winner_name": "Cony",
+        "game_loser_key": "winthrop/kents hill ramblers",
+        "game_loser_name": "Winthrop/Kents Hill Ramblers",
+        "ti_before": 19.6897,
+        "ti_after": 20.7423,
+        "ti_delta": 1.0526
+      },
+      {
+        "date": "2026-05-18",
+        "event_type": "opponent_win",
+        "game_winner_key": "nokomis",
+        "game_winner_name": "Nokomis Regional",
+        "game_loser_key": "winslow",
+        "game_loser_name": "Winslow",
+        "ti_before": 20.7423,
+        "ti_after": 21.7395,
+        "ti_delta": 0.9972
+      },
+      {
+        "date": "2026-05-18",
+        "event_type": "opponent_win",
+        "game_winner_key": "waterville",
+        "game_winner_name": "Waterville",
+        "game_loser_key": "oceanside",
+        "game_loser_name": "Oceanside",
+        "ti_before": 21.7395,
+        "ti_after": 22.2132,
+        "ti_delta": 0.4737
+      },
+      {
+        "date": "2026-05-18",
+        "event_type": "win",
+        "opponent_key": "medomak valley",
+        "opponent_name": "Medomak Valley",
+        "opponent_class": "B",
+        "score": "17\u201316",
+        "opponent_pi": 1.0,
+        "ti_before": 22.2132,
+        "ti_after": 22.7395,
+        "ti_delta": 0.5263
+      },
+      {
+        "date": "2026-05-20",
+        "event_type": "opponent_win",
+        "game_winner_key": "lawrence",
+        "game_winner_name": "Lawrence",
+        "game_loser_key": "nokomis",
+        "game_loser_name": "Nokomis Regional",
+        "ti_before": 22.7395,
+        "ti_after": 23.916,
+        "ti_delta": 1.1765
+      },
+      {
+        "date": "2026-05-21",
+        "event_type": "opponent_win",
+        "game_winner_key": "cony",
+        "game_winner_name": "Cony",
+        "game_loser_key": "winslow",
+        "game_loser_name": "Winslow",
+        "ti_before": 23.916,
+        "ti_after": 24.9686,
+        "ti_delta": 1.0526
+      },
+      {
+        "date": "2026-05-22",
+        "event_type": "opponent_win",
+        "game_winner_key": "lawrence",
+        "game_winner_name": "Lawrence",
+        "game_loser_key": "waterville",
+        "game_loser_name": "Waterville",
+        "ti_before": 24.9686,
+        "ti_after": 26.1451,
+        "ti_delta": 1.1765
+      },
+      {
+        "date": "2026-05-22",
+        "event_type": "win",
+        "opponent_key": "lincoln academy",
+        "opponent_name": "Lincoln Academy",
+        "opponent_class": "B",
+        "score": "12\u20132",
+        "opponent_pi": 1.0,
+        "ti_before": 26.1451,
+        "ti_after": 26.6714,
+        "ti_delta": 0.5263
+      },
+      {
+        "date": "2026-05-26",
+        "event_type": "opponent_win",
+        "game_winner_key": "nokomis",
+        "game_winner_name": "Nokomis Regional",
+        "game_loser_key": "cony",
+        "game_loser_name": "Cony",
+        "ti_before": 26.6714,
+        "ti_after": 27.7241,
+        "ti_delta": 1.0527
+      },
+      {
+        "date": "2026-05-26",
+        "event_type": "opponent_win",
+        "game_winner_key": "lawrence",
+        "game_winner_name": "Lawrence",
+        "game_loser_key": "gardiner",
+        "game_loser_name": "Gardiner Area",
+        "ti_before": 27.7241,
+        "ti_after": 28.9005,
+        "ti_delta": 1.1764
+      },
+      {
+        "date": "2026-05-26",
+        "event_type": "opponent_win",
+        "game_winner_key": "waterville",
+        "game_winner_name": "Waterville",
+        "game_loser_key": "john_bapst",
+        "game_loser_name": "John Bapst",
+        "ti_before": 28.9005,
+        "ti_after": 29.9005,
+        "ti_delta": 1.0
+      },
+      {
+        "date": "2026-05-27",
+        "event_type": "win",
+        "opponent_key": "morse",
+        "opponent_name": "Morse",
+        "opponent_class": "B",
+        "score": "3\u20130",
+        "opponent_pi": 1.0,
+        "ti_before": 29.9005,
+        "ti_after": 30.4268,
+        "ti_delta": 0.5263
+      },
+      {
+        "date": "2026-05-28",
+        "event_type": "opponent_win",
+        "game_winner_key": "nokomis",
+        "game_winner_name": "Nokomis Regional",
+        "game_loser_key": "waterville",
+        "game_loser_name": "Waterville",
+        "ti_before": 30.4268,
+        "ti_after": 31.4795,
+        "ti_delta": 1.0527
+      },
+      {
+        "date": "2026-05-28",
+        "event_type": "opponent_win",
+        "game_winner_key": "cony",
+        "game_winner_name": "Cony",
+        "game_loser_key": "messalonskee",
+        "game_loser_name": "Messalonskee",
+        "ti_before": 31.4795,
+        "ti_after": 32.6491,
+        "ti_delta": 1.1696
+      },
+      {
+        "date": "2026-05-28",
+        "event_type": "opponent_win",
+        "game_winner_key": "lawrence",
+        "game_winner_name": "Lawrence",
+        "game_loser_key": "mount view",
+        "game_loser_name": "Mount View",
+        "ti_before": 32.6491,
+        "ti_after": 33.7636,
+        "ti_delta": 1.1145
+      },
+      {
+        "date": "2026-05-29",
+        "event_type": "win",
+        "opponent_key": "erskine academy",
+        "opponent_name": "Erskine Academy",
+        "opponent_class": "B",
+        "score": "10\u20130",
+        "opponent_pi": 1.0,
+        "ti_before": 33.7636,
+        "ti_after": 34.2899,
+        "ti_delta": 0.5263
+      },
+      {
+        "date": "2026-05-30",
+        "event_type": "opponent_win",
+        "game_winner_key": "lawrence",
+        "game_winner_name": "Lawrence",
+        "game_loser_key": "cony",
+        "game_loser_name": "Cony",
+        "ti_before": 34.2899,
+        "ti_after": 35.4664,
+        "ti_delta": 1.1765
+      },
+      {
+        "date": "2026-06-01",
+        "event_type": "opponent_win",
+        "game_winner_key": "lawrence",
+        "game_winner_name": "Lawrence",
+        "game_loser_key": "nokomis",
+        "game_loser_name": "Nokomis Regional",
+        "ti_before": 35.4664,
+        "ti_after": 36.6429,
+        "ti_delta": 1.1765
+      },
+      {
+        "date": "2026-06-02",
+        "event_type": "win",
+        "opponent_key": "cony",
+        "opponent_name": "Cony",
+        "opponent_class": "B",
+        "score": "8\u20134",
+        "opponent_pi": 16.6667,
+        "ti_before": 36.6429,
+        "ti_after": 45.4148,
+        "ti_delta": 8.7719
+      }
+    ],
+    "final_ti": 45.4148
+  },
+  "belfast": {
+    "team_name": "Belfast Area",
+    "events": [
+      {
+        "date": "2026-04-24",
+        "event_type": "win",
+        "opponent_key": "foxcroft",
+        "opponent_name": "Foxcroft Academy",
+        "opponent_class": "B",
+        "score": "6\u20135",
+        "opponent_pi": 1.0,
+        "ti_before": 0.0,
+        "ti_after": 0.5556,
+        "ti_delta": 0.5556
+      },
+      {
+        "date": "2026-04-27",
+        "event_type": "win",
+        "opponent_key": "lawrence",
+        "opponent_name": "Lawrence",
+        "opponent_class": "B",
+        "score": "5\u20133",
+        "opponent_pi": 2.2353,
+        "ti_before": 0.5556,
+        "ti_after": 1.7974,
+        "ti_delta": 1.2418
+      },
+      {
+        "date": "2026-05-02",
+        "event_type": "opponent_win",
+        "game_winner_key": "foxcroft",
+        "game_winner_name": "Foxcroft Academy",
+        "game_loser_key": "caribou",
+        "game_loser_name": "Caribou",
+        "ti_before": 1.7974,
+        "ti_after": 2.4837,
+        "ti_delta": 0.6863
+      },
+      {
+        "date": "2026-05-05",
+        "event_type": "opponent_win",
+        "game_winner_key": "lawrence",
+        "game_winner_name": "Lawrence",
+        "game_loser_key": "oceanside",
+        "game_loser_name": "Oceanside",
+        "ti_before": 2.4837,
+        "ti_after": 3.7255,
+        "ti_delta": 1.2418
+      },
+      {
+        "date": "2026-05-07",
+        "event_type": "win",
+        "opponent_key": "hampden academy",
+        "opponent_name": "Hampden Academy",
+        "opponent_class": "A",
+        "score": "8\u20130",
+        "opponent_pi": 1.0,
+        "ti_before": 3.7255,
+        "ti_after": 4.281,
+        "ti_delta": 0.5555
+      },
+      {
+        "date": "2026-05-08",
+        "event_type": "win",
+        "opponent_key": "gardiner",
+        "opponent_name": "Gardiner Area",
+        "opponent_class": "B",
+        "score": "6\u20133",
+        "opponent_pi": 8.0,
+        "ti_before": 4.281,
+        "ti_after": 8.7255,
+        "ti_delta": 4.4445
+      },
+      {
+        "date": "2026-05-08",
+        "event_type": "opponent_win",
+        "game_winner_key": "lawrence",
+        "game_winner_name": "Lawrence",
+        "game_loser_key": "winslow",
+        "game_loser_name": "Winslow",
+        "ti_before": 8.7255,
+        "ti_after": 9.902,
+        "ti_delta": 1.1765
+      },
+      {
+        "date": "2026-05-11",
+        "event_type": "win",
+        "opponent_key": "oceanside",
+        "opponent_name": "Oceanside",
+        "opponent_class": "B",
+        "score": "15\u20130",
+        "opponent_pi": 1.0,
+        "ti_before": 9.902,
+        "ti_after": 10.4575,
+        "ti_delta": 0.5555
+      },
+      {
+        "date": "2026-05-11",
+        "event_type": "opponent_win",
+        "game_winner_key": "gardiner",
+        "game_winner_name": "Gardiner Area",
+        "game_loser_key": "winslow",
+        "game_loser_name": "Winslow",
+        "ti_before": 10.4575,
+        "ti_after": 11.5101,
+        "ti_delta": 1.0526
+      },
+      {
+        "date": "2026-05-12",
+        "event_type": "opponent_win",
+        "game_winner_key": "gardiner",
+        "game_winner_name": "Gardiner Area",
+        "game_loser_key": "monmouth academy",
+        "game_loser_name": "Monmouth Academy",
+        "ti_before": 11.5101,
+        "ti_after": 12.5628,
+        "ti_delta": 1.0527
+      },
+      {
+        "date": "2026-05-13",
+        "event_type": "win",
+        "opponent_key": "lincoln academy",
+        "opponent_name": "Lincoln Academy",
+        "opponent_class": "B",
+        "score": "6\u20134",
+        "opponent_pi": 1.0,
+        "ti_before": 12.5628,
+        "ti_after": 13.1183,
+        "ti_delta": 0.5555
+      },
+      {
+        "date": "2026-05-13",
+        "event_type": "opponent_win",
+        "game_winner_key": "lawrence",
+        "game_winner_name": "Lawrence",
+        "game_loser_key": "oceanside",
+        "game_loser_name": "Oceanside",
+        "ti_before": 13.1183,
+        "ti_after": 14.3602,
+        "ti_delta": 1.2419
+      },
+      {
+        "date": "2026-05-15",
+        "event_type": "opponent_win",
+        "game_winner_key": "gardiner",
+        "game_winner_name": "Gardiner Area",
+        "game_loser_key": "nokomis",
+        "game_loser_name": "Nokomis Regional",
+        "ti_before": 14.3602,
+        "ti_after": 15.4713,
+        "ti_delta": 1.1111
+      },
+      {
+        "date": "2026-05-15",
+        "event_type": "opponent_win",
+        "game_winner_key": "foxcroft",
+        "game_winner_name": "Foxcroft Academy",
+        "game_loser_key": "ellsworth",
+        "game_loser_name": "Ellsworth/George Stevens",
+        "ti_before": 15.4713,
+        "ti_after": 16.7131,
+        "ti_delta": 1.2418
+      },
+      {
+        "date": "2026-05-15",
+        "event_type": "opponent_win",
+        "game_winner_key": "lawrence",
+        "game_winner_name": "Lawrence",
+        "game_loser_key": "messalonskee",
+        "game_loser_name": "Messalonskee",
+        "ti_before": 16.7131,
+        "ti_after": 18.0203,
+        "ti_delta": 1.3072
+      },
+      {
+        "date": "2026-05-18",
+        "event_type": "win",
+        "opponent_key": "cony",
+        "opponent_name": "Cony",
+        "opponent_class": "B",
+        "score": "6\u20134",
+        "opponent_pi": 12.4444,
+        "ti_before": 18.0203,
+        "ti_after": 24.9339,
+        "ti_delta": 6.9136
+      },
+      {
+        "date": "2026-05-18",
+        "event_type": "opponent_win",
+        "game_winner_key": "gardiner",
+        "game_winner_name": "Gardiner Area",
+        "game_loser_key": "medomak valley",
+        "game_loser_name": "Medomak Valley",
+        "ti_before": 24.9339,
+        "ti_after": 26.045,
+        "ti_delta": 1.1111
+      },
+      {
+        "date": "2026-05-20",
+        "event_type": "opponent_win",
+        "game_winner_key": "lawrence",
+        "game_winner_name": "Lawrence",
+        "game_loser_key": "nokomis",
+        "game_loser_name": "Nokomis Regional",
+        "ti_before": 26.045,
+        "ti_after": 27.2868,
+        "ti_delta": 1.2418
+      },
+      {
+        "date": "2026-05-20",
+        "event_type": "win",
+        "opponent_key": "waterville",
+        "opponent_name": "Waterville",
+        "opponent_class": "B",
+        "score": "18\u20131",
+        "opponent_pi": 1.9,
+        "ti_before": 27.2868,
+        "ti_after": 28.3424,
+        "ti_delta": 1.0556
+      },
+      {
+        "date": "2026-05-21",
+        "event_type": "opponent_win",
+        "game_winner_key": "cony",
+        "game_winner_name": "Cony",
+        "game_loser_key": "winslow",
+        "game_loser_name": "Winslow",
+        "ti_before": 28.3424,
+        "ti_after": 29.4535,
+        "ti_delta": 1.1111
+      },
+      {
+        "date": "2026-05-22",
+        "event_type": "win",
+        "opponent_key": "winslow",
+        "opponent_name": "Winslow",
+        "opponent_class": "C",
+        "score": "8\u20133",
+        "opponent_pi": 1.0,
+        "ti_before": 29.4535,
+        "ti_after": 30.009,
+        "ti_delta": 0.5555
+      },
+      {
+        "date": "2026-05-22",
+        "event_type": "opponent_win",
+        "game_winner_key": "lawrence",
+        "game_winner_name": "Lawrence",
+        "game_loser_key": "waterville",
+        "game_loser_name": "Waterville",
+        "ti_before": 30.009,
+        "ti_after": 31.2509,
+        "ti_delta": 1.2419
+      },
+      {
+        "date": "2026-05-22",
+        "event_type": "opponent_win",
+        "game_winner_key": "gardiner",
+        "game_winner_name": "Gardiner Area",
+        "game_loser_key": "lincoln academy",
+        "game_loser_name": "Lincoln Academy",
+        "ti_before": 31.2509,
+        "ti_after": 32.362,
+        "ti_delta": 1.1111
+      },
+      {
+        "date": "2026-05-26",
+        "event_type": "opponent_win",
+        "game_winner_key": "lawrence",
+        "game_winner_name": "Lawrence",
+        "game_loser_key": "gardiner",
+        "game_loser_name": "Gardiner Area",
+        "ti_before": 32.362,
+        "ti_after": 33.6038,
+        "ti_delta": 1.2418
+      },
+      {
+        "date": "2026-05-26",
+        "event_type": "opponent_win",
+        "game_winner_key": "waterville",
+        "game_winner_name": "Waterville",
+        "game_loser_key": "john_bapst",
+        "game_loser_name": "John Bapst",
+        "ti_before": 33.6038,
+        "ti_after": 34.6594,
+        "ti_delta": 1.0556
+      },
+      {
+        "date": "2026-05-27",
+        "event_type": "opponent_win",
+        "game_winner_key": "gardiner",
+        "game_winner_name": "Gardiner Area",
+        "game_loser_key": "morse",
+        "game_loser_name": "Morse",
+        "ti_before": 34.6594,
+        "ti_after": 35.7705,
+        "ti_delta": 1.1111
+      },
+      {
+        "date": "2026-05-28",
+        "event_type": "win",
+        "opponent_key": "winslow",
+        "opponent_name": "Winslow",
+        "opponent_class": "C",
+        "score": "9\u20135",
+        "opponent_pi": 1.0,
+        "ti_before": 35.7705,
+        "ti_after": 36.326,
+        "ti_delta": 0.5555
+      },
+      {
+        "date": "2026-05-28",
+        "event_type": "opponent_win",
+        "game_winner_key": "cony",
+        "game_winner_name": "Cony",
+        "game_loser_key": "messalonskee",
+        "game_loser_name": "Messalonskee",
+        "ti_before": 36.326,
+        "ti_after": 37.5606,
+        "ti_delta": 1.2346
+      },
+      {
+        "date": "2026-05-28",
+        "event_type": "opponent_win",
+        "game_winner_key": "lawrence",
+        "game_winner_name": "Lawrence",
+        "game_loser_key": "mount view",
+        "game_loser_name": "Mount View",
+        "ti_before": 37.5606,
+        "ti_after": 38.7371,
+        "ti_delta": 1.1765
+      },
+      {
+        "date": "2026-05-29",
+        "event_type": "win",
+        "opponent_key": "waterville",
+        "opponent_name": "Waterville",
+        "opponent_class": "B",
+        "score": "13\u20130",
+        "opponent_pi": 3.8,
+        "ti_before": 38.7371,
+        "ti_after": 40.8482,
+        "ti_delta": 2.1111
+      },
+      {
+        "date": "2026-05-29",
+        "event_type": "opponent_win",
+        "game_winner_key": "gardiner",
+        "game_winner_name": "Gardiner Area",
+        "game_loser_key": "erskine academy",
+        "game_loser_name": "Erskine Academy",
+        "ti_before": 40.8482,
+        "ti_after": 41.9593,
+        "ti_delta": 1.1111
+      },
+      {
+        "date": "2026-05-30",
+        "event_type": "opponent_win",
+        "game_winner_key": "lawrence",
+        "game_winner_name": "Lawrence",
+        "game_loser_key": "cony",
+        "game_loser_name": "Cony",
+        "ti_before": 41.9593,
+        "ti_after": 43.2011,
+        "ti_delta": 1.2418
+      },
+      {
+        "date": "2026-06-01",
+        "event_type": "opponent_win",
+        "game_winner_key": "lawrence",
+        "game_winner_name": "Lawrence",
+        "game_loser_key": "nokomis",
+        "game_loser_name": "Nokomis Regional",
+        "ti_before": 43.2011,
+        "ti_after": 44.443,
+        "ti_delta": 1.2419
+      },
+      {
+        "date": "2026-06-02",
+        "event_type": "win",
+        "opponent_key": "mount view",
+        "opponent_name": "Mount View",
+        "opponent_class": "C",
+        "score": "8\u20130",
+        "opponent_pi": 1.0,
+        "ti_before": 44.443,
+        "ti_after": 44.9985,
+        "ti_delta": 0.5555
+      },
+      {
+        "date": "2026-06-02",
+        "event_type": "opponent_win",
+        "game_winner_key": "gardiner",
+        "game_winner_name": "Gardiner Area",
+        "game_loser_key": "cony",
+        "game_loser_name": "Cony",
+        "ti_before": 44.9985,
+        "ti_after": 46.1096,
+        "ti_delta": 1.1111
+      },
+      {
+        "date": "2026-06-03",
+        "event_type": "win",
+        "opponent_key": "morse",
+        "opponent_name": "Morse",
+        "opponent_class": "B",
+        "score": "16\u20133",
+        "opponent_pi": 1.0,
+        "ti_before": 46.1096,
+        "ti_after": 46.6652,
+        "ti_delta": 0.5556
+      }
+    ],
+    "final_ti": 46.6652
+  },
+  "foxcroft": {
+    "team_name": "Foxcroft Academy",
+    "events": [
+      {
+        "date": "2026-05-02",
+        "event_type": "win",
+        "opponent_key": "caribou",
+        "opponent_name": "Caribou",
+        "opponent_class": "B",
+        "score": "9\u20132",
+        "opponent_pi": 1.0,
+        "ti_before": 0.0,
+        "ti_after": 0.5882,
+        "ti_delta": 0.5882
+      },
+      {
+        "date": "2026-05-11",
+        "event_type": "opponent_win",
+        "game_winner_key": "caribou",
+        "game_winner_name": "Caribou",
+        "game_loser_key": "fort kent community",
+        "game_loser_name": "Fort Kent Community",
+        "ti_before": 0.5882,
+        "ti_after": 1.5126,
+        "ti_delta": 0.9244
+      },
+      {
+        "date": "2026-05-14",
+        "event_type": "opponent_win",
+        "game_winner_key": "caribou",
+        "game_winner_name": "Caribou",
+        "game_loser_key": "presque_isle",
+        "game_loser_name": "Presque Isle",
+        "ti_before": 1.5126,
+        "ti_after": 3.1092,
+        "ti_delta": 1.5966
+      },
+      {
+        "date": "2026-05-15",
+        "event_type": "win",
+        "opponent_key": "ellsworth",
+        "opponent_name": "Ellsworth/George Stevens",
+        "opponent_class": "B",
+        "score": "26\u20138",
+        "opponent_pi": 11.875,
+        "ti_before": 3.1092,
+        "ti_after": 10.0945,
+        "ti_delta": 6.9853
+      },
+      {
+        "date": "2026-05-18",
+        "event_type": "opponent_win",
+        "game_winner_key": "ellsworth",
+        "game_winner_name": "Ellsworth/George Stevens",
+        "game_loser_key": "caribou",
+        "game_loser_name": "Caribou",
+        "ti_before": 10.0945,
+        "ti_after": 11.4916,
+        "ti_delta": 1.3971
+      },
+      {
+        "date": "2026-05-21",
+        "event_type": "opponent_win",
+        "game_winner_key": "ellsworth",
+        "game_winner_name": "Ellsworth/George Stevens",
+        "game_loser_key": "john_bapst",
+        "game_loser_name": "John Bapst",
+        "ti_before": 11.4916,
+        "ti_after": 12.8887,
+        "ti_delta": 1.3971
+      },
+      {
+        "date": "2026-05-21",
+        "event_type": "opponent_win",
+        "game_winner_key": "caribou",
+        "game_winner_name": "Caribou",
+        "game_loser_key": "foxcroft",
+        "game_loser_name": "Foxcroft Academy",
+        "ti_before": 12.8887,
+        "ti_after": 14.4853,
+        "ti_delta": 1.5966
+      },
+      {
+        "date": "2026-05-26",
+        "event_type": "opponent_win",
+        "game_winner_key": "caribou",
+        "game_winner_name": "Caribou",
+        "game_loser_key": "fort kent community",
+        "game_loser_name": "Fort Kent Community",
+        "ti_before": 14.4853,
+        "ti_after": 15.9979,
+        "ti_delta": 1.5126
+      }
+    ],
+    "final_ti": 15.9979
+  },
+  "oldtown": {
+    "team_name": "Old Town",
+    "events": [
+      {
+        "date": "2026-04-24",
+        "event_type": "win",
+        "opponent_key": "presque_isle",
+        "opponent_name": "Presque Isle",
+        "opponent_class": "B",
+        "score": "15\u20130",
+        "opponent_pi": 1.0,
+        "ti_before": 0.0,
+        "ti_after": 0.5882,
+        "ti_delta": 0.5882
+      },
+      {
+        "date": "2026-04-29",
+        "event_type": "win",
+        "opponent_key": "mdi",
+        "opponent_name": "MDI High School",
+        "opponent_class": "B",
+        "score": "11\u20131",
+        "opponent_pi": 2.5333,
+        "ti_before": 0.5882,
+        "ti_after": 2.0784,
+        "ti_delta": 1.4902
+      },
+      {
+        "date": "2026-05-02",
+        "event_type": "win",
+        "opponent_key": "john_bapst",
+        "opponent_name": "John Bapst",
+        "opponent_class": "B",
+        "score": "6\u20133",
+        "opponent_pi": 5.4286,
+        "ti_before": 2.0784,
+        "ti_after": 5.2717,
+        "ti_delta": 3.1933
+      },
+      {
+        "date": "2026-05-02",
+        "event_type": "opponent_win",
+        "game_winner_key": "mdi",
+        "game_winner_name": "MDI High School",
+        "game_loser_key": "presque_isle",
+        "game_loser_name": "Presque Isle",
+        "ti_before": 5.2717,
+        "ti_after": 6.7619,
+        "ti_delta": 1.4902
+      },
+      {
+        "date": "2026-05-05",
+        "event_type": "opponent_win",
+        "game_winner_key": "mdi",
+        "game_winner_name": "MDI High School",
+        "game_loser_key": "john_bapst",
+        "game_loser_name": "John Bapst",
+        "ti_before": 6.7619,
+        "ti_after": 8.2521,
+        "ti_delta": 1.4902
+      },
+      {
+        "date": "2026-05-05",
+        "event_type": "opponent_win",
+        "game_winner_key": "presque_isle",
+        "game_winner_name": "Presque Isle",
+        "game_loser_key": "fort kent community",
+        "game_loser_name": "Fort Kent Community",
+        "ti_before": 8.2521,
+        "ti_after": 9.1765,
+        "ti_delta": 0.9244
+      },
+      {
+        "date": "2026-05-07",
+        "event_type": "win",
+        "opponent_key": "foxcroft",
+        "opponent_name": "Foxcroft Academy",
+        "opponent_class": "B",
+        "score": "10\u20130",
+        "opponent_pi": 2.2353,
+        "ti_before": 9.1765,
+        "ti_after": 10.4913,
+        "ti_delta": 1.3148
+      },
+      {
+        "date": "2026-05-09",
+        "event_type": "opponent_win",
+        "game_winner_key": "john_bapst",
+        "game_winner_name": "John Bapst",
+        "game_loser_key": "presque_isle",
+        "game_loser_name": "Presque Isle",
+        "ti_before": 10.4913,
+        "ti_after": 12.088,
+        "ti_delta": 1.5967
+      },
+      {
+        "date": "2026-05-13",
+        "event_type": "win",
+        "opponent_key": "foxcroft",
+        "opponent_name": "Foxcroft Academy",
+        "opponent_class": "B",
+        "score": "17\u20135",
+        "opponent_pi": 2.2353,
+        "ti_before": 12.088,
+        "ti_after": 13.4029,
+        "ti_delta": 1.3149
+      },
+      {
+        "date": "2026-05-15",
+        "event_type": "opponent_win",
+        "game_winner_key": "foxcroft",
+        "game_winner_name": "Foxcroft Academy",
+        "game_loser_key": "ellsworth",
+        "game_loser_name": "Ellsworth/George Stevens",
+        "ti_before": 13.4029,
+        "ti_after": 16.0326,
+        "ti_delta": 2.6297
+      },
+      {
+        "date": "2026-05-16",
+        "event_type": "opponent_win",
+        "game_winner_key": "mdi",
+        "game_winner_name": "MDI High School",
+        "game_loser_key": "caribou",
+        "game_loser_name": "Caribou",
+        "ti_before": 16.0326,
+        "ti_after": 17.5228,
+        "ti_delta": 1.4902
+      },
+      {
+        "date": "2026-05-18",
+        "event_type": "opponent_win",
+        "game_winner_key": "presque_isle",
+        "game_winner_name": "Presque Isle",
+        "game_loser_key": "houlton/greater houlton",
+        "game_loser_name": "Houlton/Greater Houlton",
+        "ti_before": 17.5228,
+        "ti_after": 19.0354,
+        "ti_delta": 1.5126
+      },
+      {
+        "date": "2026-05-19",
+        "event_type": "opponent_win",
+        "game_winner_key": "presque_isle",
+        "game_winner_name": "Presque Isle",
+        "game_loser_key": "fort kent community",
+        "game_loser_name": "Fort Kent Community",
+        "ti_before": 19.0354,
+        "ti_after": 20.548,
+        "ti_delta": 1.5126
+      },
+      {
+        "date": "2026-05-19",
+        "event_type": "opponent_win",
+        "game_winner_key": "john_bapst",
+        "game_winner_name": "John Bapst",
+        "game_loser_key": "foxcroft",
+        "game_loser_name": "Foxcroft Academy",
+        "ti_before": 20.548,
+        "ti_after": 22.1447,
+        "ti_delta": 1.5967
+      },
+      {
+        "date": "2026-05-20",
+        "event_type": "win",
+        "opponent_key": "mdi",
+        "opponent_name": "MDI High School",
+        "opponent_class": "B",
+        "score": "13\u20134",
+        "opponent_pi": 10.1333,
+        "ti_before": 22.1447,
+        "ti_after": 28.1055,
+        "ti_delta": 5.9608
+      },
+      {
+        "date": "2026-05-23",
+        "event_type": "win",
+        "opponent_key": "john_bapst",
+        "opponent_name": "John Bapst",
+        "opponent_class": "B",
+        "score": "15\u20130",
+        "opponent_pi": 10.8571,
+        "ti_before": 28.1055,
+        "ti_after": 34.492,
+        "ti_delta": 6.3865
+      },
+      {
+        "date": "2026-05-23",
+        "event_type": "opponent_win",
+        "game_winner_key": "presque_isle",
+        "game_winner_name": "Presque Isle",
+        "game_loser_key": "ellsworth",
+        "game_loser_name": "Ellsworth/George Stevens",
+        "ti_before": 34.492,
+        "ti_after": 36.0886,
+        "ti_delta": 1.5966
+      },
+      {
+        "date": "2026-05-27",
+        "event_type": "opponent_win",
+        "game_winner_key": "mdi",
+        "game_winner_name": "MDI High School",
+        "game_loser_key": "john_bapst",
+        "game_loser_name": "John Bapst",
+        "ti_before": 36.0886,
+        "ti_after": 39.069,
+        "ti_delta": 2.9804
+      },
+      {
+        "date": "2026-05-28",
+        "event_type": "win",
+        "opponent_key": "ellsworth",
+        "opponent_name": "Ellsworth/George Stevens",
+        "opponent_class": "B",
+        "score": "11\u20131",
+        "opponent_pi": 16.625,
+        "ti_before": 39.069,
+        "ti_after": 48.8485,
+        "ti_delta": 9.7795
+      },
+      {
+        "date": "2026-05-29",
+        "event_type": "opponent_win",
+        "game_winner_key": "mdi",
+        "game_winner_name": "MDI High School",
+        "game_loser_key": "foxcroft",
+        "game_loser_name": "Foxcroft Academy",
+        "ti_before": 48.8485,
+        "ti_after": 51.8288,
+        "ti_delta": 2.9803
+      },
+      {
+        "date": "2026-05-30",
+        "event_type": "win",
+        "opponent_key": "caribou",
+        "opponent_name": "Caribou",
+        "opponent_class": "B",
+        "score": "21\u20130",
+        "opponent_pi": 10.5714,
+        "ti_before": 51.8288,
+        "ti_after": 58.0473,
+        "ti_delta": 6.2185
+      },
+      {
+        "date": "2026-06-02",
+        "event_type": "opponent_win",
+        "game_winner_key": "mdi",
+        "game_winner_name": "MDI High School",
+        "game_loser_key": "ellsworth",
+        "game_loser_name": "Ellsworth/George Stevens",
+        "ti_before": 58.0473,
+        "ti_after": 61.0277,
+        "ti_delta": 2.9804
+      },
+      {
+        "date": "2026-06-02",
+        "event_type": "opponent_win",
+        "game_winner_key": "presque_isle",
+        "game_winner_name": "Presque Isle",
+        "game_loser_key": "caribou",
+        "game_loser_name": "Caribou",
+        "ti_before": 61.0277,
+        "ti_after": 62.6244,
+        "ti_delta": 1.5967
+      },
+      {
+        "date": "2026-06-02",
+        "event_type": "opponent_win",
+        "game_winner_key": "john_bapst",
+        "game_winner_name": "John Bapst",
+        "game_loser_key": "foxcroft",
+        "game_loser_name": "Foxcroft Academy",
+        "ti_before": 62.6244,
+        "ti_after": 65.8176,
+        "ti_delta": 3.1932
+      },
+      {
+        "date": "2026-06-03",
+        "event_type": "win",
+        "opponent_key": "orono",
+        "opponent_name": "Orono",
+        "opponent_class": "C",
+        "score": "8\u20133",
+        "opponent_pi": 1.0,
+        "ti_before": 65.8176,
+        "ti_after": 66.4059,
+        "ti_delta": 0.5883
+      }
+    ],
+    "final_ti": 66.4059
+  },
+  "lawrence": {
+    "team_name": "Lawrence",
+    "events": [
+      {
+        "date": "2026-04-24",
+        "event_type": "win",
+        "opponent_key": "waterville",
+        "opponent_name": "Waterville",
+        "opponent_class": "B",
+        "score": "13\u20133",
+        "opponent_pi": 1.0,
+        "ti_before": 0.0,
+        "ti_after": 0.5882,
+        "ti_delta": 0.5882
+      },
+      {
+        "date": "2026-05-05",
+        "event_type": "win",
+        "opponent_key": "oceanside",
+        "opponent_name": "Oceanside",
+        "opponent_class": "B",
+        "score": "15\u20130",
+        "opponent_pi": 1.0,
+        "ti_before": 0.5882,
+        "ti_after": 1.1765,
+        "ti_delta": 0.5883
+      },
+      {
+        "date": "2026-05-08",
+        "event_type": "win",
+        "opponent_key": "winslow",
+        "opponent_name": "Winslow",
+        "opponent_class": "C",
+        "score": "6\u20135",
+        "opponent_pi": 1.0,
+        "ti_before": 1.1765,
+        "ti_after": 1.7647,
+        "ti_delta": 0.5882
+      },
+      {
+        "date": "2026-05-13",
+        "event_type": "win",
+        "opponent_key": "oceanside",
+        "opponent_name": "Oceanside",
+        "opponent_class": "B",
+        "score": "15\u20130",
+        "opponent_pi": 1.0,
+        "ti_before": 1.7647,
+        "ti_after": 2.3529,
+        "ti_delta": 0.5882
+      },
+      {
+        "date": "2026-05-15",
+        "event_type": "win",
+        "opponent_key": "messalonskee",
+        "opponent_name": "Messalonskee",
+        "opponent_class": "A",
+        "score": "16\u20133",
+        "opponent_pi": 1.0,
+        "ti_before": 2.3529,
+        "ti_after": 2.9412,
+        "ti_delta": 0.5883
+      },
+      {
+        "date": "2026-05-18",
+        "event_type": "opponent_win",
+        "game_winner_key": "waterville",
+        "game_winner_name": "Waterville",
+        "game_loser_key": "oceanside",
+        "game_loser_name": "Oceanside",
+        "ti_before": 2.9412,
+        "ti_after": 3.4706,
+        "ti_delta": 0.5294
+      },
+      {
+        "date": "2026-05-20",
+        "event_type": "win",
+        "opponent_key": "nokomis",
+        "opponent_name": "Nokomis Regional",
+        "opponent_class": "B",
+        "score": "6\u20135",
+        "opponent_pi": 13.6842,
+        "ti_before": 3.4706,
+        "ti_after": 11.5201,
+        "ti_delta": 8.0495
+      },
+      {
+        "date": "2026-05-22",
+        "event_type": "win",
+        "opponent_key": "waterville",
+        "opponent_name": "Waterville",
+        "opponent_class": "B",
+        "score": "12\u20131",
+        "opponent_pi": 1.9,
+        "ti_before": 11.5201,
+        "ti_after": 12.6378,
+        "ti_delta": 1.1177
+      },
+      {
+        "date": "2026-05-26",
+        "event_type": "opponent_win",
+        "game_winner_key": "nokomis",
+        "game_winner_name": "Nokomis Regional",
+        "game_loser_key": "cony",
+        "game_loser_name": "Cony",
+        "ti_before": 12.6378,
+        "ti_after": 13.8142,
+        "ti_delta": 1.1764
+      },
+      {
+        "date": "2026-05-26",
+        "event_type": "win",
+        "opponent_key": "gardiner",
+        "opponent_name": "Gardiner Area",
+        "opponent_class": "B",
+        "score": "8\u20137",
+        "opponent_pi": 17.7895,
+        "ti_before": 13.8142,
+        "ti_after": 24.2786,
+        "ti_delta": 10.4644
+      },
+      {
+        "date": "2026-05-26",
+        "event_type": "opponent_win",
+        "game_winner_key": "waterville",
+        "game_winner_name": "Waterville",
+        "game_loser_key": "john_bapst",
+        "game_loser_name": "John Bapst",
+        "ti_before": 24.2786,
+        "ti_after": 26.5139,
+        "ti_delta": 2.2353
+      },
+      {
+        "date": "2026-05-27",
+        "event_type": "opponent_win",
+        "game_winner_key": "gardiner",
+        "game_winner_name": "Gardiner Area",
+        "game_loser_key": "morse",
+        "game_loser_name": "Morse",
+        "ti_before": 26.5139,
+        "ti_after": 27.6904,
+        "ti_delta": 1.1765
+      },
+      {
+        "date": "2026-05-28",
+        "event_type": "opponent_win",
+        "game_winner_key": "nokomis",
+        "game_winner_name": "Nokomis Regional",
+        "game_loser_key": "waterville",
+        "game_loser_name": "Waterville",
+        "ti_before": 27.6904,
+        "ti_after": 28.8669,
+        "ti_delta": 1.1765
+      },
+      {
+        "date": "2026-05-28",
+        "event_type": "win",
+        "opponent_key": "mount view",
+        "opponent_name": "Mount View",
+        "opponent_class": "C",
+        "score": "6\u20132",
+        "opponent_pi": 1.0,
+        "ti_before": 28.8669,
+        "ti_after": 29.4551,
+        "ti_delta": 0.5882
+      },
+      {
+        "date": "2026-05-29",
+        "event_type": "opponent_win",
+        "game_winner_key": "gardiner",
+        "game_winner_name": "Gardiner Area",
+        "game_loser_key": "erskine academy",
+        "game_loser_name": "Erskine Academy",
+        "ti_before": 29.4551,
+        "ti_after": 30.6316,
+        "ti_delta": 1.1765
+      },
+      {
+        "date": "2026-05-30",
+        "event_type": "win",
+        "opponent_key": "cony",
+        "opponent_name": "Cony",
+        "opponent_class": "B",
+        "score": "16\u20135",
+        "opponent_pi": 16.6667,
+        "ti_before": 30.6316,
+        "ti_after": 40.4355,
+        "ti_delta": 9.8039
+      },
+      {
+        "date": "2026-06-01",
+        "event_type": "win",
+        "opponent_key": "nokomis",
+        "opponent_name": "Nokomis Regional",
+        "opponent_class": "B",
+        "score": "17\u20134",
+        "opponent_pi": 17.6842,
+        "ti_before": 40.4355,
+        "ti_after": 50.838,
+        "ti_delta": 10.4025
+      },
+      {
+        "date": "2026-06-02",
+        "event_type": "opponent_win",
+        "game_winner_key": "gardiner",
+        "game_winner_name": "Gardiner Area",
+        "game_loser_key": "cony",
+        "game_loser_name": "Cony",
+        "ti_before": 50.838,
+        "ti_after": 52.0144,
+        "ti_delta": 1.1764
+      }
+    ],
+    "final_ti": 52.0144
+  },
+  "waterville": {
+    "team_name": "Waterville",
+    "events": [
+      {
+        "date": "2026-05-18",
+        "event_type": "win",
+        "opponent_key": "oceanside",
+        "opponent_name": "Oceanside",
+        "opponent_class": "B",
+        "score": "25\u201320",
+        "opponent_pi": 1.0,
+        "ti_before": 0.0,
+        "ti_after": 0.5,
+        "ti_delta": 0.5
+      },
+      {
+        "date": "2026-05-26",
+        "event_type": "win",
+        "opponent_key": "john_bapst",
+        "opponent_name": "John Bapst",
+        "opponent_class": "B",
+        "score": "11\u20138",
+        "opponent_pi": 10.8571,
+        "ti_before": 0.5,
+        "ti_after": 5.9286,
+        "ti_delta": 5.4286
+      },
+      {
+        "date": "2026-06-02",
+        "event_type": "opponent_win",
+        "game_winner_key": "john_bapst",
+        "game_winner_name": "John Bapst",
+        "game_loser_key": "foxcroft",
+        "game_loser_name": "Foxcroft Academy",
+        "ti_before": 5.9286,
+        "ti_after": 7.2857,
+        "ti_delta": 1.3571
+      }
+    ],
+    "final_ti": 7.2857
+  },
+  "mdi": {
+    "team_name": "MDI High School",
+    "events": [
+      {
+        "date": "2026-04-28",
+        "event_type": "win",
+        "opponent_key": "foxcroft",
+        "opponent_name": "Foxcroft Academy",
+        "opponent_class": "B",
+        "score": "12\u20132",
+        "opponent_pi": 1.0,
+        "ti_before": 0.0,
+        "ti_after": 0.6667,
+        "ti_delta": 0.6667
+      },
+      {
+        "date": "2026-05-02",
+        "event_type": "win",
+        "opponent_key": "presque_isle",
+        "opponent_name": "Presque Isle",
+        "opponent_class": "B",
+        "score": "8\u20136",
+        "opponent_pi": 1.0,
+        "ti_before": 0.6667,
+        "ti_after": 1.3333,
+        "ti_delta": 0.6666
+      },
+      {
+        "date": "2026-05-02",
+        "event_type": "opponent_win",
+        "game_winner_key": "foxcroft",
+        "game_winner_name": "Foxcroft Academy",
+        "game_loser_key": "caribou",
+        "game_loser_name": "Caribou",
+        "ti_before": 1.3333,
+        "ti_after": 2.1569,
+        "ti_delta": 0.8236
+      },
+      {
+        "date": "2026-05-05",
+        "event_type": "win",
+        "opponent_key": "john_bapst",
+        "opponent_name": "John Bapst",
+        "opponent_class": "B",
+        "score": "8\u20132",
+        "opponent_pi": 5.4286,
+        "ti_before": 2.1569,
+        "ti_after": 5.7759,
+        "ti_delta": 3.619
+      },
+      {
+        "date": "2026-05-05",
+        "event_type": "opponent_win",
+        "game_winner_key": "presque_isle",
+        "game_winner_name": "Presque Isle",
+        "game_loser_key": "fort kent community",
+        "game_loser_name": "Fort Kent Community",
+        "ti_before": 5.7759,
+        "ti_after": 6.8235,
+        "ti_delta": 1.0476
+      },
+      {
+        "date": "2026-05-09",
+        "event_type": "opponent_win",
+        "game_winner_key": "john_bapst",
+        "game_winner_name": "John Bapst",
+        "game_loser_key": "presque_isle",
+        "game_loser_name": "Presque Isle",
+        "ti_before": 6.8235,
+        "ti_after": 8.6331,
+        "ti_delta": 1.8096
+      },
+      {
+        "date": "2026-05-15",
+        "event_type": "opponent_win",
+        "game_winner_key": "foxcroft",
+        "game_winner_name": "Foxcroft Academy",
+        "game_loser_key": "ellsworth",
+        "game_loser_name": "Ellsworth/George Stevens",
+        "ti_before": 8.6331,
+        "ti_after": 10.1232,
+        "ti_delta": 1.4901
+      },
+      {
+        "date": "2026-05-16",
+        "event_type": "win",
+        "opponent_key": "caribou",
+        "opponent_name": "Caribou",
+        "opponent_class": "B",
+        "score": "11\u20135",
+        "opponent_pi": 5.2857,
+        "ti_before": 10.1232,
+        "ti_after": 13.6471,
+        "ti_delta": 3.5239
+      },
+      {
+        "date": "2026-05-18",
+        "event_type": "opponent_win",
+        "game_winner_key": "presque_isle",
+        "game_winner_name": "Presque Isle",
+        "game_loser_key": "houlton/greater houlton",
+        "game_loser_name": "Houlton/Greater Houlton",
+        "ti_before": 13.6471,
+        "ti_after": 15.3613,
+        "ti_delta": 1.7142
+      },
+      {
+        "date": "2026-05-19",
+        "event_type": "opponent_win",
+        "game_winner_key": "presque_isle",
+        "game_winner_name": "Presque Isle",
+        "game_loser_key": "fort kent community",
+        "game_loser_name": "Fort Kent Community",
+        "ti_before": 15.3613,
+        "ti_after": 17.0756,
+        "ti_delta": 1.7143
+      },
+      {
+        "date": "2026-05-19",
+        "event_type": "opponent_win",
+        "game_winner_key": "john_bapst",
+        "game_winner_name": "John Bapst",
+        "game_loser_key": "foxcroft",
+        "game_loser_name": "Foxcroft Academy",
+        "ti_before": 17.0756,
+        "ti_after": 18.8852,
+        "ti_delta": 1.8096
+      },
+      {
+        "date": "2026-05-21",
+        "event_type": "opponent_win",
+        "game_winner_key": "caribou",
+        "game_winner_name": "Caribou",
+        "game_loser_key": "foxcroft",
+        "game_loser_name": "Foxcroft Academy",
+        "ti_before": 18.8852,
+        "ti_after": 20.6947,
+        "ti_delta": 1.8095
+      },
+      {
+        "date": "2026-05-23",
+        "event_type": "opponent_win",
+        "game_winner_key": "presque_isle",
+        "game_winner_name": "Presque Isle",
+        "game_loser_key": "ellsworth",
+        "game_loser_name": "Ellsworth/George Stevens",
+        "ti_before": 20.6947,
+        "ti_after": 22.5042,
+        "ti_delta": 1.8095
+      },
+      {
+        "date": "2026-05-26",
+        "event_type": "opponent_win",
+        "game_winner_key": "caribou",
+        "game_winner_name": "Caribou",
+        "game_loser_key": "fort kent community",
+        "game_loser_name": "Fort Kent Community",
+        "ti_before": 22.5042,
+        "ti_after": 24.2185,
+        "ti_delta": 1.7143
+      },
+      {
+        "date": "2026-05-27",
+        "event_type": "win",
+        "opponent_key": "john_bapst",
+        "opponent_name": "John Bapst",
+        "opponent_class": "B",
+        "score": "4\u20130",
+        "opponent_pi": 10.8571,
+        "ti_before": 24.2185,
+        "ti_after": 31.4566,
+        "ti_delta": 7.2381
+      },
+      {
+        "date": "2026-05-29",
+        "event_type": "win",
+        "opponent_key": "foxcroft",
+        "opponent_name": "Foxcroft Academy",
+        "opponent_class": "B",
+        "score": "6\u20133",
+        "opponent_pi": 4.4706,
+        "ti_before": 31.4566,
+        "ti_after": 34.437,
+        "ti_delta": 2.9804
+      },
+      {
+        "date": "2026-06-02",
+        "event_type": "win",
+        "opponent_key": "ellsworth",
+        "opponent_name": "Ellsworth/George Stevens",
+        "opponent_class": "B",
+        "score": "10\u20130",
+        "opponent_pi": 16.625,
+        "ti_before": 34.437,
+        "ti_after": 45.5203,
+        "ti_delta": 11.0833
+      },
+      {
+        "date": "2026-06-02",
+        "event_type": "opponent_win",
+        "game_winner_key": "presque_isle",
+        "game_winner_name": "Presque Isle",
+        "game_loser_key": "caribou",
+        "game_loser_name": "Caribou",
+        "ti_before": 45.5203,
+        "ti_after": 47.3298,
+        "ti_delta": 1.8095
+      },
+      {
+        "date": "2026-06-02",
+        "event_type": "opponent_win",
+        "game_winner_key": "john_bapst",
+        "game_winner_name": "John Bapst",
+        "game_loser_key": "foxcroft",
+        "game_loser_name": "Foxcroft Academy",
+        "ti_before": 47.3298,
+        "ti_after": 50.9489,
+        "ti_delta": 3.6191
+      }
+    ],
+    "final_ti": 50.9489
   },
   "john_bapst": {
     "team_name": "John Bapst",
@@ -2580,722 +3297,5 @@
       }
     ],
     "final_ti": 26.0396
-  },
-  "oceanside": {
-    "team_name": "Oceanside",
-    "events": [],
-    "final_ti": 0.0
-  },
-  "hermon": {
-    "team_name": "Hermon",
-    "events": [
-      {
-        "date": "2026-04-28",
-        "event_type": "win",
-        "opponent_key": "oldtown",
-        "opponent_name": "Old Town",
-        "opponent_class": "B",
-        "score": "3\u20132",
-        "opponent_pi": 2.2353,
-        "ti_before": 0.0,
-        "ti_after": 1.4902,
-        "ti_delta": 1.4902
-      },
-      {
-        "date": "2026-04-29",
-        "event_type": "opponent_win",
-        "game_winner_key": "oldtown",
-        "game_winner_name": "Old Town",
-        "game_loser_key": "mdi",
-        "game_loser_name": "MDI High School",
-        "ti_before": 1.4902,
-        "ti_after": 2.9804,
-        "ti_delta": 1.4902
-      },
-      {
-        "date": "2026-05-02",
-        "event_type": "opponent_win",
-        "game_winner_key": "oldtown",
-        "game_winner_name": "Old Town",
-        "game_loser_key": "john_bapst",
-        "game_loser_name": "John Bapst",
-        "ti_before": 2.9804,
-        "ti_after": 4.4706,
-        "ti_delta": 1.4902
-      },
-      {
-        "date": "2026-05-04",
-        "event_type": "win",
-        "opponent_key": "mdi",
-        "opponent_name": "MDI High School",
-        "opponent_class": "B",
-        "score": "6\u20130",
-        "opponent_pi": 5.4286,
-        "ti_before": 4.4706,
-        "ti_after": 8.0896,
-        "ti_delta": 3.619
-      },
-      {
-        "date": "2026-05-05",
-        "event_type": "opponent_win",
-        "game_winner_key": "mdi",
-        "game_winner_name": "MDI High School",
-        "game_loser_key": "john_bapst",
-        "game_loser_name": "John Bapst",
-        "ti_before": 8.0896,
-        "ti_after": 9.8992,
-        "ti_delta": 1.8096
-      },
-      {
-        "date": "2026-05-07",
-        "event_type": "opponent_win",
-        "game_winner_key": "oldtown",
-        "game_winner_name": "Old Town",
-        "game_loser_key": "foxcroft",
-        "game_loser_name": "Foxcroft Academy",
-        "ti_before": 9.8992,
-        "ti_after": 11.3894,
-        "ti_delta": 1.4902
-      },
-      {
-        "date": "2026-05-09",
-        "event_type": "win",
-        "opponent_key": "foxcroft",
-        "opponent_name": "Foxcroft Academy",
-        "opponent_class": "B",
-        "score": "12\u20130",
-        "opponent_pi": 2.2353,
-        "ti_before": 11.3894,
-        "ti_after": 12.8796,
-        "ti_delta": 1.4902
-      },
-      {
-        "date": "2026-05-11",
-        "event_type": "win",
-        "opponent_key": "john_bapst",
-        "opponent_name": "John Bapst",
-        "opponent_class": "B",
-        "score": "18\u20130",
-        "opponent_pi": 8.1429,
-        "ti_before": 12.8796,
-        "ti_after": 18.3081,
-        "ti_delta": 5.4285
-      },
-      {
-        "date": "2026-05-12",
-        "event_type": "win",
-        "opponent_key": "john_bapst",
-        "opponent_name": "John Bapst",
-        "opponent_class": "B",
-        "score": "12\u20133",
-        "opponent_pi": 8.1429,
-        "ti_before": 18.3081,
-        "ti_after": 23.7367,
-        "ti_delta": 5.4286
-      },
-      {
-        "date": "2026-05-13",
-        "event_type": "opponent_win",
-        "game_winner_key": "oldtown",
-        "game_winner_name": "Old Town",
-        "game_loser_key": "foxcroft",
-        "game_loser_name": "Foxcroft Academy",
-        "ti_before": 23.7367,
-        "ti_after": 25.2269,
-        "ti_delta": 1.4902
-      },
-      {
-        "date": "2026-05-15",
-        "event_type": "opponent_win",
-        "game_winner_key": "foxcroft",
-        "game_winner_name": "Foxcroft Academy",
-        "game_loser_key": "ellsworth",
-        "game_loser_name": "Ellsworth/George Stevens",
-        "ti_before": 25.2269,
-        "ti_after": 26.7171,
-        "ti_delta": 1.4902
-      },
-      {
-        "date": "2026-05-15",
-        "event_type": "win",
-        "opponent_key": "bangor",
-        "opponent_name": "Bangor",
-        "opponent_class": "A",
-        "score": "5\u20133",
-        "opponent_pi": 1.0,
-        "ti_before": 26.7171,
-        "ti_after": 27.3838,
-        "ti_delta": 0.6667
-      },
-      {
-        "date": "2026-05-16",
-        "event_type": "opponent_win",
-        "game_winner_key": "mdi",
-        "game_winner_name": "MDI High School",
-        "game_loser_key": "caribou",
-        "game_loser_name": "Caribou",
-        "ti_before": 27.3838,
-        "ti_after": 29.1933,
-        "ti_delta": 1.8095
-      },
-      {
-        "date": "2026-05-18",
-        "event_type": "win",
-        "opponent_key": "brewer",
-        "opponent_name": "Brewer",
-        "opponent_class": "A",
-        "score": "4\u20130",
-        "opponent_pi": 1.0,
-        "ti_before": 29.1933,
-        "ti_after": 29.8599,
-        "ti_delta": 0.6666
-      },
-      {
-        "date": "2026-05-19",
-        "event_type": "win",
-        "opponent_key": "oldtown",
-        "opponent_name": "Old Town",
-        "opponent_class": "B",
-        "score": "3\u20131",
-        "opponent_pi": 11.1765,
-        "ti_before": 29.8599,
-        "ti_after": 37.3109,
-        "ti_delta": 7.451
-      },
-      {
-        "date": "2026-05-19",
-        "event_type": "opponent_win",
-        "game_winner_key": "john_bapst",
-        "game_winner_name": "John Bapst",
-        "game_loser_key": "foxcroft",
-        "game_loser_name": "Foxcroft Academy",
-        "ti_before": 37.3109,
-        "ti_after": 40.93,
-        "ti_delta": 3.6191
-      },
-      {
-        "date": "2026-05-20",
-        "event_type": "opponent_win",
-        "game_winner_key": "oldtown",
-        "game_winner_name": "Old Town",
-        "game_loser_key": "mdi",
-        "game_loser_name": "MDI High School",
-        "ti_before": 40.93,
-        "ti_after": 43.9104,
-        "ti_delta": 2.9804
-      },
-      {
-        "date": "2026-05-22",
-        "event_type": "win",
-        "opponent_key": "nokomis",
-        "opponent_name": "Nokomis Regional",
-        "opponent_class": "B",
-        "score": "11\u20130",
-        "opponent_pi": 13.6842,
-        "ti_before": 43.9104,
-        "ti_after": 53.0332,
-        "ti_delta": 9.1228
-      },
-      {
-        "date": "2026-05-23",
-        "event_type": "opponent_win",
-        "game_winner_key": "oldtown",
-        "game_winner_name": "Old Town",
-        "game_loser_key": "john_bapst",
-        "game_loser_name": "John Bapst",
-        "ti_before": 53.0332,
-        "ti_after": 56.0136,
-        "ti_delta": 2.9804
-      },
-      {
-        "date": "2026-05-23",
-        "event_type": "win",
-        "opponent_key": "foxcroft",
-        "opponent_name": "Foxcroft Academy",
-        "opponent_class": "B",
-        "score": "10\u20130",
-        "opponent_pi": 4.4706,
-        "ti_before": 56.0136,
-        "ti_after": 58.994,
-        "ti_delta": 2.9804
-      },
-      {
-        "date": "2026-05-26",
-        "event_type": "opponent_win",
-        "game_winner_key": "nokomis",
-        "game_winner_name": "Nokomis Regional",
-        "game_loser_key": "cony",
-        "game_loser_name": "Cony",
-        "ti_before": 58.994,
-        "ti_after": 60.3273,
-        "ti_delta": 1.3333
-      },
-      {
-        "date": "2026-05-26",
-        "event_type": "win",
-        "opponent_key": "ellsworth",
-        "opponent_name": "Ellsworth/George Stevens",
-        "opponent_class": "B",
-        "score": "2\u20131",
-        "opponent_pi": 16.625,
-        "ti_before": 60.3273,
-        "ti_after": 71.4106,
-        "ti_delta": 11.0833
-      },
-      {
-        "date": "2026-05-27",
-        "event_type": "opponent_win",
-        "game_winner_key": "mdi",
-        "game_winner_name": "MDI High School",
-        "game_loser_key": "john_bapst",
-        "game_loser_name": "John Bapst",
-        "ti_before": 71.4106,
-        "ti_after": 73.2201,
-        "ti_delta": 1.8095
-      },
-      {
-        "date": "2026-05-28",
-        "event_type": "opponent_win",
-        "game_winner_key": "nokomis",
-        "game_winner_name": "Nokomis Regional",
-        "game_loser_key": "waterville",
-        "game_loser_name": "Waterville",
-        "ti_before": 73.2201,
-        "ti_after": 74.5535,
-        "ti_delta": 1.3334
-      },
-      {
-        "date": "2026-05-28",
-        "event_type": "opponent_win",
-        "game_winner_key": "oldtown",
-        "game_winner_name": "Old Town",
-        "game_loser_key": "ellsworth",
-        "game_loser_name": "Ellsworth/George Stevens",
-        "ti_before": 74.5535,
-        "ti_after": 77.5339,
-        "ti_delta": 2.9804
-      },
-      {
-        "date": "2026-05-28",
-        "event_type": "win",
-        "opponent_key": "mdi",
-        "opponent_name": "MDI High School",
-        "opponent_class": "B",
-        "score": "11\u20130",
-        "opponent_pi": 13.5714,
-        "ti_before": 77.5339,
-        "ti_after": 86.5815,
-        "ti_delta": 9.0476
-      },
-      {
-        "date": "2026-05-29",
-        "event_type": "opponent_win",
-        "game_winner_key": "mdi",
-        "game_winner_name": "MDI High School",
-        "game_loser_key": "foxcroft",
-        "game_loser_name": "Foxcroft Academy",
-        "ti_before": 86.5815,
-        "ti_after": 90.2005,
-        "ti_delta": 3.619
-      },
-      {
-        "date": "2026-05-30",
-        "event_type": "opponent_win",
-        "game_winner_key": "oldtown",
-        "game_winner_name": "Old Town",
-        "game_loser_key": "caribou",
-        "game_loser_name": "Caribou",
-        "ti_before": 90.2005,
-        "ti_after": 93.1809,
-        "ti_delta": 2.9804
-      },
-      {
-        "date": "2026-05-30",
-        "event_type": "win",
-        "opponent_key": "presque_isle",
-        "opponent_name": "Presque Isle",
-        "opponent_class": "B",
-        "score": "19\u20131",
-        "opponent_pi": 10.4286,
-        "ti_before": 93.1809,
-        "ti_after": 100.1333,
-        "ti_delta": 6.9524
-      },
-      {
-        "date": "2026-06-02",
-        "event_type": "opponent_win",
-        "game_winner_key": "mdi",
-        "game_winner_name": "MDI High School",
-        "game_loser_key": "ellsworth",
-        "game_loser_name": "Ellsworth/George Stevens",
-        "ti_before": 100.1333,
-        "ti_after": 103.7524,
-        "ti_delta": 3.6191
-      },
-      {
-        "date": "2026-06-02",
-        "event_type": "opponent_win",
-        "game_winner_key": "presque_isle",
-        "game_winner_name": "Presque Isle",
-        "game_loser_key": "caribou",
-        "game_loser_name": "Caribou",
-        "ti_before": 103.7524,
-        "ti_after": 105.5619,
-        "ti_delta": 1.8095
-      },
-      {
-        "date": "2026-06-02",
-        "event_type": "opponent_win",
-        "game_winner_key": "john_bapst",
-        "game_winner_name": "John Bapst",
-        "game_loser_key": "foxcroft",
-        "game_loser_name": "Foxcroft Academy",
-        "ti_before": 105.5619,
-        "ti_after": 109.1809,
-        "ti_delta": 3.619
-      },
-      {
-        "date": "2026-06-03",
-        "event_type": "opponent_win",
-        "game_winner_key": "oldtown",
-        "game_winner_name": "Old Town",
-        "game_loser_key": "orono",
-        "game_loser_name": "Orono",
-        "ti_before": 109.1809,
-        "ti_after": 112.0045,
-        "ti_delta": 2.8236
-      }
-    ],
-    "final_ti": 112.0045
-  },
-  "cony": {
-    "team_name": "Cony",
-    "events": [
-      {
-        "date": "2026-04-27",
-        "event_type": "win",
-        "opponent_key": "lincoln academy",
-        "opponent_name": "Lincoln Academy",
-        "opponent_class": "B",
-        "score": "4\u20131",
-        "opponent_pi": 1.0,
-        "ti_before": 0.0,
-        "ti_after": 0.5882,
-        "ti_delta": 0.5882
-      },
-      {
-        "date": "2026-04-28",
-        "event_type": "win",
-        "opponent_key": "lawrence",
-        "opponent_name": "Lawrence",
-        "opponent_class": "B",
-        "score": "3\u20131",
-        "opponent_pi": 2.375,
-        "ti_before": 0.5882,
-        "ti_after": 1.9853,
-        "ti_delta": 1.3971
-      },
-      {
-        "date": "2026-05-05",
-        "event_type": "opponent_win",
-        "game_winner_key": "lawrence",
-        "game_winner_name": "Lawrence",
-        "game_loser_key": "oceanside",
-        "game_loser_name": "Oceanside",
-        "ti_before": 1.9853,
-        "ti_after": 3.3824,
-        "ti_delta": 1.3971
-      },
-      {
-        "date": "2026-05-08",
-        "event_type": "win",
-        "opponent_key": "oceanside",
-        "opponent_name": "Oceanside",
-        "opponent_class": "B",
-        "score": "22\u20130",
-        "opponent_pi": 1.0,
-        "ti_before": 3.3824,
-        "ti_after": 3.9706,
-        "ti_delta": 0.5882
-      },
-      {
-        "date": "2026-05-08",
-        "event_type": "opponent_win",
-        "game_winner_key": "lawrence",
-        "game_winner_name": "Lawrence",
-        "game_loser_key": "winslow",
-        "game_loser_name": "Winslow",
-        "ti_before": 3.9706,
-        "ti_after": 5.2941,
-        "ti_delta": 1.3235
-      },
-      {
-        "date": "2026-05-13",
-        "event_type": "win",
-        "opponent_key": "monmouth academy",
-        "opponent_name": "Monmouth Academy",
-        "opponent_class": "C",
-        "score": "14\u201311",
-        "opponent_pi": 1.0,
-        "ti_before": 5.2941,
-        "ti_after": 5.8824,
-        "ti_delta": 0.5883
-      },
-      {
-        "date": "2026-05-13",
-        "event_type": "opponent_win",
-        "game_winner_key": "lawrence",
-        "game_winner_name": "Lawrence",
-        "game_loser_key": "oceanside",
-        "game_loser_name": "Oceanside",
-        "ti_before": 5.8824,
-        "ti_after": 7.2794,
-        "ti_delta": 1.397
-      },
-      {
-        "date": "2026-05-15",
-        "event_type": "win",
-        "opponent_key": "waterville",
-        "opponent_name": "Waterville",
-        "opponent_class": "B",
-        "score": "22\u20130",
-        "opponent_pi": 1.0,
-        "ti_before": 7.2794,
-        "ti_after": 7.8676,
-        "ti_delta": 0.5882
-      },
-      {
-        "date": "2026-05-15",
-        "event_type": "opponent_win",
-        "game_winner_key": "lawrence",
-        "game_winner_name": "Lawrence",
-        "game_loser_key": "messalonskee",
-        "game_loser_name": "Messalonskee",
-        "ti_before": 7.8676,
-        "ti_after": 9.3382,
-        "ti_delta": 1.4706
-      },
-      {
-        "date": "2026-05-16",
-        "event_type": "win",
-        "opponent_key": "winthrop/kents hill ramblers",
-        "opponent_name": "Winthrop/Kents Hill Ramblers",
-        "opponent_class": "C",
-        "score": "18\u20131",
-        "opponent_pi": 1.0,
-        "ti_before": 9.3382,
-        "ti_after": 9.9265,
-        "ti_delta": 0.5883
-      },
-      {
-        "date": "2026-05-18",
-        "event_type": "opponent_win",
-        "game_winner_key": "waterville",
-        "game_winner_name": "Waterville",
-        "game_loser_key": "oceanside",
-        "game_loser_name": "Oceanside",
-        "ti_before": 9.9265,
-        "ti_after": 10.4559,
-        "ti_delta": 0.5294
-      },
-      {
-        "date": "2026-05-20",
-        "event_type": "opponent_win",
-        "game_winner_key": "lawrence",
-        "game_winner_name": "Lawrence",
-        "game_loser_key": "nokomis",
-        "game_loser_name": "Nokomis Regional",
-        "ti_before": 10.4559,
-        "ti_after": 11.8529,
-        "ti_delta": 1.397
-      },
-      {
-        "date": "2026-05-21",
-        "event_type": "win",
-        "opponent_key": "winslow",
-        "opponent_name": "Winslow",
-        "opponent_class": "C",
-        "score": "7\u20136",
-        "opponent_pi": 1.0,
-        "ti_before": 11.8529,
-        "ti_after": 12.4412,
-        "ti_delta": 0.5883
-      },
-      {
-        "date": "2026-05-22",
-        "event_type": "opponent_win",
-        "game_winner_key": "lawrence",
-        "game_winner_name": "Lawrence",
-        "game_loser_key": "waterville",
-        "game_loser_name": "Waterville",
-        "ti_before": 12.4412,
-        "ti_after": 13.8382,
-        "ti_delta": 1.397
-      },
-      {
-        "date": "2026-05-26",
-        "event_type": "opponent_win",
-        "game_winner_key": "lawrence",
-        "game_winner_name": "Lawrence",
-        "game_loser_key": "gardiner",
-        "game_loser_name": "Gardiner Area",
-        "ti_before": 13.8382,
-        "ti_after": 15.2353,
-        "ti_delta": 1.3971
-      },
-      {
-        "date": "2026-05-26",
-        "event_type": "opponent_win",
-        "game_winner_key": "waterville",
-        "game_winner_name": "Waterville",
-        "game_loser_key": "john_bapst",
-        "game_loser_name": "John Bapst",
-        "ti_before": 15.2353,
-        "ti_after": 16.3529,
-        "ti_delta": 1.1176
-      },
-      {
-        "date": "2026-05-28",
-        "event_type": "win",
-        "opponent_key": "messalonskee",
-        "opponent_name": "Messalonskee",
-        "opponent_class": "A",
-        "score": "19\u201314",
-        "opponent_pi": 1.0,
-        "ti_before": 16.3529,
-        "ti_after": 16.9412,
-        "ti_delta": 0.5883
-      },
-      {
-        "date": "2026-05-28",
-        "event_type": "opponent_win",
-        "game_winner_key": "lawrence",
-        "game_winner_name": "Lawrence",
-        "game_loser_key": "mount view",
-        "game_loser_name": "Mount View",
-        "ti_before": 16.9412,
-        "ti_after": 18.2647,
-        "ti_delta": 1.3235
-      },
-      {
-        "date": "2026-05-30",
-        "event_type": "opponent_win",
-        "game_winner_key": "lawrence",
-        "game_winner_name": "Lawrence",
-        "game_loser_key": "cony",
-        "game_loser_name": "Cony",
-        "ti_before": 18.2647,
-        "ti_after": 19.6618,
-        "ti_delta": 1.3971
-      },
-      {
-        "date": "2026-06-01",
-        "event_type": "opponent_win",
-        "game_winner_key": "lawrence",
-        "game_winner_name": "Lawrence",
-        "game_loser_key": "nokomis",
-        "game_loser_name": "Nokomis Regional",
-        "ti_before": 19.6618,
-        "ti_after": 21.0588,
-        "ti_delta": 1.397
-      }
-    ],
-    "final_ti": 21.0588
-  },
-  "foxcroft": {
-    "team_name": "Foxcroft Academy",
-    "events": [
-      {
-        "date": "2026-05-02",
-        "event_type": "win",
-        "opponent_key": "caribou",
-        "opponent_name": "Caribou",
-        "opponent_class": "B",
-        "score": "9\u20132",
-        "opponent_pi": 1.0,
-        "ti_before": 0.0,
-        "ti_after": 0.5882,
-        "ti_delta": 0.5882
-      },
-      {
-        "date": "2026-05-11",
-        "event_type": "opponent_win",
-        "game_winner_key": "caribou",
-        "game_winner_name": "Caribou",
-        "game_loser_key": "fort kent community",
-        "game_loser_name": "Fort Kent Community",
-        "ti_before": 0.5882,
-        "ti_after": 1.5126,
-        "ti_delta": 0.9244
-      },
-      {
-        "date": "2026-05-14",
-        "event_type": "opponent_win",
-        "game_winner_key": "caribou",
-        "game_winner_name": "Caribou",
-        "game_loser_key": "presque_isle",
-        "game_loser_name": "Presque Isle",
-        "ti_before": 1.5126,
-        "ti_after": 3.1092,
-        "ti_delta": 1.5966
-      },
-      {
-        "date": "2026-05-15",
-        "event_type": "win",
-        "opponent_key": "ellsworth",
-        "opponent_name": "Ellsworth/George Stevens",
-        "opponent_class": "B",
-        "score": "26\u20138",
-        "opponent_pi": 11.875,
-        "ti_before": 3.1092,
-        "ti_after": 10.0945,
-        "ti_delta": 6.9853
-      },
-      {
-        "date": "2026-05-18",
-        "event_type": "opponent_win",
-        "game_winner_key": "ellsworth",
-        "game_winner_name": "Ellsworth/George Stevens",
-        "game_loser_key": "caribou",
-        "game_loser_name": "Caribou",
-        "ti_before": 10.0945,
-        "ti_after": 11.4916,
-        "ti_delta": 1.3971
-      },
-      {
-        "date": "2026-05-21",
-        "event_type": "opponent_win",
-        "game_winner_key": "ellsworth",
-        "game_winner_name": "Ellsworth/George Stevens",
-        "game_loser_key": "john_bapst",
-        "game_loser_name": "John Bapst",
-        "ti_before": 11.4916,
-        "ti_after": 12.8887,
-        "ti_delta": 1.3971
-      },
-      {
-        "date": "2026-05-21",
-        "event_type": "opponent_win",
-        "game_winner_key": "caribou",
-        "game_winner_name": "Caribou",
-        "game_loser_key": "foxcroft",
-        "game_loser_name": "Foxcroft Academy",
-        "ti_before": 12.8887,
-        "ti_after": 14.4853,
-        "ti_delta": 1.5966
-      },
-      {
-        "date": "2026-05-26",
-        "event_type": "opponent_win",
-        "game_winner_key": "caribou",
-        "game_winner_name": "Caribou",
-        "game_loser_key": "fort kent community",
-        "game_loser_name": "Fort Kent Community",
-        "ti_before": 14.4853,
-        "ti_after": 15.9979,
-        "ti_delta": 1.5126
-      }
-    ],
-    "final_ti": 15.9979
   }
 }
