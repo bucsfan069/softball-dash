@@ -774,6 +774,15 @@
     "played": false
   },
   {
+    "date": "2026-06-11",
+    "home_team_key": "gardiner",
+    "away_team_key": "mdi",
+    "home_score": null,
+    "away_score": null,
+    "opponent_class": "B",
+    "played": false
+  },
+  {
     "date": "2026-04-16",
     "home_team_key": "cony",
     "away_team_key": "oak hill",
