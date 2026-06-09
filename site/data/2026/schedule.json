@@ -768,10 +768,10 @@
     "date": "2026-06-09",
     "home_team_key": "prelim presque isle",
     "away_team_key": "mdi",
-    "home_score": null,
-    "away_score": null,
+    "home_score": 8,
+    "away_score": 7,
     "opponent_class": "B",
-    "played": false
+    "played": true
   },
   {
     "date": "2026-06-11",
