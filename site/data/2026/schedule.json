@@ -174,10 +174,10 @@
     "date": "2026-06-09",
     "home_team_key": "prelim nokomis",
     "away_team_key": "cony",
-    "home_score": null,
-    "away_score": null,
+    "home_score": 6,
+    "away_score": 7,
     "opponent_class": "B",
-    "played": false
+    "played": true
   },
   {
     "date": "2026-04-10",
@@ -774,15 +774,6 @@
     "played": true
   },
   {
-    "date": "2026-06-11",
-    "home_team_key": "gardiner",
-    "away_team_key": "mdi",
-    "home_score": null,
-    "away_score": null,
-    "opponent_class": "B",
-    "played": false
-  },
-  {
     "date": "2026-04-16",
     "home_team_key": "cony",
     "away_team_key": "oak hill",
@@ -1114,6 +1105,15 @@
     "away_score": 18,
     "opponent_class": "B",
     "played": true
+  },
+  {
+    "date": "2026-06-11",
+    "home_team_key": "gardiner",
+    "away_team_key": "presque_isle",
+    "home_score": null,
+    "away_score": null,
+    "opponent_class": "B",
+    "played": false
   },
   {
     "date": "2026-04-24",
