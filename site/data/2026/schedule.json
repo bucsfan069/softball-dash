@@ -540,6 +540,15 @@
     "played": true
   },
   {
+    "date": "2026-06-11",
+    "home_team_key": "quarterfinal hermon",
+    "away_team_key": "cony",
+    "home_score": null,
+    "away_score": null,
+    "opponent_class": "B",
+    "played": false
+  },
+  {
     "date": "2026-04-15",
     "home_team_key": "belfast",
     "away_team_key": "camden hills regional",
