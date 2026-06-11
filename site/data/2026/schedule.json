@@ -543,10 +543,10 @@
     "date": "2026-06-11",
     "home_team_key": "quarterfinal hermon",
     "away_team_key": "cony",
-    "home_score": null,
-    "away_score": null,
+    "home_score": 14,
+    "away_score": 5,
     "opponent_class": "B",
-    "played": false
+    "played": true
   },
   {
     "date": "2026-04-15",
@@ -1119,10 +1119,10 @@
     "date": "2026-06-11",
     "home_team_key": "gardiner",
     "away_team_key": "presque_isle",
-    "home_score": null,
-    "away_score": null,
+    "home_score": 6,
+    "away_score": 2,
     "opponent_class": "B",
-    "played": false
+    "played": true
   },
   {
     "date": "2026-04-24",
