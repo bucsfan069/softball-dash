@@ -324,13 +324,13 @@
     "played": true
   },
   {
-    "date": "2026-06-11",
+    "date": "2026-06-10",
     "home_team_key": "quarterfinal old town",
     "away_team_key": "lawrence",
-    "home_score": null,
-    "away_score": null,
+    "home_score": 10,
+    "away_score": 3,
     "opponent_class": "B",
-    "played": false
+    "played": true
   },
   {
     "date": "2026-04-23",
