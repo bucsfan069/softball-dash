@@ -444,10 +444,10 @@
     "date": "2026-06-10",
     "home_team_key": "quarterfinal belfast area",
     "away_team_key": "ellsworth",
-    "home_score": null,
-    "away_score": null,
+    "home_score": 5,
+    "away_score": 2,
     "opponent_class": "B",
-    "played": false
+    "played": true
   },
   {
     "date": "2026-05-04",
