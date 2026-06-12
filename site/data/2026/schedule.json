@@ -333,6 +333,15 @@
     "played": true
   },
   {
+    "date": "2026-06-13",
+    "home_team_key": "semifinal hermon",
+    "away_team_key": "oldtown",
+    "home_score": null,
+    "away_score": null,
+    "opponent_class": "B",
+    "played": false
+  },
+  {
     "date": "2026-04-23",
     "home_team_key": "foxcroft",
     "away_team_key": "ellsworth",
@@ -700,6 +709,15 @@
     "away_score": 16,
     "opponent_class": "B",
     "played": true
+  },
+  {
+    "date": "2026-06-13",
+    "home_team_key": "semifinal gardiner area",
+    "away_team_key": "belfast",
+    "home_score": null,
+    "away_score": null,
+    "opponent_class": "B",
+    "played": false
   },
   {
     "date": "2026-04-28",
