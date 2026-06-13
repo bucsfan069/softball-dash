@@ -336,10 +336,10 @@
     "date": "2026-06-13",
     "home_team_key": "semifinal hermon",
     "away_team_key": "oldtown",
-    "home_score": null,
-    "away_score": null,
+    "home_score": 2,
+    "away_score": 3,
     "opponent_class": "B",
-    "played": false
+    "played": true
   },
   {
     "date": "2026-04-23",
@@ -714,10 +714,10 @@
     "date": "2026-06-13",
     "home_team_key": "semifinal gardiner area",
     "away_team_key": "belfast",
-    "home_score": null,
-    "away_score": null,
+    "home_score": 7,
+    "away_score": 5,
     "opponent_class": "B",
-    "played": false
+    "played": true
   },
   {
     "date": "2026-04-28",
