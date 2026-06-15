@@ -342,6 +342,15 @@
     "played": true
   },
   {
+    "date": "2026-06-16",
+    "home_team_key": "regional final gardiner area",
+    "away_team_key": "oldtown",
+    "home_score": null,
+    "away_score": null,
+    "opponent_class": "B",
+    "played": false
+  },
+  {
     "date": "2026-04-23",
     "home_team_key": "foxcroft",
     "away_team_key": "ellsworth",
