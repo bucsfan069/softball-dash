@@ -345,10 +345,10 @@
     "date": "2026-06-16",
     "home_team_key": "regional final gardiner area",
     "away_team_key": "oldtown",
-    "home_score": null,
-    "away_score": null,
+    "home_score": 4,
+    "away_score": 3,
     "opponent_class": "B",
-    "played": false
+    "played": true
   },
   {
     "date": "2026-04-23",
@@ -1563,6 +1563,15 @@
     "home_score": null,
     "away_score": null,
     "opponent_class": "A",
+    "played": false
+  },
+  {
+    "date": "2026-06-20",
+    "home_team_key": "state championship medomak valley",
+    "away_team_key": "gardiner",
+    "home_score": null,
+    "away_score": null,
+    "opponent_class": "B",
     "played": false
   }
 ]
