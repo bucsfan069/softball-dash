@@ -1,16 +1,11 @@
 {
-  "oceanside": {
-    "team_name": "Oceanside",
+  "presque_isle": {
+    "team_name": "Presque Isle",
     "events": [],
     "final_ti": 0.0
   },
-  "john_bapst": {
-    "team_name": "John Bapst",
-    "events": [],
-    "final_ti": 0.0
-  },
-  "nokomis": {
-    "team_name": "Nokomis Regional",
+  "lawrence": {
+    "team_name": "Lawrence",
     "events": [],
     "final_ti": 0.0
   },
@@ -24,23 +19,8 @@
     "events": [],
     "final_ti": 0.0
   },
-  "presque_isle": {
-    "team_name": "Presque Isle",
-    "events": [],
-    "final_ti": 0.0
-  },
-  "caribou": {
-    "team_name": "Caribou",
-    "events": [],
-    "final_ti": 0.0
-  },
-  "hermon": {
-    "team_name": "Hermon",
-    "events": [],
-    "final_ti": 0.0
-  },
-  "cony": {
-    "team_name": "Cony",
+  "john_bapst": {
+    "team_name": "John Bapst",
     "events": [],
     "final_ti": 0.0
   },
@@ -49,8 +29,18 @@
     "events": [],
     "final_ti": 0.0
   },
-  "foxcroft": {
-    "team_name": "Foxcroft Academy",
+  "hermon": {
+    "team_name": "Hermon",
+    "events": [],
+    "final_ti": 0.0
+  },
+  "oceanside": {
+    "team_name": "Oceanside",
+    "events": [],
+    "final_ti": 0.0
+  },
+  "cony": {
+    "team_name": "Cony",
     "events": [],
     "final_ti": 0.0
   },
@@ -59,18 +49,28 @@
     "events": [],
     "final_ti": 0.0
   },
-  "lawrence": {
-    "team_name": "Lawrence",
-    "events": [],
-    "final_ti": 0.0
-  },
   "gardiner": {
     "team_name": "Gardiner Area",
     "events": [],
     "final_ti": 0.0
   },
+  "foxcroft": {
+    "team_name": "Foxcroft Academy",
+    "events": [],
+    "final_ti": 0.0
+  },
+  "nokomis": {
+    "team_name": "Nokomis Regional",
+    "events": [],
+    "final_ti": 0.0
+  },
   "ellsworth": {
     "team_name": "Ellsworth/George Stevens",
+    "events": [],
+    "final_ti": 0.0
+  },
+  "caribou": {
+    "team_name": "Caribou",
     "events": [],
     "final_ti": 0.0
   }
