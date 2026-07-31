@@ -1,26 +1,16 @@
 {
-  "mdi": {
-    "team_name": "MDI High School",
+  "caribou": {
+    "team_name": "Caribou",
     "events": [],
     "final_ti": 0.0
   },
-  "presque_isle": {
-    "team_name": "Presque Isle",
+  "lawrence": {
+    "team_name": "Lawrence",
     "events": [],
     "final_ti": 0.0
   },
-  "gardiner": {
-    "team_name": "Gardiner Area",
-    "events": [],
-    "final_ti": 0.0
-  },
-  "waterville": {
-    "team_name": "Waterville",
-    "events": [],
-    "final_ti": 0.0
-  },
-  "belfast": {
-    "team_name": "Belfast Area",
+  "cony": {
+    "team_name": "Cony",
     "events": [],
     "final_ti": 0.0
   },
@@ -44,13 +34,18 @@
     "events": [],
     "final_ti": 0.0
   },
-  "caribou": {
-    "team_name": "Caribou",
+  "nokomis": {
+    "team_name": "Nokomis Regional",
     "events": [],
     "final_ti": 0.0
   },
-  "cony": {
-    "team_name": "Cony",
+  "belfast": {
+    "team_name": "Belfast Area",
+    "events": [],
+    "final_ti": 0.0
+  },
+  "waterville": {
+    "team_name": "Waterville",
     "events": [],
     "final_ti": 0.0
   },
@@ -59,18 +54,23 @@
     "events": [],
     "final_ti": 0.0
   },
-  "nokomis": {
-    "team_name": "Nokomis Regional",
-    "events": [],
-    "final_ti": 0.0
-  },
-  "lawrence": {
-    "team_name": "Lawrence",
-    "events": [],
-    "final_ti": 0.0
-  },
   "hermon": {
     "team_name": "Hermon",
+    "events": [],
+    "final_ti": 0.0
+  },
+  "gardiner": {
+    "team_name": "Gardiner Area",
+    "events": [],
+    "final_ti": 0.0
+  },
+  "mdi": {
+    "team_name": "MDI High School",
+    "events": [],
+    "final_ti": 0.0
+  },
+  "presque_isle": {
+    "team_name": "Presque Isle",
     "events": [],
     "final_ti": 0.0
   }
