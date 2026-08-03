@@ -1,11 +1,11 @@
 {
-  "mdi": {
-    "team_name": "MDI High School",
+  "presque_isle": {
+    "team_name": "Presque Isle",
     "events": [],
     "final_ti": 0.0
   },
-  "gardiner": {
-    "team_name": "Gardiner Area",
+  "oceanside": {
+    "team_name": "Oceanside",
     "events": [],
     "final_ti": 0.0
   },
@@ -14,18 +14,8 @@
     "events": [],
     "final_ti": 0.0
   },
-  "caribou": {
-    "team_name": "Caribou",
-    "events": [],
-    "final_ti": 0.0
-  },
-  "belfast": {
-    "team_name": "Belfast Area",
-    "events": [],
-    "final_ti": 0.0
-  },
-  "presque_isle": {
-    "team_name": "Presque Isle",
+  "gardiner": {
+    "team_name": "Gardiner Area",
     "events": [],
     "final_ti": 0.0
   },
@@ -34,8 +24,8 @@
     "events": [],
     "final_ti": 0.0
   },
-  "ellsworth": {
-    "team_name": "Ellsworth/George Stevens",
+  "mdi": {
+    "team_name": "MDI High School",
     "events": [],
     "final_ti": 0.0
   },
@@ -44,18 +34,18 @@
     "events": [],
     "final_ti": 0.0
   },
+  "ellsworth": {
+    "team_name": "Ellsworth/George Stevens",
+    "events": [],
+    "final_ti": 0.0
+  },
+  "caribou": {
+    "team_name": "Caribou",
+    "events": [],
+    "final_ti": 0.0
+  },
   "lawrence": {
     "team_name": "Lawrence",
-    "events": [],
-    "final_ti": 0.0
-  },
-  "waterville": {
-    "team_name": "Waterville",
-    "events": [],
-    "final_ti": 0.0
-  },
-  "john_bapst": {
-    "team_name": "John Bapst",
     "events": [],
     "final_ti": 0.0
   },
@@ -69,8 +59,18 @@
     "events": [],
     "final_ti": 0.0
   },
-  "oceanside": {
-    "team_name": "Oceanside",
+  "john_bapst": {
+    "team_name": "John Bapst",
+    "events": [],
+    "final_ti": 0.0
+  },
+  "waterville": {
+    "team_name": "Waterville",
+    "events": [],
+    "final_ti": 0.0
+  },
+  "belfast": {
+    "team_name": "Belfast Area",
     "events": [],
     "final_ti": 0.0
   }
