@@ -1,21 +1,6 @@
 {
-  "waterville": {
-    "team_name": "Waterville",
-    "events": [],
-    "final_ti": 0.0
-  },
-  "caribou": {
-    "team_name": "Caribou",
-    "events": [],
-    "final_ti": 0.0
-  },
-  "foxcroft": {
-    "team_name": "Foxcroft Academy",
-    "events": [],
-    "final_ti": 0.0
-  },
-  "cony": {
-    "team_name": "Cony",
+  "oldtown": {
+    "team_name": "Old Town",
     "events": [],
     "final_ti": 0.0
   },
@@ -24,8 +9,13 @@
     "events": [],
     "final_ti": 0.0
   },
-  "ellsworth": {
-    "team_name": "Ellsworth/George Stevens",
+  "belfast": {
+    "team_name": "Belfast Area",
+    "events": [],
+    "final_ti": 0.0
+  },
+  "cony": {
+    "team_name": "Cony",
     "events": [],
     "final_ti": 0.0
   },
@@ -34,23 +24,18 @@
     "events": [],
     "final_ti": 0.0
   },
+  "caribou": {
+    "team_name": "Caribou",
+    "events": [],
+    "final_ti": 0.0
+  },
   "presque_isle": {
     "team_name": "Presque Isle",
     "events": [],
     "final_ti": 0.0
   },
-  "gardiner": {
-    "team_name": "Gardiner Area",
-    "events": [],
-    "final_ti": 0.0
-  },
-  "hermon": {
-    "team_name": "Hermon",
-    "events": [],
-    "final_ti": 0.0
-  },
-  "oldtown": {
-    "team_name": "Old Town",
+  "ellsworth": {
+    "team_name": "Ellsworth/George Stevens",
     "events": [],
     "final_ti": 0.0
   },
@@ -59,8 +44,18 @@
     "events": [],
     "final_ti": 0.0
   },
-  "belfast": {
-    "team_name": "Belfast Area",
+  "waterville": {
+    "team_name": "Waterville",
+    "events": [],
+    "final_ti": 0.0
+  },
+  "mdi": {
+    "team_name": "MDI High School",
+    "events": [],
+    "final_ti": 0.0
+  },
+  "gardiner": {
+    "team_name": "Gardiner Area",
     "events": [],
     "final_ti": 0.0
   },
@@ -69,8 +64,13 @@
     "events": [],
     "final_ti": 0.0
   },
-  "mdi": {
-    "team_name": "MDI High School",
+  "hermon": {
+    "team_name": "Hermon",
+    "events": [],
+    "final_ti": 0.0
+  },
+  "foxcroft": {
+    "team_name": "Foxcroft Academy",
     "events": [],
     "final_ti": 0.0
   }
