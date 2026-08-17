@@ -4,33 +4,18 @@
     "events": [],
     "final_ti": 0.0
   },
+  "presque_isle": {
+    "team_name": "Presque Isle",
+    "events": [],
+    "final_ti": 0.0
+  },
+  "waterville": {
+    "team_name": "Waterville",
+    "events": [],
+    "final_ti": 0.0
+  },
   "caribou": {
     "team_name": "Caribou",
-    "events": [],
-    "final_ti": 0.0
-  },
-  "foxcroft": {
-    "team_name": "Foxcroft Academy",
-    "events": [],
-    "final_ti": 0.0
-  },
-  "oceanside": {
-    "team_name": "Oceanside",
-    "events": [],
-    "final_ti": 0.0
-  },
-  "hermon": {
-    "team_name": "Hermon",
-    "events": [],
-    "final_ti": 0.0
-  },
-  "john_bapst": {
-    "team_name": "John Bapst",
-    "events": [],
-    "final_ti": 0.0
-  },
-  "mdi": {
-    "team_name": "MDI High School",
     "events": [],
     "final_ti": 0.0
   },
@@ -39,13 +24,18 @@
     "events": [],
     "final_ti": 0.0
   },
-  "nokomis": {
-    "team_name": "Nokomis Regional",
+  "lawrence": {
+    "team_name": "Lawrence",
     "events": [],
     "final_ti": 0.0
   },
-  "lawrence": {
-    "team_name": "Lawrence",
+  "hermon": {
+    "team_name": "Hermon",
+    "events": [],
+    "final_ti": 0.0
+  },
+  "mdi": {
+    "team_name": "MDI High School",
     "events": [],
     "final_ti": 0.0
   },
@@ -54,13 +44,13 @@
     "events": [],
     "final_ti": 0.0
   },
-  "ellsworth": {
-    "team_name": "Ellsworth/George Stevens",
+  "john_bapst": {
+    "team_name": "John Bapst",
     "events": [],
     "final_ti": 0.0
   },
-  "presque_isle": {
-    "team_name": "Presque Isle",
+  "foxcroft": {
+    "team_name": "Foxcroft Academy",
     "events": [],
     "final_ti": 0.0
   },
@@ -69,8 +59,18 @@
     "events": [],
     "final_ti": 0.0
   },
-  "waterville": {
-    "team_name": "Waterville",
+  "nokomis": {
+    "team_name": "Nokomis Regional",
+    "events": [],
+    "final_ti": 0.0
+  },
+  "ellsworth": {
+    "team_name": "Ellsworth/George Stevens",
+    "events": [],
+    "final_ti": 0.0
+  },
+  "oceanside": {
+    "team_name": "Oceanside",
     "events": [],
     "final_ti": 0.0
   }
