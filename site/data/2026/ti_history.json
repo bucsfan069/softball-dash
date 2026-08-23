@@ -1,11 +1,11 @@
 {
-  "belfast": {
-    "team_name": "Belfast Area",
+  "presque_isle": {
+    "team_name": "Presque Isle",
     "events": [],
     "final_ti": 0.0
   },
-  "oceanside": {
-    "team_name": "Oceanside",
+  "hermon": {
+    "team_name": "Hermon",
     "events": [],
     "final_ti": 0.0
   },
@@ -14,13 +14,8 @@
     "events": [],
     "final_ti": 0.0
   },
-  "john_bapst": {
-    "team_name": "John Bapst",
-    "events": [],
-    "final_ti": 0.0
-  },
-  "oldtown": {
-    "team_name": "Old Town",
+  "belfast": {
+    "team_name": "Belfast Area",
     "events": [],
     "final_ti": 0.0
   },
@@ -29,13 +24,18 @@
     "events": [],
     "final_ti": 0.0
   },
-  "foxcroft": {
-    "team_name": "Foxcroft Academy",
+  "lawrence": {
+    "team_name": "Lawrence",
     "events": [],
     "final_ti": 0.0
   },
-  "presque_isle": {
-    "team_name": "Presque Isle",
+  "oldtown": {
+    "team_name": "Old Town",
+    "events": [],
+    "final_ti": 0.0
+  },
+  "john_bapst": {
+    "team_name": "John Bapst",
     "events": [],
     "final_ti": 0.0
   },
@@ -44,23 +44,8 @@
     "events": [],
     "final_ti": 0.0
   },
-  "lawrence": {
-    "team_name": "Lawrence",
-    "events": [],
-    "final_ti": 0.0
-  },
-  "waterville": {
-    "team_name": "Waterville",
-    "events": [],
-    "final_ti": 0.0
-  },
-  "gardiner": {
-    "team_name": "Gardiner Area",
-    "events": [],
-    "final_ti": 0.0
-  },
-  "hermon": {
-    "team_name": "Hermon",
+  "foxcroft": {
+    "team_name": "Foxcroft Academy",
     "events": [],
     "final_ti": 0.0
   },
@@ -71,6 +56,21 @@
   },
   "nokomis": {
     "team_name": "Nokomis Regional",
+    "events": [],
+    "final_ti": 0.0
+  },
+  "gardiner": {
+    "team_name": "Gardiner Area",
+    "events": [],
+    "final_ti": 0.0
+  },
+  "waterville": {
+    "team_name": "Waterville",
+    "events": [],
+    "final_ti": 0.0
+  },
+  "oceanside": {
+    "team_name": "Oceanside",
     "events": [],
     "final_ti": 0.0
   }
